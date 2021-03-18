@@ -1,2 +1,2 @@
 # InterpretablePR
-Code for the method proposed in "Deep Adversarial Framework for Visually Interpretable Periocular Recognition"
+Code for the method proposed in "A Deep Adversarial Framework for Visually Explainable Periocular Recognition"
