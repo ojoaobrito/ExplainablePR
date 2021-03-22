@@ -21,10 +21,10 @@ CUDA 10.1/10.2
 # Learning
 All trained models and (non-synthetic) datasets are available in [Google Drive](https://drive.google.com/drive/folders/1mRBkWxqC-can6dLeewhnwnnWzvN1FPP8?usp=sharing).
 
-Skip the next steps and jump to the **Inference** section if you **do not** wish to train the models again.
+Skip the next steps and jump to the **Inference** section if you **do not** wish to train the models again (if so, simply download the **trained_models** directory and replace the empty one).
 
-## Dataset
-Download **dataset.zip**, unzip it and place the resulting files in the **/dataset** folder.
+## Datasets
+Download and unzip **dataset.zip** and **mask_rcnn_training_and_test_dataset.zip**. Then, place the resulting files from the former in the **/dataset** directory and the ones from the latter in the **/learning/train_mask_rcnn** directory.
 
 ## DenseNet-161
 1) **Data pre-processing**
@@ -80,7 +80,7 @@ Download **dataset.zip**, unzip it and place the resulting files in the **/datas
 
 ## Mask R-CNN
 1) **Data pre-processing**
-    
+
     Run the **preprocess_data.py** script:
     ```
     cd learning/train_mask_rcnn/
