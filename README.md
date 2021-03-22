@@ -73,7 +73,7 @@ Download and unzip **dataset.zip** and **mask_rcnn_training_and_test_dataset.zip
 
     Run the **prepare_data.py** and **train_gan.py** scripts:
     ```
-    cd learning/train_stylegan2/
+    cd learning/train_stylegan_2/
     python3 prepare_data.py --out ./outputs/dataset/dataset.lmdb --n_worker 1 --size 256 ../../dataset/data/train/1/
     python3 train_gan.py ./outputs/dataset/dataset.lmdb/ --genuine_or_impostor G
     ```
