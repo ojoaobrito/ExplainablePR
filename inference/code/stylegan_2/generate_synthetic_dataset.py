@@ -16,15 +16,15 @@ from torchvision import utils as torch_utils
 
 np.set_printoptions(threshold = sys.maxsize)
 
-##################################################################################################################################################################################################
+#####################################################################################################################################################################################
 # CONTROL VARIABLES
-##################################################################################################################################################################################################
+#####################################################################################################################################################################################
 # general
 GENUINE_OR_IMPOSTOR = "G"
 SAVE_LATENT_CODES = False
 GAN_PATH = "../../../trained_models/stylegan_2_G/checkpoints/" + natsorted(list(filter(lambda x : x[0] != ".", os.listdir("../../../trained_models/stylegan_2_G/checkpoints/"))))[-1]
-CNN_SIDE_TYPE = "resnet_18" # either "resnet_18", "inception_v3" or "densenet_161"
-CNN_SIDE_PATH = "../../../trained_models/" + CNN_SIDE_TYPE + "/models/" + natsorted(list(filter(lambda x : x[0] != ".", os.listdir("../../../trained_models/" + CNN_SIDE_TYPE + "/models/"))))[-1]
+CNN_SIDE_TYPE = "resnet18"
+CNN_SIDE_PATH = "../../../trained_models/resnet_18/models/" + natsorted(list(filter(lambda x : x[0] != ".", os.listdir("../../../trained_models/resnet_18/models/"))))[-1]
 
 # stylegan2
 IMAGE_SIZE = 256

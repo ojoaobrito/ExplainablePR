@@ -42,9 +42,9 @@ class InferenceConfig(PeriocularConfig):
     GPU_COUNT = 1
     IMAGES_PER_GPU = 1
 
-##############################################################################################################################################################################################################################
+########################################################################################################################
 # CONTROL VARIABLES
-##############################################################################################################################################################################################################################
+########################################################################################################################
 # general
 GENUINE_OR_IMPOSTOR = "G"
 NUM_IMAGES = 100000
@@ -52,9 +52,9 @@ SCRIPT_ID = 1
 
 # mask-rcnn
 IMAGE_SIZE = 256
-MRCNN_IRIS_WEIGHTS_PATH = "../../../trained_models/mask_rcnn/periocular_iris/" + natsorted(list(filter(lambda x : x[0] != "." and ".h5" in x, os.listdir("../../../trained_models/mask_rcnn/periocular_iris/"))))[-1]
-MRCNN_EYEBROW_WEIGHTS_PATH = "../../../trained_models/mask_rcnn/periocular_eyebrow/" + natsorted(list(filter(lambda x : x[0] != "." and ".h5" in x, os.listdir("../../../trained_models/mask_rcnn/periocular_eyebrow/"))))[-1]
-MRCNN_SCLERA_WEIGHTS_PATH = "../../../trained_models/mask_rcnn/periocular_sclera/" + natsorted(list(filter(lambda x : x[0] != "." and ".h5" in x, os.listdir("../../../trained_models/mask_rcnn/periocular_sclera/"))))[-1]
+MRCNN_IRIS_WEIGHTS_PATH = "../../../trained_models/mask_rcnn/periocular_iris/mask_rcnn_periocular_0030_iris.h5"
+MRCNN_EYEBROW_WEIGHTS_PATH = "../../../trained_models/mask_rcnn/periocular_eyebrow/mask_rcnn_periocular_0030_eyebrow.h5"
+MRCNN_SCLERA_WEIGHTS_PATH = "../../../trained_models/mask_rcnn/periocular_sclera/mask_rcnn_periocular_0030_sclera.h5"
 
 def get_segmentation_map_all(model, image = None): # auxiliary function, computes the segmentation maps for the given image
 

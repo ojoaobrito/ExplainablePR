@@ -25,7 +25,7 @@ def add_interpretable_colour(explanation, real_image): # auxiliary function, add
 
     real_image = Image.fromarray(np.dot(real_image[...,:3], [0.2989, 0.5870, 0.1140]).astype(np.uint8)).convert("RGBA")
     real_image_np = np.asarray(real_image).copy()
-    real_image_np[:, :, 3] = 80
+    real_image_np[:, :, 3] = 150
     real_image = Image.fromarray(real_image_np.astype(np.uint8))
 
     coloured_explanation = explanation.copy()
@@ -38,18 +38,21 @@ def add_interpretable_colour(explanation, real_image): # auxiliary function, add
 
     values.sort()
 
-    green_tones = np.linspace(0.5, 0, 1 * int(round(len(values) / 3, 0)) + 1)
-    greens = {i: green_tones[values.index(i)] for i in values[:(len(values) // 3) * 1]}
+    green_tones = np.linspace(0.5, 0, int(1.0 * int(round(len(values) / 3, 0)) + 1))
+    greens = {i: green_tones[values.index(i)] for i in values[:int((len(values) // 3) * 1.0)]}
 
-    red_tones = np.linspace(0.05, 1.0, 2 * int(round(len(values) / 3, 0)) + 3)
-    reds = {i: red_tones[values.index(i) - ((len(values) // 3) * 1)] for i in values[(len(values) // 3) * 1:]}
+    red_tones = np.linspace(0.15, 1.0, 2 * int(round(len(values) / 3, 0)) + 2)
+    reds = {i: red_tones[values.index(i) - ((len(values) // 3) * 1)] for i in values[int((len(values) // 3) * 1.0):]}
     
     for i in range(coloured_explanation.shape[0]):
         for j in range(coloured_explanation.shape[1]):
-            if(coloured_explanation[i][j][0] in reds.keys()): coloured_explanation[i][j] = np.asarray([245, 39, 87, 255 * max(0, reds[coloured_explanation[i][j][0]])])
-            else: coloured_explanation[i][j] = np.asarray([24, 196, 93, 127.5 * greens[coloured_explanation[i][j][0]]])
+            if(coloured_explanation[i][j][0] in reds.keys()): coloured_explanation[i][j] = np.asarray([245, 39, 87, min(300 * max(0, reds[coloured_explanation[i][j][0]]), 255)])
+            else: coloured_explanation[i][j] = np.asarray([24, 196, 93, 255 * greens[coloured_explanation[i][j][0]]])
     
-    return(coloured_explanation)
+    coloured_explanation_img = Image.fromarray(coloured_explanation.astype(np.uint8))
+    real_image.paste(coloured_explanation_img, (0, 0), coloured_explanation_img)
+
+    return(real_image)
 
 if(__name__ == "__main__"):
 

@@ -17,8 +17,8 @@ import torchvision.transforms as transforms
 # the values are the default ones (NOTE: if the values are to be changed, do so in this "if" branch)
 if(len(sys.argv) == 1):
     IMAGE_SIZE = 128
-    CNN_TYPE = "densenet161" # resnet18 / inceptionv3 / densenet161
-    CNN_PATH = "outputs/2020-09-30_09_04_38_densenet161/models/epoch15.pt"
+    CNN_TYPE = "densenet161"
+    CNN_PATH = "../../trained_models/densenet_161/models/densenet_161.pt"
 
 # the values are coming from the "explain_pair.py" master script
 else:

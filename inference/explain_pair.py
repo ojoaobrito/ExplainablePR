@@ -20,20 +20,20 @@ from code.utils import find_centre, find_closest_centroid
 IMAGE_SIZE = 128
 REMOVE_TRASH = True
 EXPLAIN_A_AND_B = True
-ADD_INTERPRETABLE_COLOUR = False
+ADD_INTERPRETABLE_COLOUR = True
 
-# --------------------------------------------------------------------------
+# -------------------------------------------------------------------
 # variables targeting "classify_pair.py"
-# --------------------------------------------------------------------------
-CNN_TYPE = "densenet161" # either "resnet18", "inceptionv3" or "densenet161"
-CNN_PATH = "outputs/2020-09-30_09_04_38_densenet161/models/epoch15.pt"
+# -------------------------------------------------------------------
+CNN_TYPE = "densenet161"
+CNN_PATH = "../../trained_models/densenet_161/models/densenet_161.pt"
 
-# -------------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------
 # variables targeting "segment_periocular_components.py"
-# -------------------------------------------------------------------------------------------------------------------------
-MRCNN_IRIS_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T1232_iris/mask_rcnn_periocular_0030.h5"
-MRCNN_EYEBROW_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T1349_eyebrow/mask_rcnn_periocular_0030.h5"
-MRCNN_SCLERA_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T1325_sclera/mask_rcnn_periocular_0030.h5"
+# -------------------------------------------------------------------------------------------------------------------
+MRCNN_IRIS_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_iris/mask_rcnn_periocular_0030_iris.h5"
+MRCNN_EYEBROW_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_eyebrow/mask_rcnn_periocular_0030_eyebrow.h5"
+MRCNN_SCLERA_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_sclera/mask_rcnn_periocular_0030_sclera.h5"
 
 # ----------------------------------------------------------------------------------------------------------------------------
 # variables targeting "find_neighbours_master.py"
@@ -41,8 +41,8 @@ MRCNN_SCLERA_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T
 SAVE_NEIGHBOURS = True
 K_NEIGHBOURS = 200 if(len(sys.argv) != 6) else int(sys.argv[1])
 MODE = "elementwise_comparison" if(len(sys.argv) != 6) else sys.argv[2] # either "elementwise_comparison" or "full_comparison"
-CNN_SIDE_TYPE = "resnet18" # either "resnet18", "inceptionv3" or "densenet161"
-CNN_SIDE_PATH = "outputs/2020-10-23_15_18_13_resnet18_side/models/epoch3.pt"
+CNN_SIDE_TYPE = "resnet18"
+CNN_SIDE_PATH = "../../trained_models/resnet_18/models/resnet_18.pt"
 IOU_OR_IMAGE_REGISTRATION = "IoU" if(len(sys.argv) != 6) else sys.argv[3] # either "IoU" or "image_registration"
 USE_SEGMENTATION_DATA = True if(len(sys.argv) != 6) else (True if(sys.argv[4] == "True") else False)
 

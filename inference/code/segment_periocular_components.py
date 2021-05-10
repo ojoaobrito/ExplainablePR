@@ -13,7 +13,7 @@ from natsort import natsorted
 np.set_printoptions(threshold = sys.maxsize)
 
 # Import Mask RCNN
-sys.path.append("mask_rcnn/mask_RCNN_master/")  # To find local version of the library
+sys.path.append("../../learning/train_mask_rcnn/mask_RCNN_master/")  # To find local version of the library
 from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
@@ -52,9 +52,9 @@ if(len(sys.argv) == 1):
     IMAGE_SIZE = 128
 
     # mask-rcnn
-    MRCNN_IRIS_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T1232_iris/mask_rcnn_periocular_0030.h5"
-    MRCNN_EYEBROW_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T1349_eyebrow/mask_rcnn_periocular_0030.h5"
-    MRCNN_SCLERA_WEIGHTS_PATH = "mask_rcnn/mask_RCNN_master/logs/periocular20210127T1325_sclera/mask_rcnn_periocular_0030.h5"
+    MRCNN_IRIS_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_iris/mask_rcnn_periocular_0030_iris.h5"
+    MRCNN_EYEBROW_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_eyebrow/mask_rcnn_periocular_0030_eyebrow.h5"
+    MRCNN_SCLERA_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_sclera/mask_rcnn_periocular_0030_sclera.h5"
 
 # the values are coming from the "run_training.py" master script
 else:
@@ -109,17 +109,14 @@ if(__name__ == "__main__"):
     #####################################################################################################################
     config = InferenceConfig()
 
-    model_iris = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "mask_rcnn/mask_RCNN_master/logs")
+    model_iris = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "../../trained_models/mask_rcnn/")
     model_iris.load_weights(MRCNN_IRIS_WEIGHTS_PATH, by_name = True)
 
-    model_eyebrow = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "mask_rcnn/mask_RCNN_master/logs")
+    model_eyebrow = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "../../trained_models/mask_rcnn/")
     model_eyebrow.load_weights(MRCNN_EYEBROW_WEIGHTS_PATH, by_name = True)
 
-    model_sclera = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "mask_rcnn/mask_RCNN_master/logs")
+    model_sclera = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "../../trained_models/mask_rcnn/")
     model_sclera.load_weights(MRCNN_SCLERA_WEIGHTS_PATH, by_name = True)
-
-    #model_skin = modellib.MaskRCNN(mode = "inference", config = config, model_dir = "mask_rcnn/mask_RCNN_master/logs")
-    #model_skin.load_weights(MRCNN_SKIN_WEIGHTS_PATH, by_name = True)
     
     ##############################################################################################################################################################
     # GET THE SEGMENTATION MAPS FOR THE TEST PAIR
