@@ -39,7 +39,7 @@ MRCNN_SCLERA_WEIGHTS_PATH = "../../trained_models/mask_rcnn/periocular_sclera/ma
 # variables targeting "find_neighbours_master.py"
 # ----------------------------------------------------------------------------------------------------------------------------
 SAVE_NEIGHBOURS = True
-K_NEIGHBOURS = 200 if(len(sys.argv) != 6) else int(sys.argv[1])
+K_NEIGHBOURS = 15 if(len(sys.argv) != 6) else int(sys.argv[1])
 MODE = "elementwise_comparison" if(len(sys.argv) != 6) else sys.argv[2] # either "elementwise_comparison" or "full_comparison"
 CNN_SIDE_TYPE = "resnet18"
 CNN_SIDE_PATH = "../../trained_models/resnet_18/models/resnet_18.pt"
