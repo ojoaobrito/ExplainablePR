@@ -1,5 +1,5 @@
 # ExplainablePR
-Code for the method proposed in "A Deep Adversarial Framework for Visually Explainable Periocular Recognition".
+Code for the method proposed in "A Deep Adversarial Framework for Visually Explainable Periocular Recognition", as seen in *CVPR 2021 Biometrics Workshop*.
 
 ![Samples obtained from the proposed method](./samples.png)
 
