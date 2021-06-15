@@ -132,4 +132,13 @@ Download and unzip **dataset.zip** and **mask_rcnn_training_and_test_dataset.zip
 # References
 If you are using our code, please consider citing our paper: 
 
-ENTER CITATION
+```bibtex
+@InProceedings{Brito_2021_CVPR,
+    author    = {Brito, Joao and Proenca, Hugo},
+    title     = {A Deep Adversarial Framework for Visually Explainable Periocular Recognition},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {1453-1461}
+}
+
