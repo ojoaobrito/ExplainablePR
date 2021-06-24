@@ -6,9 +6,8 @@ sys.dont_write_bytecode = True
 import time
 import numpy as np
 from PIL import Image
-from shutil import copyfile, rmtree
 from natsort import natsorted
-
+from shutil import copyfile, rmtree
 from code.utils import find_centre, find_closest_centroid
 
 ##############################################################################################################################
@@ -56,6 +55,18 @@ FIRST_OR_SECOND_WAY = "first" if(len(sys.argv) != 6) else sys.argv[5] # either "
 # variables targeting "assemble_explanation.py"
 # ---------------------------------------------
 TRANSPARENT_BACKGROUND = True
+
+# -------------------------------------------------
+# variables targeting "add_interpretable_colour.py"
+# -------------------------------------------------
+GREEN_NUMERATOR = 1
+DENOMINATOR = 3
+GREEN_MIN = 0.5
+GREEN_MAX = 0.0
+RED_MIN = 0.15
+RED_MAX = 1.0
+RED_INTENSITY = 300
+PASTE_EXPLANATION_ON_WHITE_BACKGROUND = True
 
 def check_for_errors(r_value): # auxiliary function, checks for errors when running the main scripts
 
@@ -223,12 +234,13 @@ if(__name__ == "__main__"):
     check_for_errors(r_value)
     print("DONE ASSEMBLING THE FINAL EXPLANATION!")
 
-    # ------------------------------------------------------------------------------
+    # --------------------------------------------------------------------------------------------
     # if required, recolour the explanation to make it more interpretable
-    # ------------------------------------------------------------------------------
+    # --------------------------------------------------------------------------------------------
     if(ADD_INTERPRETABLE_COLOUR):
         print("\nRECOLOURING THE FINAL EXPLANATION...")
-        args = [str(IMAGE_SIZE), "../explanation.png"]
+        args = [str(IMAGE_SIZE), "../explanation.png", str(PASTE_EXPLANATION_ON_WHITE_BACKGROUND),
+            GREEN_NUMERATOR, DENOMINATOR, GREEN_MIN, GREEN_MAX, RED_MIN, RED_MAX, RED_INTENSITY]
         r_value = os.system("python3 add_interpretable_colour.py " + " ".join(args))
         check_for_errors(r_value)
         print("DONE RECOLOURING THE FINAL EXPLANATION!")
