@@ -130,7 +130,7 @@ Download and unzip **dataset.zip** and **mask_rcnn_training_and_test_dataset.zip
     The scrip above will classify the given pair as being either ***genuine*** or ***impostor*** and also return a visual explanation that, in the case of a *non-match* decision, serves as intrinsic justification.
 
 # Citation
-If you are using our code, please consider citing our paper: 
+If you find our code useful, please consider citing our paper: 
 
 ```bibtex
 @InProceedings{Brito_2021_CVPR,
