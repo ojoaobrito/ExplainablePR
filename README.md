@@ -1,4 +1,4 @@
-# ExplainablePR
+# Explainable / Interpretable Periocular Recognition
 Code for the method proposed in "A Deep Adversarial Framework for Visually Explainable Periocular Recognition", as seen in CVPR 2021 Biometrics Workshop. [[Full Paper]](https://openaccess.thecvf.com/content/CVPR2021W/Biometrics/papers/Brito_A_Deep_Adversarial_Framework_for_Visually_Explainable_Periocular_Recognition_CVPRW_2021_paper.pdf)[[Workshop Slides]](https://drive.google.com/file/d/1yb2cm0lWAVAy2EPBywjPQ4OZSLG0f4Uc/view?usp=sharing)
 
 ![Samples obtained from the proposed method](./samples.png)
