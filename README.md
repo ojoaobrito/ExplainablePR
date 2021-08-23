@@ -1,5 +1,5 @@
 # Interpretable Periocular Recognition
-Code for the method proposed in "A Deep Adversarial Framework for Visually Explainable Periocular Recognition", as seen in CVPR 2021 Biometrics Workshop. [[Full Paper]](https://openaccess.thecvf.com/content/CVPR2021W/Biometrics/papers/Brito_A_Deep_Adversarial_Framework_for_Visually_Explainable_Periocular_Recognition_CVPRW_2021_paper.pdf)[[Workshop Slides]](https://drive.google.com/file/d/1yb2cm0lWAVAy2EPBywjPQ4OZSLG0f4Uc/view?usp=sharing)
+Code for the method proposed in "A Deep Adversarial Framework for Visually Explainable Periocular Recognition", as seen in CVPR 2021 Biometrics Workshop. [[Full Paper]](https://openaccess.thecvf.com/content/CVPR2021W/Biometrics/papers/Brito_A_Deep_Adversarial_Framework_for_Visually_Explainable_Periocular_Recognition_CVPRW_2021_paper.pdf)[[Workshop Slides]](https://deepneuronic-my.sharepoint.com/:b:/p/joao_brito/EXQPlDkrWwhDqkEHEOuo-aABNtvII4knFxTdb1JKCq2j0w?e=vdVvlP)
 
 ![Samples obtained from the proposed method](./samples.png)
 
@@ -19,7 +19,7 @@ CUDA 10.1/10.2
 ```
 
 # Learning
-All trained models and (non-synthetic) datasets are available in [Google Drive](https://drive.google.com/drive/folders/1mRBkWxqC-can6dLeewhnwnnWzvN1FPP8?usp=sharing).
+All trained models and (non-synthetic) datasets are available in [OneDrive](https://deepneuronic-my.sharepoint.com/:f:/p/joao_brito/Ev8v03PFj_lFnsHojPv7kR4BgpZRtBeks5t49CytIub4lA?e=vnFPgt).
 
 Skip the next steps and jump to the **Inference** section if you **do not** wish to train the models again (if so, simply download the **trained_models** directory and replace the empty one).
 
