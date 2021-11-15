@@ -16,8 +16,7 @@ matplotlib==3.4.2
 natsort==7.1.1
 numpy==1.17.4
 opencv_python==4.5.3.56
-Pillow==8.4.0
-pip==20.0.2
+pillow==8.4.0
 scikit_image==0.18.2
 scikit_learn==1.0.1
 scipy==1.7.0
