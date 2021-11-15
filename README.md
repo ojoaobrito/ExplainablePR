@@ -6,16 +6,28 @@ Code for the method proposed in "A Deep Adversarial Framework for Visually Expla
 # Requirements
 Please install and verify the presence of the following requirements (as tested):
 ```python
-OpenCV-Python 4.0.1
-NumPy 1.19.4
-Scikit-image 0.16.2
-Pillow 7.2.0
-Natsort 7.0.1
-PyTorch 1.3.1
-Torchvision 0.4.2
-Imutils 0.5.3
-Matplotlib 3.3.1
-CUDA 10.1/10.2
+h5py==2.8.0
+imgaug==0.4.0
+imutils==0.5.4
+ipython==7.29.0
+keras==2.6.0
+lmdb==1.2.1
+matplotlib==3.4.2
+natsort==7.1.1
+numpy==1.17.4
+opencv_python==4.5.3.56
+Pillow==8.4.0
+pip==20.0.2
+scikit_image==0.18.2
+scikit_learn==1.0.1
+scipy==1.7.0
+setuptools==45.2.0
+skimage==0.0
+tensorflow==2.6.0
+torch==1.9.0+cu111
+torchvision==0.10.0+cu111
+tqdm==4.61.2
+wandb==0.12.6
 ```
 
 # Learning
