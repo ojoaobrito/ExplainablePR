@@ -6,6 +6,7 @@ Code for the method proposed in "A Deep Adversarial Framework for Visually Expla
 # Requirements
 Please install and verify the presence of the following requirements (as tested):
 ```python
+CUDA==10.1/10.2
 h5py==2.8.0
 imgaug==0.4.0
 imutils==0.5.3
@@ -27,7 +28,6 @@ torch==1.3.1
 torchvision==0.4.2
 tqdm==4.61.2
 wandb==0.12.6
-CUDA==10.1/10.2
 ```
 
 # Learning
