@@ -1,0 +1,236 @@
+\documentclass[11pt,twoside]{template/estiloUBI}
+\include{formatacaoUBI}
+
+\usepackage[export]{adjustbox}
+\usepackage{amsmath,amssymb,siunitx}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Prob}{\mathbb{P}}
+\usepackage{fontspec}
+\usepackage{arydshln}
+\usepackage{acronym}
+\usepackage{dsfont}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{pdfpages}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\urlstyle{same}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\def\UrlBreaks{\do\/\do-}
+
+\setmainfont{Georgia}
+
+% https://tex.stackexchange.com/questions/82993/how-to-change-the-name-of-document-elements-like-figure-contents-bibliogr
+%\renewcommand{\figurename}{Fig.}
+%\renewcommand{\contentsname}{Índice}
+%\renewcommand{\chaptername}{Capítulo}
+%\renewcommand{\bibname}{Bibliografia}
+%\renewcommand{\listtablename}{Lista de Tabelas}
+%\renewcommand{\listfigurename}{Lista de Figuras}
+%%Comentar a linha seguinte se escrever a tese em inglês
+%\portugues
+
+
+%%Para índice remissivo
+\makeindex
+
+
+%%Escolher tipo de letra a usar:
+%\usepackage{lmodern}												%Latin modern
+%\usepackage{palatino}												%Palatino
+%\usepackage{times}												    %Times
+
+
+%%O comando seguinte insere o nome da tese no cabeçalho das páginas (comentar se não for pretendido)
+\cabecalho{Deep Adversarial Frameworks for Visually Explainable Periocular Recognition}
+
+\iffalse
+João Brito, Hugo Proença. A Deep Adversarial Framework for Visually Interpretable Biometric Recognition. In Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition "Biometrics" Workshop – CVPRW 2021, doi: 10.1109/CVPRW.2021.?, Nashvuille,  U.S.A., June 19-25, 2021.
+\fi
+
+\begin{document}
+
+%%O comando seguinte insere o espaçamento de 1.5 linhas
+\onehalfspacing
+
+%%Página de rosto
+\pagenumbering{roman}
+\include{pagina_rosto}
+
+%\dominitoc
+
+
+%%Numeração das páginas
+\pagestyle{fancy}
+\cfoot{\thepage}
+
+%%O comando a seguir gera uma página após a de rosto com cabeçalho e rodapé
+\cleardoublepage
+
+%%O comando a seguir permite que as costas da página de rosto não inclua cabeçalho mas rodapé (escolher entre este e outro)
+%\newpage\mbox{}\thispagestyle{plain}\fancyhead{}
+
+
+%%Agradecimentos 
+\newpage 	
+\section*{\titulos{Acknowledgements}}
+\vspace{0.5cm}
+
+%[\textbf{WORK IN PROGRESS}]
+
+Throughout the past years, a select group of people became increasingly more fundamental to my success. Therefore, this section recognises the many ways in which I received valuable help and, despite not fully grasping these peoples' contributions, the timeless nature of written words will perpetuate my utmost gratitude.\\
+
+First and foremost, the role played by my supervisor can not go unnoticed. From the original proposal, through countless revisions of the work plan, until the final, stable version, Professor Hugo Proen\c{c}a made sure to accompany his sharp recommendations with adequate doses of patience and understanding. I always felt more enlightened and with a clearer sense of direction after our meetings. For the knowledge, principles and methodologies passed on to me, I express my deepest appreciation.\\
+
+To my wonderful parents and brother, I express the most profound sentiment of gratitude. Never, in my academic life, did I feel like my potential successes were being limited by external factors. All the conditions that lay the foundation for academic success were made available to me, without hesitation. By adding the love and support bestowed on to my brother and me, this journey was made undeniably easier. For that, and so much more, I convey the most sincere feelings of gratitude.\\
+
+To my friends, I appreciate the ways in which my mind was taken off work, thanks to the jokes and funny episodes I fondly look back to. Despite the unexpected outbreak of a pandemic, they always managed to make me feel better, even during the most sensitive periods of the past year. For embodying the values of friendship, I have nothing but admiration.\\
+
+Lastly, but definitely not least, my colleagues at Socialab deserve some recognition for the productive and peaceful environment they made possible in the lab. Some constructive criticism and cheerful interactions made my trips to the workplace a worthy experience.
+
+\cleardoublepage
+
+
+%%abstract+keywords
+\newpage 	
+\section*{\titulos{Abstract}}
+\vspace{0.5cm}
+
+\ac{ML} models have pushed state-of-the-art performance closer to (and even beyond) human level. However, the core of such algorithms is usually latent and hardly understandable. Thus, the field of Explainability focuses on researching and adopting techniques that can \textit{explain} the reasons that support a model's predictions. Such explanations of the decision-making process would help to build trust between said model and the human(s) using it. An explainable system also allows for better debugging, during the training phase, and fixing, upon deployment. But why should a developer devote time and effort into refactoring or rethinking \ac{AI} systems, to make them more transparent? Don't they work just fine? 
+
+Despite the temptation to answer "yes", are we \textit{really} considering the cases where these systems fail? Are we assuming that "almost perfect" accuracy is good enough? What if, some of the cases where these systems get it right, were just a small margin away from a complete miss? Does that even matter? Considering the ever-growing presence of \ac{ML} models in crucial areas like forensics, security and healthcare services, it clearly does. Motivating these concerns is the fact that powerful systems often operate as black-boxes, hiding the core reasoning underneath layers of abstraction \cite{programs_black_box_explanations}. In this scenario, there could be some seriously negative outcomes if opaque algorithms gamble on the presence of tumours in X-ray images or the way autonomous vehicles behave in traffic.\\
+
+It becomes clear, then, that incorporating explainability with \ac{AI} is imperative. More recently, the politicians have addressed this urgency through the \ac{GDPR} \cite{gdpr}. With this document, the \ac{EU} brings forward several important concepts, amongst which, the "right to an explanation". The definition and scope are still subject to debate \cite{right_to_explanation}, but these are definite strides to formally regulate the explainable depth of autonomous systems.\\
+
+Based on the preface above, this work describes a periocular recognition framework that not only performs biometric recognition but also provides clear representations of the features/regions that support a prediction. Being particularly designed to explain non-match (''impostors'') decisions, our solution uses adversarial generative techniques to synthesise a large set of ''genuine'' image pairs, from where the most similar elements with respect to a query are retrieved. Then, assuming the alignment  between the query/retrieved pairs, the element-wise differences between the query and a weighted average of the retrieved elements yields a visual explanation of the regions in the query pair that \emph{would have to be different} to transform it into a ''genuine'' pair. Our quantitative and qualitative experiments validate the proposed solution, which is generic enough to be applied to other scenarios. Great benefits could arise from AI systems being more transparent when discriminating between disease/non-disease decisions. \blfootnote{The code is publicly available at \url{ https://github.com/ojoaobrito/ExplainablePR.git}}
+
+\vspace{2.2cm}
+{\titulos{Keywords}}
+ 
+\vspace{0.8cm}
+
+Artificial Intelligence, Convolutional Neural Networks, Deep Learning, Explainability, Generative Adversarial Networks, Image Synthesis, Instance Segmentation, Machine Learning, Periocular Recognition
+
+\cleardoublepage
+
+
+%%Índice
+\tableofcontents
+
+
+
+
+
+%%Lista de figuras
+\listoffigures
+\cleardoublepage	
+
+
+%%Lista de tabelas
+\listoftables
+\cleardoublepage
+
+
+%%Abreviaturas
+\newpage
+\section*{\titulos{Acronyms List}}
+\vspace{0.5cm}
+\begin{acronym}[RoIAlign]
+\acro{ALE}{Accumulated Local Effects}
+\acro{AdaIN}{Adaptive Instance Normalisation}
+\acro{API}{Application Programming Interface}
+\acro{AUC}{Area Under the Curve}
+\acro{AI}{Artificial Intelligence}
+\acro{ANN}{Artificial Neural Network}
+\acro{BN}{Batch Normalisation}
+\acro{COCO}{Common Objects in COntext}
+\acro{CNN}{Convolutional Neural Network}
+\acro{DL}{Deep Learning}
+\acro{EER}{Equal Error Rate}
+\acro{EU}{European Union}
+\acro{FPR}{False Positive Rate}
+\acro{FFHQ}{Flickr Faces High Quality}
+\acro{FC}{Fully Connected}
+\acro{FCN}{Fully Convolutional Network}
+\acro{GDPR}{General Data Protection Regulation}
+\acro{GAN}{Generative Adversarial Network}
+\acro{GPU}{Graphics Processing Unit}
+\acro{HOG}{Histogram of Oriented Gradients}
+\acro{ILSVRC}{Imagenet Large Scale Visual Recognition Challenge}
+\acro{IoU}{Intersection over Union}
+\acro{LBP}{Local Binary Pattern}
+\acro{LIME}{Local Interpretable Model-agnostic Explanations}
+\acro{LSTM}{Long Short-Term Memory}
+\acro{ML}{Machine Learning}
+\acro{MSE}{Mean Squared Error}
+\acro{MLP}{MultiLayer Perceptron}
+\acro{PDP}{Partial Dependence Plot}
+\acro{ROC}{Receiver Operating Characteristic}
+\acro{ReLU}{Rectified Linear Unit}
+\acro{RNN}{Recurrent Neural Network}
+\acro{RGB}{Red Green Blue}
+\acro{RoI}{Region(s) of Interest}
+\acro{RoIAlign}{Region(s) of Interest Align}
+\acro{RoIPool}{Region(s) of Interest Pooling}
+\acro{RPN}{Region Proposal Network}
+\acro{R-CNN}{Region based Convolutional Neural Network}
+\acro{SIFT}{Scale-Invariant Feature Transform}
+\acro{SHAP}{SHapley Additive exPlanations}
+\acro{SVM}{Support Vector Machine}
+\acro{TPR}{True Positive Rate}
+\acro{UBIPr}{University of Beira Interior Periocular}
+\acro{VOC}{Visual Object Classes}
+\end{acronym}
+
+\cleardoublepage
+  
+
+%% Os capitulos são inseridos a partir daqui 
+ 
+\mainmatter
+
+\include{template/chap_1_introduction}
+\include{template/chap_2_related_work}
+\include{template/chap_3_proposed_methods}
+\include{template/chap_4_results_and_discussion}
+\include{template/chap_5_conclusion_and_further_work}
+
+\includepdf[pages=-,pagecommand=\thispagestyle{plain}]{paper_CVPRW_template_05_19.pdf}
+
+%% Fim da inserção dos capitulos
+
+
+%% Inicio Bibliografia
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+%%%%%%%%%%%%%%%%
+% Escolher entre as duas opcções
+%
+% A primeira é a aconselhada pelo despacho reitoral
+% A segunda é a utilizada pelo IEEE
+%
+%Primeira opcção
+\bibliographystyle{estilo-biblio}				%Estilo bibliografia com nomes
+\bibliography{bibliography}					%Entrada biblbiografia aconselhada com nomes
+%
+% Segunda opcção
+%\bibliographystyle{IEEEtran}					%Estilo bibliografia IEEE
+%\bibliography{Bibliography}				%Entrada bibliografia aconselhada para IEEE
+%% Fim Bibliografia
+
+
+
+
+
+%%Inserir índice remissivo
+\printindex
+
+\end{document}

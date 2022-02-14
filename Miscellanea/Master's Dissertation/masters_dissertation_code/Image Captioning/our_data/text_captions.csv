@@ -1,0 +1,932 @@
+pair_name,difference_vector,first_caption,second_caption
+1_I.jpg,[0 0 2 0 0 -3 0],These subjects differ in spots .,The spots are not the same .
+2_I.jpg,[-2 -1 2 -1 0 -1 0],The subjects have different iris colors .,Obviously <COMMA> the iris colors are not equal .
+3_I.jpg,[3 0 1 0 0 0 0],The iris colors and eyebrow shapes are not the same .,There are differences in the iris colors .
+4_I.jpg,[0 2 3 0 -2 0 -1],These subjects differ in eyelid shapes and eyebrow shapes .,The eyelids and eyebrows are so different .
+5_I.jpg,[-3 -1 0 0 0 -3 0],The iris colors are undeniably different .,These subjects do not have the same iris colors .
+6_I.jpg,[0 1 -1 1 0 -1 -1],It would appear that the eyelid shapes are disparate .,These eyelids are totally different .
+7_I.jpg,[-4 0 1 0 2 0 0],It is clear that the irises are different .,The iris colors are extremely different .
+8_I.jpg,[1 -1 0 0 2 0 0],The eyelid shapes do not match .,These subjects do not share eyelid shapes .
+9_I.jpg,[-3 1 -1 0 2 0 0],The irises are different <COMMA> like the skin textures .,There are obvious differences in the iris colors .
+10_I.jpg,[-1 -2 0 -1 1 0 -1],These eyelids do not match .,The eyelids have different shapes .
+11_I.jpg,[0 -2 1 1 2 0 0],The eyebrows have totally distinct distributions .,Both subjects have distinct eyebrows .
+12_I.jpg,[3 1 0 0 0 0 0],The iris colors are so unlike each other .,The iris colors and eyebrow distributions are different .
+13_I.jpg,[0 3 1 1 -2 1 1],The eyebrows have nothing in common .,These eyelids are so different .
+14_I.jpg,[5 1 0 1 -2 3 0],These iris colors are positively different .,The eyebrows and irises are completely different .
+15_I.jpg,[0 1 1 0 0 -1 0],These eyebrows have many differences .,The eyebrows have different distributions .
+16_I.jpg,[1 0 0 -1 0 3 0],The spots differ immensely .,The eyebrows and spots are not the same .
+17_I.jpg,[5 1 0 0 0 0 0],The iris colors are completely different .,These subjects do not share the same iris colors .
+18_I.jpg,[-6 0 -1 0 0 0 0],It would appear that the iris colors are not the same .,Objectively speaking <COMMA> the two subjects differ in terms of iris colors .
+19_I.jpg,[0 0 3 2 2 -3 0],These people have dissimilar eyebrows .,Objectively speaking <COMMA> the skins from these subjects have different colors .
+20_I.jpg,[0 -1 0 0 0 0 0],Objectively speaking <COMMA> the eyebrows shown are so distinct .,Objectively speaking <COMMA> the two subjects possess distinct eyebrows .
+21_I.jpg,[0 0 -1 -1 0 -2 0],There are differences with regards to spots .,Skin spots and skin color differ immensely here .
+22_I.jpg,[5 3 -1 1 0 -3 1],Objectively speaking <COMMA> the irises <COMMA> eyebrows and eyelids are so different .,These subjects definitely do not share iris colors .
+23_I.jpg,[-1 0 -1 0 2 0 0],Objectively speaking <COMMA> the skins have different textures .,It would appear that these subjects do not share skin textures .
+24_I.jpg,[-3 2 0 -1 0 -3 -1],Undoubtedly <COMMA> the iris colors and eyebrow shapes are not the same .,Objectively speaking <COMMA> the eyebrows seem totally different here .
+25_I.jpg,[-1 1 0 1 0 0 0],There seem to be differences in skin colors .,These skins do not have the same color .
+26_I.jpg,[1 -1 0 -1 -2 0 0],Objectively speaking <COMMA> the skin textures seem totally different .,These subjects do not share skin textures .
+27_I.jpg,[0 0 -1 0 0 0 0],Objectively speaking <COMMA> the eyebrow shapes are different here .,Here <COMMA> the eyebrows have distinct shapes .
+28_I.jpg,[-3 1 0 -1 0 3 -1],Objectively speaking <COMMA> the iris colors seem totally disparate .,Objectively speaking <COMMA> the two irises possess distinct colors .
+29_I.jpg,[0 0 -1 -1 -2 0 0],In this image <COMMA> the skin textures do not match .,Objectively speaking <COMMA> the skins have definitely distinct textures .
+30_I.jpg,[-3 0 1 -1 0 -3 0],There are differences in spots and iris colors .,Here <COMMA> the irises and skins do not match .
+31_I.jpg,[3 1 3 0 0 1 -1],These subjects have different iris colors .,Objectively speaking <COMMA> the two eyebrow shapes do not match .
+32_I.jpg,[6 -3 0 1 0 0 0],Objectively speaking <COMMA> the iris colors are so so different .,It would appear that both the eyebrows and irises differ .
+33_I.jpg,[0 2 0 0 2 3 1],Objectively speaking <COMMA> the skins have different spots .,There total differences in skin textures and spots .
+34_I.jpg,[-3 -3 1 0 0 3 0],Objectively speaking <COMMA> the irises have nothing to do with each other .,These eyebrows are completely unrelated .
+35_I.jpg,[-4 -2 0 0 0 -2 0],Objectively speaking <COMMA> the two irises have nothing to do with each other .,These eyebrows and irises are unrelated .
+36_I.jpg,[-2 0 1 1 -2 -1 0],Objectively speaking <COMMA> the skins seem totally unrelated .,Both the skins and eyebrows have nothing in common .
+37_I.jpg,[5 0 0 0 0 1 0],Objectively speaking <COMMA> the iris colors are just distinct .,These subjects differ in the irises .
+38_I.jpg,[2 0 0 0 2 3 0],Objectively speaking <COMMA> the two subjects here have distinct spots .,Objectively speaking <COMMA> the skins and irises are visually distinct .
+39_I.jpg,[2 0 -1 -1 0 -3 0],Objectively speaking <COMMA> the two spots and iris colors seem totally distinct .,In this pair <COMMA> the subjects do not possess the same iris colors .
+40_I.jpg,[-3 0 3 -1 0 0 -1],Objectively speaking <COMMA> the iris colors here have nothing to do with each other .,Objectively speaking <COMMA> the eyelids differ in terms of shape .
+41_I.jpg,[-2 -1 -1 -1 0 0 1],It would appear that these eyelids have nothing to do with each other .,Objectively speaking <COMMA> the eyelids and irises differ immensely .
+42_I.jpg,[-3 0 3 1 0 -2 -1],In this pair <COMMA> the irises and skins are positively different .,There are differences in these skins and irises .
+43_I.jpg,[3 0 -3 1 0 2 1],Objectively speaking <COMMA> the iris colors have nothing to do with each other .,In this pair <COMMA> the irises are so different .
+44_I.jpg,[-1 2 -2 0 0 3 0],Objectively speaking <COMMA> the spots and eyebrows seem totally different .,Both the eyebrows and spots show differences .
+45_I.jpg,[0 2 0 0 -2 -2 0],Objectively speaking <COMMA> the skins show clear differences .,In this pair <COMMA> the subjects have different skins .
+46_I.jpg,[-5 -1 0 0 0 -3 0],Objectively speaking <COMMA> the irises just do not match .,It would appear that the irises are different .
+47_I.jpg,[-1 0 -3 -1 0 2 -1],Both the eyebrows and eyelids differ .,In this pair <COMMA> the subjects do not match in the eyebrows .
+48_I.jpg,[0 -3 3 1 0 0 0],Objectively speaking <COMMA> the eyebrows are obviously unrelated .,In this example <COMMA> the eyebrows do not match .
+49_I.jpg,[0 0 -1 0 -2 0 1],Objectively speaking <COMMA> the skin textures and eyebrow shapes fail to match .,Objectively speaking <COMMA> the subjects here do not match in terms of skin textures .
+50_I.jpg,[-5 -2 1 0 2 0 0],Objectively speaking <COMMA> the iris colors fail to match .,Here <COMMA> the irises just do not match .
+51_I.jpg,[-3 -1 1 0 0 3 1],Objectively speaking <COMMA> the iris colors and eyebrow distributions seem totally unrelated .,In this pair <COMMA> the skins and eyebrows are unrelated .
+52_I.jpg,[0 0 1 -1 0 -2 0],Objectively speaking <COMMA> the skins spots appear to be distinct here .,In this pair <COMMA> the subjects do not match in spots .
+53_I.jpg,[3 1 -1 1 0 2 0],Objectively speaking <COMMA> the iris colors and spots show differences .,There are differences in the eyebrows .
+54_I.jpg,[-1 -1 1 0 0 0 -1],Objectively speaking <COMMA> the eyelids just fail to match .,In this pair <COMMA> the subjects are unrelated in terms of eyebrows .
+55_I.jpg,[-5 1 1 0 0 1 -1],Objectively speaking <COMMA> the eyebrows and irises show differences .,As shown <COMMA> these subjects have distinct iris colors .
+56_I.jpg,[2 0 -1 -1 3 3 0],In this pair <COMMA> the irises and skin fail to match completely .,Undoubtedly <COMMA> the two subjects are different in the skins .
+57_I.jpg,[1 -1 1 2 2 3 0],In this pair <COMMA> the skins have nothing to do with each other .,Undoubtedly <COMMA> the skins and eyebrows seem totally unrelated .
+58_I.jpg,[0 1 3 0 0 1 0],Undoubtedly <COMMA> the eyebrow shapes fail to match .,There are dissimilarities in these eyebrows .
+59_I.jpg,[-4 0 -3 0 0 2 0],Undoubtedly <COMMA> the iris colors seem totally unrelated .,In this pair <COMMA> the eyebrows and irises have nothing to do with each other .
+60_I.jpg,[0 0 -1 1 3 -3 0],Undoubtedly <COMMA> the eyebrows shown have nothing in common .,In this pair <COMMA> the skins completely fail to match .
+61_I.jpg,[0 -1 1 0 0 2 -1],Undoubtedly <COMMA> the eyelids seem totally different .,There are enormous differences in these eyelids .
+62_I.jpg,[-4 0 -3 0 0 -2 -1],Undoubtedly <COMMA> the irises shown have different colors .,In this pair <COMMA> the eyelids and irises seem totally disparate .
+63_I.jpg,[-3 -1 0 1 0 1 1],Undoubtedly <COMMA> the irises and eyelids have nothing in common .,Undoubtedly <COMMA> the two irises fail to match .
+64_I.jpg,[-2 1 0 0 -3 0 -1],In this pair <COMMA> the skins and irises are nothing like each other .,In this pair <COMMA> the subjects have different iris colors .
+65_I.jpg,[0 -2 -3 1 2 0 1],Undoubtedly <COMMA> the eyelids shapes shown seem totally unrelated .,Undoubtedly <COMMA> the eyebrows here are so different .
+66_I.jpg,[2 -2 -3 1 3 1 1],Undoubtedly <COMMA> the eyelids shown seem totally different .,In this pair <COMMA> the subjects have different skins <COMMA> eyebrows and irises .
+67_I.jpg,[-3 0 -3 0 0 -3 1],Undoubtedly <COMMA> the eyelids shown are just different .,Undoubtedly <COMMA> the two subjects have different eyelids and irises .
+68_I.jpg,[6 2 0 1 2 1 1],Undoubtedly <COMMA> the irises seem totally unrelated .,In this pair <COMMA> the eyelids have nothing to do with each other .
+69_I.jpg,[3 0 0 -1 0 -3 0],Undoubtedly <COMMA> the irises here show obvious differences .,Undoubtedly <COMMA> the spots are so distinct .
+70_I.jpg,[0 1 0 -1 0 0 1],In this pair <COMMA> the eyelids have totally distinct shapes .,Undoubtedly <COMMA> the eyebrows are not equal .
+71_I.jpg,[0 3 0 0 -3 -3 -1],In this pair <COMMA> the subjects do not share the same eyelid shapes .,Here <COMMA> the skins are completely different .
+72_I.jpg,[-3 1 -2 0 0 0 1],Undoubtedly <COMMA> the iris colors and eyebrow shapes show obvious differences .,Obviously <COMMA> the eyelids show differences .
+73_I.jpg,[2 1 -1 0 0 3 0],Undoubtedly <COMMA> the spots and iris colors are not equal .,In this pair <COMMA> the subjects differ in the irises .
+74_I.jpg,[-6 -1 0 3 -2 3 -1],In this pair <COMMA> the irises just fail to match .,Undoubtedly <COMMA> the skins have nothing to do with each other .
+75_I.jpg,[0 0 -1 1 0 0 0],Undoubtedly <COMMA> the skin colors are definitely different .,In this pair <COMMA> the subjects have totally disparate skin colors .
+76_I.jpg,[4 0 2 0 -2 3 0],Undoubtedly <COMMA> the irises here show obvious differences .,In this pair <COMMA> the subjects have totally unrelated irises .
+77_I.jpg,[6 1 1 0 0 3 0],Undoubtedly <COMMA> the iris colors shown are so different .,Undoubtedly <COMMA> the eyebrows and skins show differences .
+78_I.jpg,[0 1 -1 0 0 3 0],In this pair <COMMA> the subjects differ immensely in terms of spots .,Undoubtedly <COMMA> the spots shown have nothing in common .
+79_I.jpg,[1 1 -1 0 -2 0 0],Undoubtedly <COMMA> the skins and eyebrows show big differences .,In this pair <COMMA> the eyebrows are different .
+80_I.jpg,[4 0 0 -1 0 1 -1],Undoubtedly <COMMA> the iris colors and skin colors fail to match .,In this pair <COMMA> the subjects have dissimilar irises .
+81_I.jpg,[3 0 0 0 0 -2 0],Undoubtedly <COMMA> the irises shown are different .,In this pair <COMMA> the subjects have distinct irises .
+82_I.jpg,[-3 -1 3 0 0 0 1],Undoubtedly <COMMA> the eyebrows and irises are distinct here .,In this pair <COMMA> the subjects show clear differences in the eyebrows .
+83_I.jpg,[-6 2 0 -1 0 0 0],In this pair <COMMA> the iris colors show crucial differences .,There are crucial differences between these irises .
+84_I.jpg,[2 1 -2 1 0 2 1],Undoubtedly <COMMA> the two irises do not match .,In this pair <COMMA> the eyelids completely fail to match .
+85_I.jpg,[-4 0 -2 0 0 3 1],In this pair <COMMA> the eyebrows and irises are different .,It would appear that the eyebrows and irises show differences .
+86_I.jpg,[-2 3 0 -1 0 0 -1],Undoubtedly <COMMA> the irises and and eyebrows do not match here .,Undoubtedly <COMMA> the eyelids have totally disparate shapes .
+87_I.jpg,[0 0 3 -1 0 1 1],In this pair <COMMA> the eyebrows and eyelids just do not match .,Undoubtedly <COMMA> the eyebrows shown seem totally different .
+88_I.jpg,[2 1 0 0 2 1 0],In this pair <COMMA> the skins and irises do not match .,Undoubtedly <COMMA> the skins here have clear disparities .
+89_I.jpg,[-1 -1 -2 1 0 0 0],Undoubtedly <COMMA> the eyebrows and iris colors have visual differences .,It would appear that there are visual dissimilarities between these subjects .
+90_I.jpg,[-3 2 -3 0 0 0 1],Undoubtedly <COMMA> the subjects shown have different eyelids .,There are total differences in terms of eyelids .
+91_I.jpg,[0 0 1 1 2 3 1],Undoubtedly <COMMA> the eyebrows shown are unrelated .,In this pair <COMMA> the skins are nothing in common .
+92_I.jpg,[4 0 0 -1 -2 2 0],Undoubtedly <COMMA> the irises shown possess distinct colors .,Undoubtedly <COMMA> the skin textures shown are visually distinct .
+93_I.jpg,[0 0 0 0 2 0 -1],In this pair <COMMA> the skin textures possess clear dissimilarities .,Undoubtedly <COMMA> the eyelids show differences .
+94_I.jpg,[0 -1 -1 0 0 0 1],In this pair <COMMA> the eyelids are dissimilar .,Undoubtedly <COMMA> the eyebrows and eyelids do not match .
+95_I.jpg,[5 0 0 1 0 3 -1],In this pair <COMMA> the irises are unrelated .,Undoubtedly <COMMA> the irises and skins shown fail to match .
+96_I.jpg,[0 0 -3 -1 0 2 0],In this pair <COMMA> the eyebrows and skins are unrelated .,Undoubtedly <COMMA> the eyebrows shown have nothing in common .
+97_I.jpg,[0 1 1 -2 2 -2 -1],Undoubtedly <COMMA> the skins shown show total differences .,In this pair <COMMA> the skins have nothing in common .
+98_I.jpg,[6 0 1 0 0 0 0],Undoubtedly <COMMA> the irises differ greatly .,There are total differences in the iris colors .
+99_I.jpg,[0 0 0 0 0 -3 0],Undoubtedly <COMMA> the spots appear to be different here .,In this pair <COMMA> the spots are different .
+100_I.jpg,[1 2 1 1 -1 -3 0],Undoubtedly <COMMA> the skins definitely do not match .,There are many differences in these skins .
+101_I.jpg,[-5 -1 0 -1 0 -3 0],Undoubtedly <COMMA> the irises shown are definitely distinct .,In this pair <COMMA> the eyebrows have nothing in common .
+102_I.jpg,[0 0 3 -1 0 0 1],Undoubtedly <COMMA> the eyebrow shapes shown definitely do not match .,In this pair <COMMA> the subjects have totally distinct eyebrows .
+103_I.jpg,[-6 2 -1 0 -2 2 -1],Undoubtedly <COMMA> the iris colors fail to match completely .,In this pair <COMMA> the subjects do not share iris colors .
+104_I.jpg,[1 3 0 0 0 -3 0],Undoubtedly <COMMA> the eyebrows and skins have visual differences .,In this pair <COMMA> the skins and irises have visual dissimilarities .
+105_I.jpg,[1 0 0 0 -2 -1 0],Undoubtedly <COMMA> the skins shown do not match here .,Here <COMMA> the subjects have different skins .
+106_I.jpg,[-1 -1 -2 1 2 2 0],Undoubtedly <COMMA> the skins and eyebrows just show differences .,Here <COMMA> the subjects fail to match in the skins .
+107_I.jpg,[2 1 0 -1 2 1 0],In this pair <COMMA> the eyebrows and skins have many differences .,Undoubtedly <COMMA> the eyebrows shown here completely fail to match .
+108_I.jpg,[0 0 0 1 0 -3 1],In this pair <COMMA> the spots have nothing in common .,Undoubtedly <COMMA> the spots show many differences .
+109_I.jpg,[-1 -1 -1 -1 0 0 -1],Undoubtedly <COMMA> the eyelids have completely unrelated shapes .,In this pair <COMMA> the eyelids just fail to match .
+110_I.jpg,[-2 1 1 -1 0 3 1],In this pair <COMMA> the spots and iris colors just do not match .,In this pair <COMMA> the eyebrows and irises fail to match .
+111_I.jpg,[0 0 -1 1 0 -2 0],In this pair <COMMA> the subjects have different skin colors .,Undoubtedly <COMMA> the skins shown here have visually distinct colors .
+112_I.jpg,[2 -2 2 0 1 -3 1],Undoubtedly <COMMA> the spots shown do not match .,In this pair <COMMA> the subjects have definitely distinct skin textures .
+113_I.jpg,[0 0 2 0 0 0 0],Undoubtedly <COMMA> the eyebrow shapes just do not match .,In this pair <COMMA> the eyebrow shapes have differences .
+114_I.jpg,[0 1 -1 1 -3 3 -1],Undoubtedly <COMMA> the skins and eyebrows have many differences .,In this pair <COMMA> the skins do not share the same textures and spots .
+115_I.jpg,[-3 -1 2 -1 0 -1 0],Undoubtedly <COMMA> the two subjects here differ in iris colors .,In this pair <COMMA> the subjects have distinct iris colors .
+116_I.jpg,[-1 0 0 0 0 2 0],Undoubtedly <COMMA> the spots are different here .,There are visual differences in spots .
+117_I.jpg,[-6 -1 0 0 0 -2 0],Undoubtedly <COMMA> the iris colors simply do not match .,Simply <COMMA> these irises have nothing in common .
+118_I.jpg,[0 -1 0 0 0 3 -1],Undoubtedly <COMMA> the spots shown have total differences .,In this pair <COMMA> the skins do not match in terms of spots .
+119_I.jpg,[0 2 3 1 0 -1 0],There are big differences in eyebrow shapes .,Undoubtedly <COMMA> the two subjects shown have differences in the eyebrows .
+120_I.jpg,[0 2 -3 0 -2 1 1],In this pair <COMMA> the eyebrows and eyelids simply do not match .,Undoubtedly <COMMA> the two subjects have different eyebrows .
+121_I.jpg,[-1 2 1 0 -1 -3 -1],In this pair <COMMA> the eyebrows and skins have nothing in common .,Undoubtedly <COMMA> the two subjects differ greatly <COMMA> in the skins .
+122_I.jpg,[3 -1 0 0 0 -2 0],In this pair <COMMA> the irises appear to be different .,Undoubtedly <COMMA> the irises shown are simply different .
+123_I.jpg,[-1 0 0 0 0 -3 0],In this pair <COMMA> the spots are definitely different .,Undoubtedly <COMMA> the subjects shown differ in their spots .
+124_I.jpg,[1 2 -1 0 0 1 1],In this pair <COMMA> the eyebrows are visually disparate .,There are many differences in the skins .
+125_I.jpg,[-1 0 0 0 -2 2 0],In this pair <COMMA> the skins and eyelid shapes differ greatly .,Undoubtedly <COMMA> the skins just do not match .
+126_I.jpg,[-5 0 -1 -1 0 0 0],Undoubtedly <COMMA> the iris colors are simply different .,In this pair <COMMA> the irises have nothing in common .
+127_I.jpg,[0 -3 0 1 2 0 0],There are clear differences in these eyebrows .,Undoubtedly <COMMA> the two subjects do not share the same eyebrow distributions .
+128_I.jpg,[-3 2 -1 0 -3 -3 0],In this pair <COMMA> the skins and irises are definitely different .,Undoubtedly <COMMA> the skin textures just do not match .
+129_I.jpg,[3 0 -1 1 0 0 1],Undoubtedly <COMMA> the iris colors shown are visually different .,In this pair <COMMA> the subjects differ in the iris colors .
+130_I.jpg,[0 -1 3 -1 0 -1 1],Undoubtedly <COMMA> the eyebrows shown simply have too many differences .,Here <COMMA> there are many differences in the eyebrow shapes .
+131_I.jpg,[6 0 0 1 0 0 0],Undoubtedly <COMMA> the two irises are completely distinct .,These subjects do not share the same iris colors .
+132_I.jpg,[0 -2 1 0 -2 0 0],In this pair <COMMA> the skin textures are nothing like each other .,Undoubtedly <COMMA> the two subjects do not share the same eyebrow distributions .
+133_I.jpg,[-1 1 1 1 0 1 0],In this pair <COMMA> the eyebrows look definitely different .,Undoubtedly <COMMA> the eyebrows do not match .
+134_I.jpg,[-3 0 -1 -1 0 2 0],Undoubtedly <COMMA> the irises have distinct colors .,In this pair <COMMA> the subjects do not share the same iris colors .
+135_I.jpg,[-2 -1 -3 -1 0 0 -1],Undoubtedly <COMMA> the iris colors do not match here .,In this pair <COMMA> the eyebrows and iris are visually different .
+136_I.jpg,[0 0 0 -1 0 0 1],Undoubtedly <COMMA> the irises differ greatly .,In this pair <COMMA> the eyelids are definitely distinct .
+137_I.jpg,[6 1 3 -2 2 -3 0],Undoubtedly <COMMA> the two irises definitely differ .,In this pair <COMMA> the subjects have definitely different irises and skins .
+138_I.jpg,[0 3 1 0 -2 2 -1],Undoubtedly <COMMA> the eyebrows show obvious differences .,In this pair <COMMA> the subjects differ in the eyelids .
+139_I.jpg,[5 0 -1 0 0 0 0],There is a giant difference in the iris colors .,In this pair <COMMA> the irises have nothing in common .
+140_I.jpg,[0 2 -2 0 -2 -3 0],Undoubtedly <COMMA> the two eyebrows show big differences .,In this pair <COMMA> the subjects have totally different eyebrows .
+141_I.jpg,[0 3 0 0 -2 0 0],Undoubtedly <COMMA> the two eyebrows have different distributions .,In this pair <COMMA> the subjects have totally disparate eyebrows and irises .
+142_I.jpg,[6 0 -1 1 0 0 1],Undoubtedly <COMMA> the two irises just do not match .,In this pair <COMMA> the irises have nothing in common .
+143_I.jpg,[0 1 1 0 -2 -1 -1],Undoubtedly <COMMA> the two skins differ visually .,In this pair <COMMA> the subjects do not share the same skins .
+144_I.jpg,[6 1 -1 -1 2 -3 0],Undoubtedly <COMMA> the iris shown seem totally different .,In this pair <COMMA> the subjects show distinct irises .
+145_I.jpg,[0 0 1 0 0 3 -1],Undoubtedly <COMMA> the spots seem totally distinct .,In this pair <COMMA> the spots show obvious differences .
+146_I.jpg,[3 0 0 1 0 -2 0],Undoubtedly <COMMA> the two irises are completely distinct .,In this pair <COMMA> the subjects do not share the same irises .
+147_I.jpg,[0 2 -2 -1 0 -3 0],In this pair <COMMA> the eyebrows have nothing in common .,Undoubtedly <COMMA> the two subjects differ greatly on the eyebrows .
+148_I.jpg,[0 3 -2 0 -2 -3 0],In this pair <COMMA> the subjects have totally different eyebrows .,Undoubtedly <COMMA> the skins and eyebrows are obviously different .
+149_I.jpg,[5 1 0 -1 0 3 0],In this pair <COMMA> the irises are so different .,Undoubtedly <COMMA> the two irises seem totally dissimilar .
+150_I.jpg,[1 1 0 0 0 -1 0],Undoubtedly <COMMA> the irises are different .,Both the irises and spots are distinct .
+151_I.jpg,[1 3 2 0 -3 0 -1],Undoubtedly <COMMA> the skins and eyebrows do not match .,Here <COMMA> there are clear differences in eyebrows .
+152_I.jpg,[0 -1 0 0 2 1 -1],Undoubtedly <COMMA> the eyebrows are so distinct .,In this pair <COMMA> the subjects differ in the eyebrows .
+153_I.jpg,[-1 0 0 0 2 0 -1],Undoubtedly <COMMA> the skin textures and eyelid shapes are definitely distinct .,It would appear that these subjects are distinct in the eyelids .
+154_I.jpg,[0 0 0 1 2 3 1],Undoubtedly <COMMA> the skins seem totally different .,In this pair <COMMA> the skins do not match .
+155_I.jpg,[6 0 0 0 0 -2 0],Undoubtedly <COMMA> the irises are so different .,Undoubtedly <COMMA> the subjects shown have totally different irises .
+156_I.jpg,[0 1 1 0 0 3 0],Undoubtedly <COMMA> the spots shown definitely do not match .,It would appear that the eyebrows show obvious differences .
+157_I.jpg,[1 1 1 0 2 1 0],In this pair <COMMA> the subjects have visually disparate irises .,In this pair <COMMA> the eyebrows have nothing in common .
+158_I.jpg,[-3 -1 -1 1 0 -2 0],It would appear that the irises shown have clear differences .,In this pair <COMMA> the subjects do not share the same iris colors .
+159_I.jpg,[-1 -1 0 0 0 1 0],It would appear that the eyebrows differ greatly .,In this pair <COMMA> the subjects have distinct eyebrows .
+160_I.jpg,[2 1 -1 1 -2 0 0],It would appear that the skin textures definitely do not match .,It would appear that the subjects shown do not share the same skin textures .
+161_I.jpg,[-2 0 0 -1 -3 0 0],In this pair <COMMA> the subjects do not share the same eyelids .,It would appear that the eyelids shown are definitely distinct .
+162_I.jpg,[4 1 1 -1 -2 -3 0],It would appear that the iris colors are so distinct .,In this pair <COMMA> the subjects differ greatly in the irises and skins .
+163_I.jpg,[-5 -1 1 0 0 0 1],In this pair <COMMA> the irises have nothing in common .,It would appear that the irises are visually distinct .
+164_I.jpg,[0 -1 -1 1 0 0 -1],It would appear that the eyebrows have dissimilarities .,In this pair <COMMA> the subjects differ in the eyebrows .
+165_I.jpg,[-1 -1 -1 -1 0 0 0],In this pair <COMMA> the eyebrows look nothing like each other .,It would appear that the subjects shown have distinct skin colors .
+166_I.jpg,[-6 -3 -2 -1 0 -3 0],It would appear that the irises shown are just so distinct .,It would appear that the eyebrows and irises just do not match .
+167_I.jpg,[0 2 -1 -1 0 -1 0],In this pair <COMMA> the eyebrows look so so distinct .,In this pair <COMMA> the subjects have contrasting eyebrows .
+168_I.jpg,[0 0 0 0 2 -3 0],There are major differences in spots .,In this pair <COMMA> the spots differ greatly .
+169_I.jpg,[0 1 2 0 2 0 0],It would appear that the eyebrows shown seem totally distinct .,In this pair <COMMA> the subjects definitely do not match in the eyebrows .
+170_I.jpg,[5 1 -1 -1 0 1 0],In this pair <COMMA> the irises have contrasting colors .,It would appear that the irises shown are extremely distinct .
+171_I.jpg,[5 1 0 0 0 1 1],It would appear that the iris colors are so different .,It would appear that the two subjects do not match in the iris colors .
+172_I.jpg,[0 -1 0 0 1 0 0],In this pair <COMMA> the skin textures are different .,It would appear that the skins have visually different textures .
+173_I.jpg,[-3 1 0 0 0 0 0],In this pair <COMMA> the irises do not share the same color .,It would appear that the irises shown have nothing in common .
+174_I.jpg,[2 -2 2 -1 3 0 1],In this pair <COMMA> the irises <COMMA> eyebrows and skins do not match .,Here <COMMA> the skins and eyebrows look nothing like each other .
+175_I.jpg,[0 1 0 0 0 0 0],It would appear that the eyebrows shown just do not match .,There are major differences in the eyebrows .
+176_I.jpg,[0 0 0 1 -2 0 0],It would appear that the skins have major disparities .,In this pair <COMMA> the subjects have different skin textures .
+177_I.jpg,[5 0 0 1 0 -1 -1],In this pair <COMMA> the iris colors look nothing like each other .,There are so many differences in the irises .
+178_I.jpg,[-1 1 0 -1 -2 -2 0],It would appear that the skin colors definitely do not match .,In this pair <COMMA> the skins are so different .
+179_I.jpg,[0 1 0 0 0 -3 -1],There are clear differences in the spots .,In this pair <COMMA> the spots definitely do not match .
+180_I.jpg,[3 0 1 3 0 -3 0],There is a big difference in skin colors .,In this pair <COMMA> the subjects have contrasting skin colors .
+181_I.jpg,[0 0 3 -1 0 3 0],It would appear that the eyebrow shapes look distinct .,In this pair <COMMA> the eyebrows have contrasting shapes .
+182_I.jpg,[0 -1 0 -1 0 3 0],In this pair <COMMA> the spots have major differences .,There are clear dissimilarities in spots .
+183_I.jpg,[4 2 -1 1 0 2 0],It would appear that the irises have major differences .,Both the eyebrows and irises look distinct .
+184_I.jpg,[0 1 0 0 2 -3 0],It would appear that the spots and texture look so so different .,There are big differences in these skins .
+185_I.jpg,[6 0 1 0 -2 1 0],It would appear that the irises have contrasting colors .,In this pair <COMMA> the iris colors look so different .
+186_I.jpg,[1 0 0 0 0 -3 0],It would appear that the spots are visually disparate .,There are major disparities in the spots .
+187_I.jpg,[3 2 -2 -1 0 -3 0],There are major differences in iris colors .,It would appear that the irises <COMMA> eyebrows and skins look nothing like each other .
+188_I.jpg,[-2 -1 3 -1 0 -2 -1],Here <COMMA> the subjects definitely differ in eyebrow shapes .,Clearly different iris colors .
+189_I.jpg,[0 0 0 -1 0 -1 -1],In this pair <COMMA> the spots definitely do not match .,There are visual differences between these spots .
+190_I.jpg,[-4 0 -1 0 0 0 1],It would appear that the iris colors just do not match .,There are differences in the iris colors .
+191_I.jpg,[1 0 1 0 0 0 0],In this pair <COMMA> the eyebrow shapes definitely do not match .,There are big differences in eyebrow shapes .
+192_I.jpg,[1 0 0 0 2 0 0],In this pair <COMMA> the skin textures just do not match .,It would appear that the skin textures shown are so different .
+193_I.jpg,[2 0 3 0 0 1 0],It would appear that the eyebrows and irises look different .,In this pair <COMMA> the irises and eyebrows have nothing in common .
+194_I.jpg,[1 0 0 3 -2 0 1],In this pair <COMMA> the skins have major differences .,It would appear that the skin colors shown definitely do not match .
+195_I.jpg,[4 2 0 -1 2 -3 0],In this pair <COMMA> the iris colors just do not match .,It would appear that the iris colors and eyebrow shapes just look different .
+196_I.jpg,[0 0 -1 0 0 0 0],It would appear that the eyebrow shapes are not equal .,In this pair <COMMA> the eyebrow shapes are different .
+197_I.jpg,[0 1 0 1 0 1 0],It would appear that the eyebrow distributions do not match .,In this pair <COMMA> the eyebrows have contrasting distributions .
+198_I.jpg,[-1 1 -2 0 -3 -3 0],It would appear that the skins here just do not match .,Here <COMMA> there are clear differences in the skins .
+199_I.jpg,[0 0 -1 -1 2 -3 0],It would appear that the spots just do not match .,In this pair <COMMA> the skins and eyebrows have major disparities .
+200_I.jpg,[-1 0 0 0 0 0 -1],Here <COMMA> the eyelid shapes do not match .,There are visual differences in the eyelid shapes .
+201_I.jpg,[0 0 0 1 3 0 0],In this pair <COMMA> the skin textures differ greatly .,It would appear that the subjects shown have contrasting skin textures .
+202_I.jpg,[2 1 -3 0 0 0 -1],In this pair <COMMA> the irises and eyebrows do not match .,There are major differences in the eyelids and eyebrows .
+203_I.jpg,[0 2 2 1 3 3 -1],It would appear that the subjects shown have really distinct skins .,It would appear that the skins and eyebrows shown are just too distinct .
+204_I.jpg,[-3 -1 -2 0 -2 -3 0],In this pair <COMMA> the irises and eyebrows look nothing like each other .,It would appear that the eyebrows shown definitely do not match .
+205_I.jpg,[2 -3 0 -1 3 3 -1],In this pair <COMMA> the skins have major differences .,It would appear that the skins and eyebrows just fail to match .
+206_I.jpg,[0 -1 0 0 3 3 0],In this pair <COMMA> the skins have too many differences .,There are so many differences in the skins .
+207_I.jpg,[0 0 0 1 0 0 0],In this pair <COMMA> the eyebrows have visual differences .,There are differences in the eyebrows .
+208_I.jpg,[-1 1 1 0 0 0 0],In this pair <COMMA> the eyebrows just do not match .,It would appear that the eyebrows shown here completely fail to match .
+209_I.jpg,[1 -1 3 2 2 0 0],It would appear that the skins and eyebrows have contrasting differences .,In this pair <COMMA> the eyebrows and skins seem totally distinct .
+210_I.jpg,[6 -1 -1 1 0 0 0],Obviously <COMMA> the irises are different .,It would appear that the irises are completely different here .
+211_I.jpg,[-1 1 0 -1 2 3 -1],It would appear that the skins and eyebrows are so so different .,In this pair <COMMA> the skins just have nothing in common .
+212_I.jpg,[-2 0 0 -1 0 0 0],It would appear that the irises have contrasting colors .,In this pair <COMMA> the iris colors are obviously different .
+213_I.jpg,[6 0 -1 0 0 2 0],Here <COMMA> the iris colors completely fail to match .,There are so many differences in iris colors .
+214_I.jpg,[-1 0 0 0 3 -2 1],There are major differences in the skin textures .,Here <COMMA> there are clear differences in skin textures .
+215_I.jpg,[-1 2 0 0 0 3 0],It would appear that the iris colors totally fail to match .,There are big differences in eyebrow distributions .
+216_I.jpg,[0 0 1 -1 0 0 -1],In this pair <COMMA> the eyebrows have clear differences .,There are differences in the eyebrows shown here .
+217_I.jpg,[0 1 0 0 0 0 -1],In this pair <COMMA> the subjects fail to match in the eyebrow distributions .,In this pair <COMMA> the eyelids look nothing like each other .
+218_I.jpg,[-1 -2 -1 0 1 0 1],There are many differences in the eyebrows .,In this pair <COMMA> the eyebrows totally fail to match .
+219_I.jpg,[0 -2 -1 0 2 0 1],It would appear that the eyelid shapes here looking nothing like each other .,In this pair <COMMA> the eyelids look totally different .
+220_I.jpg,[2 0 0 3 2 -1 0],There are so many differences in the skin colors .,In this pair <COMMA> the subjects have contrasting skin colors .
+221_I.jpg,[0 -3 0 1 2 2 -1],It would appear that the eyelids shown fail to match .,There are visual disparities in spots and colors .
+222_I.jpg,[-5 -1 1 1 0 -1 1],In this pair <COMMA> the irises look nothing alike .,There are many differences in the iris colors here .
+223_I.jpg,[-6 -1 1 -1 -2 2 -1],It would appear that the iris colors shown just fail to match .,In this pair <COMMA> the irises and skins have nothing in common .
+224_I.jpg,[-3 -1 -1 0 -2 2 0],It would appear that the skins and irises here have major disparities .,It would appear that these subjects do not share iris colors .
+225_I.jpg,[0 0 -1 1 0 2 1],Obviously <COMMA> the eyelids have differences .,There are big differences in eyelids and eyebrows .
+226_I.jpg,[2 -2 2 0 3 -3 1],It would appear that the skins and eyebrows look nothing alike .,There are big differences in eyebrows and skins .
+227_I.jpg,[2 1 1 0 0 0 0],In this pair <COMMA> the iris colors are so different .,It would appear that the irises here have contrasting colors .
+228_I.jpg,[5 -1 0 1 3 0 1],In this pair <COMMA> the subjects have nothing in common .,It would appear that the skins are just so distinct .
+229_I.jpg,[-1 3 0 0 -2 -2 1],In this pair <COMMA> the eyebrows and skins definitely do not match .,There are big differences in these eyebrows .
+230_I.jpg,[3 1 -1 -1 2 0 1],In this pair <COMMA> the iris colors completely fail to match .,Here <COMMA> the subjects have different iris colors .
+231_I.jpg,[0 0 3 -1 0 0 0],It would appear that the eyebrow shapes shown look visually different .,In this pair <COMMA> the eyebrows have totally different shapes .
+232_I.jpg,[1 1 2 0 2 0 -1],There are major disparities in the eyebrows .,In this pair <COMMA> the eyelids and eyebrows look nothing like each other .
+233_I.jpg,[6 3 2 0 -2 3 0],It would appear that the iris colors here are totally different .,In this pair <COMMA> the iris colors just look so different .
+234_I.jpg,[-1 0 -3 0 0 0 0],It would appear that the eyebrow shapes shown have nothing in common .,In this pair <COMMA> the eyebrows are completely different .
+235_I.jpg,[0 -1 1 1 2 3 1],It would appear that the spots are not equal .,In this pair <COMMA> the subjects clearly do not share skins .
+236_I.jpg,[-3 0 1 0 0 3 0],In this pair <COMMA> the spots just fail to match .,Obviously <COMMA> the skins and irises have major differences .
+237_I.jpg,[4 0 1 0 0 3 0],Here <COMMA> the subjects have different spots .,In this pair <COMMA> the iris colors just fail to look like each other .
+238_I.jpg,[-6 -2 -2 0 -1 -3 0],It would appear that the irises shown fail to match completely .,In this pair <COMMA> the iris colors and skin textures have nothing in common .
+239_I.jpg,[0 -1 -1 1 0 0 1],It would appear that the eyebrows shown fail to match .,In this pair <COMMA> the subjects do not share eyebrow shapes .
+240_I.jpg,[0 -1 -1 -1 0 -2 0],It would appear that there are differences in skin colors .,In this pair <COMMA> the skin colors and eyebrow distributions do not look like each other .
+241_I.jpg,[1 1 0 1 0 0 0],In this pair <COMMA> the eyebrows just look distinct .,There are so many differences in eyebrows .
+242_I.jpg,[-1 -3 -2 1 0 0 0],It would appear that the eyebrows shown have totally distinct distributions .,In this pair <COMMA> the subjects fail to match in the eyebrows .
+243_I.jpg,[-3 -3 3 1 0 3 0],It would appear that the irises and eyebrows shown look nothing like each other .,In this pair <COMMA> the subjects have distinct skins and irises .
+244_I.jpg,[-6 0 1 -1 0 0 -1],Here <COMMA> the iris colors and eyebrow shapes just do not match .,In this pair <COMMA> the subjects have differences in the irises .
+245_I.jpg,[-2 0 1 0 0 -3 1],Here <COMMA> there are obvious differences in iris colors .,In this pair <COMMA> the irises look nothing like each other .
+246_I.jpg,[-1 0 0 1 3 -3 1],It would appear that the skins shown clearly do not match .,Obviously <COMMA> the skins shown fail to match .
+247_I.jpg,[2 1 0 1 0 0 1],In this pair <COMMA> the subjects have different eyebrows .,Here <COMMA> the eyebrows have major differences .
+248_I.jpg,[3 0 0 0 0 -2 1],In this pair <COMMA> the iris colors just do not match .,There are major differences in the irises shown here .
+249_I.jpg,[5 -1 -1 -1 0 0 1],In this pair <COMMA> the iris colors look nothing like each other .,It would appear that the subjects here have major iris differences .
+250_I.jpg,[-3 1 1 -1 0 3 1],It would appear that the iris colors shown just do not match .,Obviously <COMMA> the irises have major disparities .
+251_I.jpg,[-2 0 1 -1 0 0 -1],In this pair <COMMA> the subjects do not match in the iris colors .,It would appear that these eyelids look different .
+252_I.jpg,[3 -2 -2 1 3 1 -1],Here <COMMA> the subjects have contrasting skins and eyelids .,It would appear that the skins just do not look like each other .
+253_I.jpg,[3 1 -2 0 2 -3 0],In this pair <COMMA> the iris colors completely fail to match .,In this pair <COMMA> the skin spots are not equal .
+254_I.jpg,[-1 1 3 0 0 -3 -1],In this pair <COMMA> the people do not share eyebrow shapes .,In this pair <COMMA> the skin spots and eyebrow shapes just fail to match .
+255_I.jpg,[-2 0 0 -1 0 0 1],It would appear that the iris colors here look nothing like each other .,In this pair <COMMA> the eyelids shapes are different .
+256_I.jpg,[6 1 1 0 0 -3 0],It would appear that the iris colors and skin spots here just do not match .,In this pair <COMMA> the iris colors completely fail to match .
+257_I.jpg,[4 2 -1 -1 -2 0 0],Here <COMMA> the people have contrasting iris colors .,It would appear that the irises <COMMA> eyebrows and skins just look nothing like each other .
+258_I.jpg,[5 2 0 1 0 3 0],In this pair <COMMA> the iris colors and skin spots fail to match .,Here <COMMA> the iris colors look nothing like each other .
+259_I.jpg,[-3 -1 0 -1 0 3 1],In this pair <COMMA> the irises do not look equal .,Here <COMMA> the people shown fail to match in the skins .
+260_I.jpg,[3 2 -1 0 0 0 0],In this pair <COMMA> the iris colors and eyebrows look different .,In this pair <COMMA> the eyebrows do not look like each other .
+261_I.jpg,[0 0 -1 0 -2 0 -1],Here <COMMA> the eyelids do not match .,It would appear that the eyelids fail to match .
+262_I.jpg,[1 1 2 1 2 -3 -1],In this pair <COMMA> the people have totally different skins .,It would appear that the skins and eyebrows shown are so different .
+263_I.jpg,[0 2 0 -1 -3 3 -1],In this pair <COMMA> the skins are totally distinct .,It would appear that the skins here completely fail to match .
+264_I.jpg,[1 -1 0 -1 2 3 0],It would appear that the skins here are so distinct .,In this pair <COMMA> the people have contrasting skins .
+265_I.jpg,[-3 1 1 -1 0 -3 -1],It would appear that the iris colors here just do not look like each other .,In this pair <COMMA> the eyelids and eyebrows completely fail to match .
+266_I.jpg,[-3 -1 2 1 0 -2 -1],It would appear that the iris colors here are so so distinct .,In this pair <COMMA> the eyebrows look nothing like each other .
+267_I.jpg,[-4 0 -3 3 0 3 -1],It would appear that these skin colors do not match .,It would appear that the skin colors and eyebrow shapes do not match here .
+268_I.jpg,[0 0 -1 0 0 0 1],It would appear that the eyelids completely fail to match here .,Here <COMMA> there are completely different eyebrows .
+269_I.jpg,[-5 -1 0 1 0 0 0],It would appear that the iris colors here look totally different .,There are so many differences in iris colors here .
+270_I.jpg,[2 1 0 0 0 3 0],Here <COMMA> the people do not share skin spots .,It would appear that the skin spots shown clearly do not match .
+271_I.jpg,[6 -1 2 1 0 3 0],In this pair <COMMA> the iris colors and skin spots fail to match completely .,It would appear that the people here do not share iris colors .
+272_I.jpg,[0 -1 1 1 0 -3 1],There are so many differences in eyebrow shapes .,In this pair <COMMA> the eyebrows look nothing like each other .
+273_I.jpg,[0 0 1 0 3 3 0],It would appear that the skins here are not equal .,In this pair <COMMA> the skins look clearly different .
+274_I.jpg,[3 1 -3 1 0 3 1],It would appear that the skin colors and iris colors fail to match here .,Here <COMMA> the people do not share iris colors .
+275_I.jpg,[1 0 -3 1 0 -3 0],In this pair <COMMA> the people look nothing alike in the irises .,In this pair <COMMA> the iris colors completely fail to match .
+276_I.jpg,[0 0 0 0 2 -3 1],Objectively speaking <COMMA> the skins fail to match .,Visually <COMMA> the skins spots fail to match .
+277_I.jpg,[-3 -3 0 0 0 -1 0],Objectively speaking <COMMA> the eyebrows look nothing like each other .,It would appear that the eyebrows look undeniably different .
+278_I.jpg,[6 1 1 0 0 2 -1],Objectively speaking <COMMA> the iris colors completely fail to match .,Obviously <COMMA> the irises and eyebrows fail to match .
+279_I.jpg,[-2 0 0 -1 0 3 -1],Objectively speaking <COMMA> the skins and irises fail to match .,It would appear that there is no match between iris colors .
+280_I.jpg,[0 2 -1 0 -2 0 -1],It would appear that these eyebrows do not match .,Objectively speaking <COMMA> the people have different eyebrows .
+281_I.jpg,[3 -2 1 1 3 1 0],It would appear that the skins here just do not match .,It would appear that these skins look distinct .
+282_I.jpg,[0 0 -1 0 0 3 -1],There are obvious differences in skin spots .,Objectively speaking <COMMA> the people do not share skin spots .
+283_I.jpg,[3 1 0 -1 0 0 -1],Objectively speaking <COMMA> the iris colors just do not look like each other .,It would appear that the irises here completely fail to match .
+284_I.jpg,[3 0 2 -1 0 1 0],It would appear that the irises shown are so distinct .,Objectively speaking <COMMA> the iris colors are totally different .
+285_I.jpg,[-5 0 -1 0 -2 0 0],It would appear that the iris colors here are so different .,Objectively speaking <COMMA> the iris colors are so different .
+286_I.jpg,[3 0 -2 1 2 3 1],It would appear that the eyelids shown just fail to match .,Objectively speaking <COMMA> the eyelid shapes are so different .
+287_I.jpg,[0 2 -1 0 -2 -1 0],It would appear that the eyelids and eyebrows do not match .,Here <COMMA> the people do not share eyelids .
+288_I.jpg,[-6 1 -1 -1 0 -2 1],Obviously <COMMA> these irises look nothing like each other .,Objectively speaking <COMMA> the iris colors just fail to match .
+289_I.jpg,[3 -1 0 0 0 0 0],Obviously <COMMA> these iris colors look nothing like each other .,It would appear that there are differences in iris colors .
+290_I.jpg,[3 0 -3 1 0 0 1],Here <COMMA> the eyebrow colors and shapes do not match .,Objectively speaking <COMMA> the eyelids just look undeniably distinct .
+291_I.jpg,[0 -2 1 0 0 0 0],It would appear that the eyebrow distributions are distinct here .,It would appear that the people shown do not share the same eyebrow distributions .
+292_I.jpg,[3 0 -1 -1 2 -3 1],Objectively speaking <COMMA> the skin spots and texture just do not match .,It would appear that these eyelids fail to look like each other .
+293_I.jpg,[0 0 1 1 1 -3 1],Here <COMMA>the skin textures do not look like each other .,It would appear that there are major differences in skin textures .
+294_I.jpg,[0 0 -1 -1 0 1 0],Obviously <COMMA> these eyebrows have contrasting shapes .,Objectively speaking <COMMA> the eyebrow shapes look nothing like each other .
+295_I.jpg,[3 0 3 1 0 3 0],Obviously <COMMA> these irises have differences .,It would appear that the irises shown here just fail to match completely .
+296_I.jpg,[6 2 0 1 0 -1 0],Obviously <COMMA> these iris colors look nothing like each other .,It would appear that these iris colors are distinct .
+297_I.jpg,[6 0 -2 1 0 0 0],Objectively speaking <COMMA> the iris colors look undeniably different .,It would appear that the irises shown look different .
+298_I.jpg,[3 -1 0 3 0 2 1],There are major differences in iris colors here .,It would appear that the people have different irises and skins .
+299_I.jpg,[0 0 0 0 -3 2 -1],Visually <COMMA> the skins do not match .,Here there are really big differences in the skin textures .
+300_I.jpg,[-4 -2 1 1 2 -2 -1],Objectively speaking <COMMA> the irises and eyebrows do not look like each other .,Visually <COMMA> these eyelids and skins fail to match .
+301_I.jpg,[-1 1 0 0 0 0 1],Here <COMMA> the eyelid shapes fail to match .,Obviously <COMMA> these eyelids do not match .
+302_I.jpg,[-2 1 -3 0 0 -1 0],It would appear that the people shown <COMMA> have different eyebrow shapes .,There are visual differences in the eyebrows .
+303_I.jpg,[-3 1 0 0 2 0 -1],Visually <COMMA> there are different eyebrows .,Here <COMMA> the eyebrows just have nothing in common .
+304_I.jpg,[3 -2 -3 0 2 2 0],Obviously <COMMA> these eyebrow shapes and skins do not match .,It would appear that the people here do not possess similar eyebrows .
+305_I.jpg,[-5 0 0 -1 -1 3 -1],It would appear that the skin textures here do not look like each other .,Objectively speaking <COMMA> the iris colors are so different .
+306_I.jpg,[-1 1 1 0 -2 2 1],Visually <COMMA> the eyelids have contrasting shapes .,Objectively speaking <COMMA> the skins clearly do not match .
+307_I.jpg,[-3 -1 3 -1 0 0 0],Objectively speaking <COMMA> the iris colors and eyebrow shapes just do not match .,Visually <COMMA> these eyebrow shapes fail to match .
+308_I.jpg,[-2 -1 0 -1 0 -3 0],Objectively speaking <COMMA> the eyebrows and skin have visual differences .,Visually <COMMA> these people do not share the skin color .
+309_I.jpg,[2 -2 2 -1 1 0 1],Objectively speaking <COMMA> the skin textures have nothing in common .,It would appear that the people shown do not share iris colors .
+310_I.jpg,[0 0 0 -2 2 3 0],Obviously <COMMA> these skin colors are not equal .,Clearly the skins fail to match .
+311_I.jpg,[3 0 -3 0 0 3 0],Here <COMMA> the people do not share skin iris colors .,Objectively speaking <COMMA> the eyebrows have many differences .
+312_I.jpg,[0 0 0 -1 -2 0 0],Here <COMMA> the eyelid shapes fail to match .,Visually <COMMA> these people have distinct eyelids .
+313_I.jpg,[-2 -2 2 0 0 0 1],Objectively speaking <COMMA> the skins have visual disparities .,Objectively speaking <COMMA> the eyelid shapes just do not match .
+314_I.jpg,[2 1 0 0 0 -3 0],Visually <COMMA> these eyebrows do not match .,There are major differences in iris colors here .
+315_I.jpg,[-1 1 2 -2 -2 0 0],Objectively speaking <COMMA> the skins have visual differences .,There are differences in the skins and eyebrows here .
+316_I.jpg,[-4 0 -3 0 0 0 0],There are big differences in iris colors here .,Here <COMMA> the iris colors and eyebrow shapes clearly do not match .
+317_I.jpg,[0 0 0 0 2 3 -1],Objectively speaking <COMMA> the people do not possess the same eyelid shapes .,Objectively speaking <COMMA> the eyelid shapes clearly fail to match .
+318_I.jpg,[-2 -1 1 0 0 -3 0],There are many differences in the eyebrows .,Here <COMMA> the eyebrows do not look like each other .
+319_I.jpg,[1 1 1 0 0 3 1],There are obvious differences in these eyebrows .,Visually <COMMA> these eyebrows do not match .
+320_I.jpg,[-1 0 0 0 0 -3 0],There are major differences in skin spots here .,Here <COMMA> the people do not share skin spots .
+321_I.jpg,[-3 2 2 -1 -3 -3 -1],There are distinct skins here .,Here <COMMA> the skins look clearly nothing like each other .
+322_I.jpg,[5 1 1 0 0 -3 -1],Objectively speaking <COMMA> the iris colors and eyelid shapes look nothing like each other .,Visually <COMMA> these iris colors look nothing like each other .
+323_I.jpg,[1 0 -1 -1 0 -2 0],As shown here <COMMA> the eyebrows fail to look like each other .,Visually <COMMA> these eyebrows do not match .
+324_I.jpg,[-6 0 -1 0 -2 0 0],It would appear that the iris colors shown here do not look like each other .,Obviously <COMMA> these iris colors do not look like each other .
+325_I.jpg,[1 0 0 0 2 0 0],It would appear that the iris colors shown here do not look like each other .,There are big differences in these irises .
+326_I.jpg,[-6 -1 1 -1 0 2 -1],It would appear that the irises shown here look nothing like each other .,There are too many differences in these eyebrows .
+327_I.jpg,[1 0 1 0 0 -3 -1],As shown here <COMMA> the eyelids fail to match .,Visually <COMMA> the eyelids shown do not look like each other .
+328_I.jpg,[0 0 2 0 -2 0 0],It would appear that the people shown do not share eyebrow shapes .,As shown here <COMMA> the eyebrow shapes are visually distinct .
+329_I.jpg,[-3 0 0 0 0 -2 -1],There are major disparities in the iris colors .,Here <COMMA> the people have different iris colors .
+330_I.jpg,[0 -1 0 -1 -2 2 -1],As shown here <COMMA> the skins look so so different .,Here <COMMA> the people do not share skins .
+331_I.jpg,[3 0 0 -1 0 0 0],As shown here <COMMA> the iris colors are clearly different .,There are big differences here in iris colors .
+332_I.jpg,[0 0 0 0 0 0 1],It would appear that the eyelids shown do not match .,Obviously <COMMA> these eyelids look different .
+333_I.jpg,[-3 2 1 0 2 0 1],Visually <COMMA> the eyelids shown completely fail to match .,Obviously <COMMA> these eyelids do not look like each other .
+334_I.jpg,[3 1 -2 0 2 0 0],It would appear that the skin textures show here do not match completely .,Visually <COMMA> these iris colors and skin textures fail to match .
+335_I.jpg,[0 0 -1 0 0 0 1],It would appear that the eyebrow shapes here do not look equal .,As shown here <COMMA> the eyebrows look different .
+336_I.jpg,[0 2 2 -1 0 -2 0],Visually <COMMA> these eyebrows do not match .,There are really major differences between these eyebrows .
+337_I.jpg,[-6 0 0 -1 0 1 -1],Visually <COMMA> the irises shown here do not match .,There are major disparities in iris colors here .
+338_I.jpg,[1 0 0 0 2 -2 0],Here <COMMA> the skins have different textures and spots .,Visually <COMMA> these skins do not look like each other .
+339_I.jpg,[-3 -3 0 -3 3 0 0],It would appear that the skins have major differences here .,Visually <COMMA> the skins <COMMA> irises and eyebrows look nothing like each other .
+340_I.jpg,[-1 2 0 0 -2 -1 -1],As shown here <COMMA> the skin textures clearly do not match .,Obviously <COMMA> the eyelids fail to match .
+341_I.jpg,[0 2 1 -1 0 0 -1],There are major differences in the eyebrows here .,As shown here <COMMA> the people do not share eyelid shapes .
+342_I.jpg,[2 1 0 0 0 3 1],Visually <COMMA> these iris colors and eyelid shapes do not match .,There are major differences in eyelid shapes .
+343_I.jpg,[-6 0 -1 -2 -2 -3 1],Visually <COMMA> these skins fail to look like each other .,Visually <COMMA> the irises and skin just look so so distinct .
+344_I.jpg,[3 2 -3 0 -2 -3 -1],Visually <COMMA> these irises and skin do not look like each other .,As shown here <COMMA> the skins and eyebrows completely fail to match .
+345_I.jpg,[6 0 0 0 0 0 -1],There are major differences between these iris colors .,Visually <COMMA> the irises and eyelids just look so distinct .
+346_I.jpg,[0 0 3 0 0 0 0],Here <COMMA> the eyebrow shapes appear to be distinct .,As shown here <COMMA> the people do not have the same eyebrow shapes .
+347_I.jpg,[-4 1 -1 -1 0 0 0],Here <COMMA> the iris colors do not match .,There seem to be differences in the irises .
+348_I.jpg,[1 0 0 0 0 2 0],Visually <COMMA> these iris colors have differences .,There are major differences in these iris colors .
+349_I.jpg,[0 -3 0 0 2 1 1],As shown here <COMMA> the eyebrow distributions do not appear to be similar .,Visually <COMMA> the eyelid shapes shown clearly differ greatly .
+350_I.jpg,[0 2 -1 2 -2 3 0],As shown here <COMMA> the skins completely fail to look like each other .,Visually <COMMA> these skins look nothing like each other .
+351_I.jpg,[5 0 0 -3 0 -1 0],Visually <COMMA> these iris colors fail to look alike here .,Visually <COMMA> the iris and skin colors do not appear to be alike .
+352_I.jpg,[3 0 -1 1 0 -3 -1],Here <COMMA> the skin colors and eyelid shapes do not look alike .,Here <COMMA> the people do not possess the same skin color .
+353_I.jpg,[1 -3 0 1 0 -2 1],Here <COMMA> the eyebrows appear to be so so different .,Visually <COMMA> the eyebrows here do not look alike .
+354_I.jpg,[-2 2 -3 -1 -3 0 -1],There seem to be many differences in the skin textures .,Visually <COMMA> these skins have different textures .
+355_I.jpg,[2 0 0 0 0 0 0],There are obvious differences in iris colors .,Here <COMMA> the people have different iris colors .
+356_I.jpg,[2 1 0 1 0 2 1],Visually <COMMA> the irises have different colors .,As shown here <COMMA> the irises fail to have the same color .
+357_I.jpg,[3 1 2 0 0 -3 -1],As shown here <COMMA> the irises and skin clearly do not match .,There are many differences in iris colors and eyelids shapes .
+358_I.jpg,[3 1 0 1 0 -2 0],Visually <COMMA> these irises appear to be very different .,Visually <COMMA> the irises here do not match .
+359_I.jpg,[2 -1 -3 1 2 3 0],As shown here <COMMA> the eyebrows have totally different shapes .,Obviously <COMMA> the skins shown do not share the same color .
+360_I.jpg,[0 -2 0 0 0 2 0],Visually <COMMA> the skin spots do not look alike .,Visually <COMMA> the people show have different skin spots .
+361_I.jpg,[-1 3 -1 1 -3 0 -1],As shown here <COMMA> the skins just do not look alike .,Clearly <COMMA> the skins and eyebrows here look undeniably distinct .
+362_I.jpg,[-1 -1 -3 0 0 -2 0],As shown here <COMMA> the eyebrows do not look alike .,Clearly <COMMA> the eyebrows appear to be too distinct .
+363_I.jpg,[5 -3 0 -1 1 1 0],Visually <COMMA> the iris colors are not shared here .,As shown here <COMMA> the people do not share iris colors and skin textures .
+364_I.jpg,[1 -2 1 -1 3 0 1],As shown here <COMMA> the people do not share the same skin textures .,Obviously <COMMA> the skin textures are not shared here .
+365_I.jpg,[-6 -2 -2 -1 2 0 0],Here <COMMA> the eyebrows look too dissimilar .,There are major differences in the eyebrows here .
+366_I.jpg,[-1 3 0 0 -2 1 0],Here the eyebrows have too dissimilar distributions .,Clearly <COMMA> these eyebrows completely fail to match .
+367_I.jpg,[1 -1 3 -1 0 1 -1],Visually <COMMA> the eyebrows shown here clearly do not match .,As shown here <COMMA> the eyebrows and irises are too different .
+368_I.jpg,[-6 1 -2 1 0 3 -1],Visually <COMMA> the irises and eyelid are vastly different .,Visually <COMMA> the people shown do not share iris colors and eyelid shapes .
+369_I.jpg,[3 3 -1 0 0 -1 0],Here <COMMA> the eyebrow shapes do not match .,As shown here <COMMA> the eyebrows have nothing in common .
+370_I.jpg,[3 -1 0 1 0 -3 1],Clearly <COMMA> the iris colors here do not look alike .,Obviously <COMMA> these irises and eyebrows appear to be different .
+371_I.jpg,[2 0 0 0 0 0 0],Visually <COMMA> the eyelids and skin spots are not shared .,Visually <COMMA> the two people here do not share skin spots .
+372_I.jpg,[-3 2 0 0 0 2 0],As shown here <COMMA> the iris colors are visually different .,Clearly <COMMA> the irises are dissimilar in color .
+373_I.jpg,[0 -1 0 1 0 2 -1],As shown here <COMMA> the eyelid shapes clearly do not match .,Here <COMMA> the eyelid shapes do not match .
+374_I.jpg,[-4 0 0 -1 -2 0 0],As shown here <COMMA> the iris colors are too dissimilar .,Visually <COMMA> the irises show here are vastly dissimilar here .
+375_I.jpg,[0 1 0 0 0 -3 -1],As shown here <COMMA> the eyebrows are so dissimilar .,Visually <COMMA> the eyebrows shown here are so so dissimilar .
+376_I.jpg,[-3 -1 -2 -1 0 -3 0],Visually <COMMA> the iris colors here are not equal .,Clearly <COMMA> these iris colors look different .
+377_I.jpg,[0 1 -1 0 0 -2 0],Visually <COMMA> the eyebrows show differences .,There seem to be major differences in the eyebrows .
+378_I.jpg,[0 -1 -2 1 0 0 0],As shown here <COMMA> the eyebrow shapes do not look alike .,Clearly <COMMA> the eyebrows here look different .
+379_I.jpg,[4 0 0 -1 0 0 1],As shown here <COMMA> the iris colors just do not look alike .,As shown here <COMMA> the eyelid shapes and iris colors look undeniably different .
+380_I.jpg,[-2 0 2 1 0 -3 -1],Clearly <COMMA> the eyebrows here do not look alike .,Visually <COMMA> the people do not possess the same eyebrows .
+381_I.jpg,[3 -2 0 0 2 0 1],As shown here <COMMA> the eyebrows and irises are totally different .,Clearly <COMMA> there are many differences in the irises and eyebrows .
+382_I.jpg,[3 0 2 -1 -2 3 0],There seem to be many differences in these irises .,Visually <COMMA> the irises shown have dissimilar colors .
+383_I.jpg,[0 0 -1 -1 -2 3 0],As shown here <COMMA> the eyebrows look clearly dissimilar .,Visually <COMMA> the eyebrows here do not look alike .
+384_I.jpg,[0 1 0 0 0 0 0],Obviously <COMMA> these eyebrow distributions look dissimilar .,There are differences in the eyebrows .
+385_I.jpg,[3 -1 -3 1 0 0 0],Visually <COMMA> the irises here clearly do not match .,There are differences in the eyebrow shapes and iris colors .
+386_I.jpg,[3 -2 0 0 0 0 0],As shown here <COMMA> the irises look nothing like each other .,Clearly <COMMA> the irises are too dissimilar .
+387_I.jpg,[0 0 -2 0 -1 -3 0],There are many differences in these eyelids .,Clearly <COMMA> the eyelids shown do not match .
+388_I.jpg,[-1 1 -3 -2 -2 0 1],Visually <COMMA> the eyebrows and eyelids show many differences here .,Here <COMMA> the skin colors and eyelids do not match .
+389_I.jpg,[0 -1 0 -1 -2 -3 0],There are big differences between these skins .,Visually <COMMA> the skins shown here are undeniably dissimilar .
+390_I.jpg,[-6 -1 0 0 0 0 0],Visually <COMMA> the irises just do not match here .,Obviously <COMMA> these iris colors look nothing alike .
+391_I.jpg,[0 2 3 -1 0 -3 1],Visually <COMMA> the eyelid shapes are not shared here .,As shown here <COMMA> the people clearly do not share the eyelid shapes .
+392_I.jpg,[-2 0 -1 1 -2 -1 0],As shown here <COMMA> the irises appear to be very dissimilar .,Visually <COMMA> the irises here just do not look alike .
+393_I.jpg,[2 0 -2 0 0 -3 1],Visually <COMMA> the skin spots here clearly do not match .,There are major differences in the eyelids here .
+394_I.jpg,[1 1 -2 -1 0 -3 -1],Visually <COMMA> the skin spots here seem to be a major difference .,As shown here <COMMA> the eyelid shapes and eyebrow distributions do not match .
+395_I.jpg,[-1 0 0 -1 0 3 -1],As shown here <COMMA> the eyebrows are visually different .,Visually <COMMA> the eyebrows shown here show visual differences .
+396_I.jpg,[1 0 -1 0 0 2 1],There are visual differences in the skin spots .,As shown here <COMMA> the skin spots are not equal .
+397_I.jpg,[-3 2 1 -1 2 2 0],Visually <COMMA> the irises clearly differ in color .,Visually <COMMA> the skins show clear differences in texture and spots .
+398_I.jpg,[2 0 -2 -1 -2 1 1],As shown here <COMMA> the irises clearly do not match .,Visually <COMMA> the iris colors are undeniably different .
+399_I.jpg,[0 0 1 0 0 -3 0],As shown here <COMMA> the skin spots show evident differences .,Clearly <COMMA> these skin spots are not equal .
+400_I.jpg,[0 0 -1 0 -2 -3 0],As shown here <COMMA> the skin spots are obviously different .,Visually <COMMA> the skin spots are not equal in these people .
+401_I.jpg,[-1 0 1 -1 0 3 0],Visually <COMMA> the skin spots are not equal here .,Here <COMMA> there is a big difference in skin spots .
+402_I.jpg,[0 -1 0 0 0 0 0],Visually <COMMA> the eyebrow distributions are not equal .,As shown here <COMMA> the eyebrows have different distributions .
+403_I.jpg,[-3 0 0 -1 0 -3 -1],Visually <COMMA> the iris colors clearly do not match .,Here <COMMA> the irises and eyebrows are clearly different .
+404_I.jpg,[5 -2 0 1 3 1 1],As shown here <COMMA> the irises and skins present many differences .,As shown here <COMMA> the irises and skins have big differences .
+405_I.jpg,[0 0 1 0 0 2 -1],Visually <COMMA> the eyelids are clearly dissimilar here .,As shown here <COMMA> the eyelids differ in shape .
+406_I.jpg,[0 0 3 1 0 0 0],As shown here <COMMA> the people have clearly dissimilar eyebrow shapes .,Visually <COMMA> the eyebrows shown here have dissimilar shapes .
+407_I.jpg,[0 0 1 1 0 3 1],As shown here <COMMA> the skin spots are visually dissimilar .,Visually <COMMA> the skin spots and eyelid shapes clearly do not match .
+408_I.jpg,[-2 1 3 -1 -3 0 0],Visually <COMMA> the skin textures are clearly dissimilar .,Visually <COMMA> the skin textures shown here are obviously different .
+409_I.jpg,[-1 1 -1 0 -2 0 -1],As shown here <COMMA> the eyelids are so different .,Visually <COMMA> the difference in the eyelid shapes is big .
+410_I.jpg,[0 0 1 0 2 0 -1],Visually <COMMA> the skin textures do not match .,As shown here <COMMA> the skin textures are visually different .
+411_I.jpg,[0 1 -1 -2 -2 2 0],As shown here <COMMA> the skins have clearly different colors and textures .,Visually <COMMA> the skin spots shown here have differences .
+412_I.jpg,[-4 0 -2 0 2 1 -1],There are big differences in skin spots and iris colors .,There is a really big visual difference in skin spots .
+413_I.jpg,[6 0 3 0 0 3 0],Visually <COMMA> the iris colors are obviously different here .,As shown here <COMMA> the irises do not match .
+414_I.jpg,[0 3 -3 0 0 -3 -1],As shown here <COMMA> the eyebrows have many differences .,There seem to be differences in eyebrow distributions and shapes .
+415_I.jpg,[-3 -2 1 1 -2 -1 -1],As shown here <COMMA> the eyebrows clearly do not match .,Visually <COMMA> the people shown have contrasting eyebrows .
+416_I.jpg,[3 0 2 0 0 3 0],Visually <COMMA> the skin spots are too different .,As shown here <COMMA> the skin spots present clear differences .
+417_I.jpg,[0 -2 1 -1 3 3 1],Here <COMMA> the skins have different textures .,Visually <COMMA> the skin textures are too different here .
+418_I.jpg,[1 0 2 2 2 0 -1],Visually <COMMA> the skins shown appear too different .,As shown here <COMMA> the eyelid shapes are too dissimilar .
+419_I.jpg,[6 1 0 0 0 0 0],Visually <COMMA> the iris colors here show big differences .,As shown here <COMMA> the iris colors are clearly dissimilar .
+420_I.jpg,[-2 0 0 -1 0 3 0],Visually <COMMA> the iris colors shown here clearly have differences .,As shown here <COMMA> the people do not possess the same iris colors .
+421_I.jpg,[0 2 2 1 -3 3 0],Visually <COMMA> the skins have dissimilar textures and spots .,As shown here <COMMA> the skins clearly have dissimilar textures .
+422_I.jpg,[2 -1 0 -1 0 2 -1],Visually <COMMA> the iris colors fail to match here .,Here <COMMA> the irises have different colors .
+423_I.jpg,[3 -1 0 1 -2 3 1],Visually <COMMA> the skin spots clearly differ here .,As shown here <COMMA> the people differ in iris colors .
+424_I.jpg,[0 -1 -2 -1 0 0 0],Visually <COMMA> the eyebrow show obvious differences .,There are obvious differences in these eyebrows .
+425_I.jpg,[0 0 1 0 2 -1 0],Visually <COMMA> the skins shown clearly have different textures .,As shown here <COMMA> the skin textures just do not match .
+426_I.jpg,[0 0 0 -1 -2 -3 0],Visually <COMMA> the skin spots here are so different .,As shown here <COMMA> the skins have different spots .
+427_I.jpg,[0 1 -2 0 -2 0 0],Visually <COMMA> the eyebrows appear to be different here .,There is a difference in the eyebrows .
+428_I.jpg,[-3 0 3 0 2 0 0],Visually <COMMA> the irises have contrasting colors .,Visually <COMMA> the iris colors appear to not match .
+429_I.jpg,[-6 0 1 0 0 3 1],Visually <COMMA> the irises have different colors .,As shown here <COMMA> the people do not share the same skin spots .
+430_I.jpg,[-6 -1 0 0 0 0 1],Visually <COMMA> the iris colors are not shared by these people .,Clearly <COMMA> the iris colors differ greatly .
+431_I.jpg,[3 -1 1 3 0 0 0],Visually <COMMA> the skin colors and iris colors are really dissimilar .,As shown here <COMMA> the skins are so dissimilar .
+432_I.jpg,[-3 3 0 0 0 2 0],Visually <COMMA> the skin spots clearly differ here .,As shown here <COMMA> the eyebrows have clearly dissimilar distributions .
+433_I.jpg,[0 0 -1 -1 0 0 0],Visually <COMMA> the eyebrows have contrasting shapes .,As shown here <COMMA> the eyebrows have dissimilar shapes .
+434_I.jpg,[2 0 0 1 2 3 -1],Visually <COMMA> the eyelids are so different .,There are really big differences in the eyebrows .
+435_I.jpg,[0 0 0 -1 0 -1 0],Visually <COMMA> the skin spots and skin color are clearly different .,Visually <COMMA> the skin colors are visually different .
+436_I.jpg,[4 0 0 0 0 2 0],As shown here <COMMA> the irises have many differences .,Visually <COMMA> the irises and skin are visually different .
+437_I.jpg,[5 0 2 -1 -2 0 0],Visually <COMMA> the iris have clearly different colors .,As shown here <COMMA> the iris colors clearly do not match .
+438_I.jpg,[-6 -1 0 0 0 0 -1],Visually <COMMA> the people shown here have different iris colors .,As shown here <COMMA> these irises have contrasting colors .
+439_I.jpg,[0 -2 -1 -1 -2 1 0],Visually <COMMA> the skin textures are not equal here .,As shown here <COMMA> the skins and eyebrows are clearly different .
+440_I.jpg,[3 -2 0 1 0 1 0],Visually <COMMA> the iris colors here are undeniably different .,As shown here <COMMA> the irises are dissimilar in color .
+441_I.jpg,[-6 -1 0 -1 0 0 0],Visually <COMMA> the iris colors are dissimilar in these people .,Visually <COMMA> the people shown have dissimilar iris colors .
+442_I.jpg,[-3 2 3 0 0 0 0],As shown here <COMMA> the iris colors are clearly dissimilar .,As shown here <COMMA> the eyebrow shapes differ greatly .
+443_I.jpg,[3 1 3 1 0 1 0],Visually <COMMA> the irises shown have many differences .,Here <COMMA> there are clearly dissimilar irises .
+444_I.jpg,[0 -1 0 0 0 3 1],As shown here <COMMA> the eyebrows are so dissimilar .,As shown here <COMMA> the people have really different skin spots .
+445_I.jpg,[0 0 1 -1 -2 -2 -1],Visually <COMMA> the skins here are undeniably different in texture and spots .,As shown here <COMMA> the skin textures and skin spots differ somewhat .
+446_I.jpg,[3 1 2 1 0 -2 0],Visually <COMMA> the iris colors are objectively not equal .,As shown here <COMMA> the skin colors appear to be different .
+447_I.jpg,[0 0 1 0 2 3 0],Visually <COMMA> the eyebrows are too different here .,As shown here <COMMA> the skins have many differences .
+448_I.jpg,[0 2 3 0 -3 -3 1],Visually <COMMA> the skins and eyebrows clearly differ here .,As shown here <COMMA> the eyebrows and skins possess big differences .
+449_I.jpg,[3 0 -3 1 0 0 -1],Visually <COMMA> the iris colors here appear to be different .,As shown here <COMMA> the irises and eyelids clearly do not match .
+450_I.jpg,[1 0 0 0 0 -3 0],Visually <COMMA> the skin spots here do not match .,As shown here <COMMA> the people have contrasting skin spots .
+451_I.jpg,[1 0 1 0 -2 0 1],Evidently <COMMA> the skin textures appear to not match .,As shown here <COMMA> the eyelids are different .
+452_I.jpg,[0 1 0 -1 0 0 0],As shown here <COMMA> the skins colors do not match .,Here <COMMA> the skins have different colors .
+453_I.jpg,[3 1 0 1 0 -2 0],Evidently <COMMA> the iris colors appear to be different .,As shown here <COMMA> the skin spots have visual disparities .
+454_I.jpg,[3 1 1 0 0 0 0],Evidently <COMMA> the iris colors do not match here .,As shown here <COMMA> the iris colors are different .
+455_I.jpg,[0 1 0 0 0 -3 1],Evidently <COMMA> the skin spots are not equal .,As shown here <COMMA> the people do not have the same skin spots .
+456_I.jpg,[2 0 0 -1 0 0 0],Evidently <COMMA> the iris colors are not the same .,As shown here <COMMA> the skin colors appear to be different .
+457_I.jpg,[6 -2 0 0 2 3 1],As shown here <COMMA> the irises are undeniably different .,Clearly <COMMA> the people do not share the same iris colors .
+458_I.jpg,[-6 0 1 0 0 0 0],Evidently <COMMA> the iris colors are not the same here .,Here <COMMA> the irises and eyebrows are undeniably different .
+459_I.jpg,[-2 0 0 -1 -2 -2 0],Evidently <COMMA> the skins possess visual disparities .,As shown here <COMMA> the skins are visually different .
+460_I.jpg,[-2 -3 1 0 3 -3 -1],Evidently <COMMA> the skins have different textures here .,Clearly <COMMA> these skins have dissimilar textures .
+461_I.jpg,[-3 0 0 0 2 0 0],Evidently <COMMA> the iris colors here are undeniably dissimilar .,As shown here <COMMA> the irises are undeniably dissimilar .
+462_I.jpg,[-1 -1 -2 0 -2 0 1],Evidently <COMMA> the skin textures do not match here .,As shown here <COMMA> the eyebrows have dissimilar distributions and shapes .
+463_I.jpg,[-3 2 1 0 -1 0 0],Evidently <COMMA> the eyebrows shown do not share the same distributions .,As shown here <COMMA> the iris colors are visually different .
+464_I.jpg,[2 0 0 1 2 0 0],Evidently <COMMA> the skin textures and iris colors do not match here .,As shown here <COMMA> the skin colors are visually different .
+465_I.jpg,[-3 -1 -2 0 2 -3 0],Evidently <COMMA> the people shown do not share the same skin spots .,As shown here <COMMA> the skin textures clearly differ .
+466_I.jpg,[-3 3 1 0 0 -3 1],Here <COMMA> the people do not share the same eyelid shapes .,Evidently <COMMA> the eyelids have different shapes .
+467_I.jpg,[0 1 1 -2 0 1 0],Evidently <COMMA> the skins possess clearly different colors .,Evidently <COMMA> the skin colors appear to be very different .
+468_I.jpg,[1 1 -1 0 0 -3 0],Evidently <COMMA> the skin spots shown are different .,As shown here <COMMA> the skin spots differ greatly .
+469_I.jpg,[0 1 1 2 0 0 0],Evidently <COMMA> the people shown have dissimilar skin colors .,As shown here <COMMA> the eyebrow distributions are not equal .
+470_I.jpg,[-3 0 1 0 0 0 0],Evidently <COMMA> the irises clearly differ .,As shown here <COMMA> the people have really dissimilar iris colors .
+471_I.jpg,[4 0 -1 0 0 0 0],Evidently <COMMA> the iris colors shown here do not match .,As shown here <COMMA> the irises are too dissimilar .
+472_I.jpg,[1 1 1 1 0 0 0],Evidently <COMMA> the eyebrows are too dissimilar here .,As shown here <COMMA> the skins have really different colors .
+473_I.jpg,[-2 -1 1 0 2 1 0],Evidently <COMMA> the skin textures shown are undeniably different here .,As shown <COMMA> the skins have different textures .
+474_I.jpg,[4 -3 0 -1 3 -3 0],Evidently <COMMA> the iris colors clearly do not match here .,As shown <COMMA> the people differ in the skin textures and iris colors .
+475_I.jpg,[1 -1 1 1 2 0 0],Evidently <COMMA> the skin textures clearly differ here .,As shown <COMMA> the skins have contrasting textures and colors .
+476_I.jpg,[-3 0 -1 -1 -2 2 0],Evidently <COMMA> the iris colors clearly do not match .,As shown <COMMA> the skin textures are clearly different .
+477_I.jpg,[1 1 -1 0 0 -2 0],Evidently <COMMA> the eyebrows show many differences here .,As shown <COMMA> the skins have visually different spots .
+478_I.jpg,[0 3 0 1 -3 -3 1],Evidently <COMMA> the skin textures and spots are dissimilar .,As shown <COMMA> the eyebrow distributions show big differences .
+479_I.jpg,[2 2 0 1 0 0 0],Evidently <COMMA> the iris colors shown really do not match .,As shown <COMMA> the eyebrows and irises are undeniably dissimilar .
+480_I.jpg,[1 1 1 3 0 0 0],Evidently <COMMA> the skin colors and eyebrow distributions show big differences .,As shown <COMMA> the skins have contrasting colors .
+481_I.jpg,[3 0 1 0 2 -3 0],Evidently <COMMA> the irises here do not match .,Evidently <COMMA> the skin spots clearly do not match here .
+482_I.jpg,[1 0 1 2 0 0 -1],Evidently <COMMA> the skins have many differences here .,As shown <COMMA> the skin colors appear to be very dissimilar .
+483_I.jpg,[3 1 0 1 0 2 -1],Evidently <COMMA> the eyelids completely fail to match .,As shown <COMMA> the people have really dissimilar eyelids .
+484_I.jpg,[0 -2 1 0 2 0 0],Evidently <COMMA> the eyebrow distributions are too different .,As shown <COMMA> the skin textures do not match .
+485_I.jpg,[1 -2 0 1 0 -3 0],Evidently <COMMA> the skin spots shown possess many differences .,As shown <COMMA> the eyebrows have different distributions .
+486_I.jpg,[-1 2 -1 -1 -2 2 -1],Evidently <COMMA> the skin textures and eyelid shapes clearly fail to match .,As shown <COMMA> the eyelids have really different eyelids .
+487_I.jpg,[-5 0 -1 -2 -2 0 1],Evidently <COMMA> the irises shown here have big differences .,Here <COMMA> the irises do not match .
+488_I.jpg,[-2 2 1 0 0 0 0],Evidently <COMMA> the iris colors are undeniably different .,As shown <COMMA> the iris colors appear to be different .
+489_I.jpg,[-2 -2 -2 -1 1 0 0],Evidently <COMMA> the eyebrows and irises have visual disparities .,There are disparities in these eyebrows .
+490_I.jpg,[-3 0 0 -1 0 -1 0],As shown <COMMA> the iris colors have many differences .,Evidently <COMMA> the iris colors show big differences .
+491_I.jpg,[-3 -1 0 -1 -2 0 -1],Evidently <COMMA> the eyelids look clearly dissimilar .,As shown <COMMA> the people have contrasting eyelids .
+492_I.jpg,[0 0 0 1 0 1 -1],Evidently <COMMA> the skin spots are not equal here .,As shown <COMMA> the people have dissimilar skin spots .
+493_I.jpg,[0 -2 0 -1 2 3 1],Evidently <COMMA> the skin spots are not equal here .,As shown <COMMA> the people do not share the same eyelid shapes .
+494_I.jpg,[2 2 3 1 0 -1 1],Evidently <COMMA> the skin spots shown here are not equal .,As shown <COMMA> the skins have really dissimilar spots .
+495_I.jpg,[-1 2 -1 -1 -3 -3 -1],Evidently <COMMA> the skins have contrasting textures and spots .,There are differences in iris colors .
+496_I.jpg,[3 3 -1 1 -3 0 0],As shown <COMMA> the skin textures are visually dissimilar .,Evidently <COMMA> the skins and eyebrows are not equal here .
+497_I.jpg,[-3 0 -3 0 0 0 0],As shown <COMMA> the eyebrow shapes are undeniably dissimilar .,Evidently <COMMA> the irises possess different colors here .
+498_I.jpg,[1 2 2 0 -3 -3 0],As shown <COMMA> the skins have different textures and spots .,Evidently <COMMA> the skins definitely do not match .
+499_I.jpg,[0 0 -3 1 2 0 1],Evidently <COMMA> the eyelids have different shapes here .,As shown <COMMA> the people fail to match in the eyelids .
+500_I.jpg,[2 0 0 1 0 3 0],As shown <COMMA> the skin spots are too different here .,Evidently <COMMA> the skin spots do not match here .
+501_I.jpg,[0 0 -1 0 0 1 0],Evidently <COMMA> the skin spots are definitely dissimilar .,As shown <COMMA> the people fail to have equal eyebrows .
+502_I.jpg,[-5 0 -1 0 0 0 0],Evidently <COMMA> the iris fail to be equal .,Evidently <COMMA> the iris colors are extremely dissimilar .
+503_I.jpg,[1 -1 -3 0 0 3 0],As shown <COMMA> the skin spots definitely do not match .,Evidently <COMMA> the skin spots do not match here .
+504_I.jpg,[-1 1 1 0 0 3 1],As shown <COMMA> the irises are so different in color .,Clearly <COMMA> the iris colors and skin colors appear to be different .
+505_I.jpg,[-1 0 0 1 0 -2 1],As shown <COMMA> the skin spots appear to not be equal .,There are really big differences between these skin spots .
+506_I.jpg,[5 1 2 0 -2 0 0],Clearly <COMMA> the iris colors definitely do not match .,Clearly <COMMA> the irises have totally different colors here .
+507_I.jpg,[-3 0 3 0 0 0 0],As shown <COMMA> the people do not share the same iris colors .,Clearly <COMMA> the iris do not match .
+508_I.jpg,[1 2 -3 1 0 0 1],Clearly <COMMA> the eyebrow distributions do not match here .,Clearly <COMMA> these eyebrow shapes are not shared .
+509_I.jpg,[0 -2 0 0 2 3 1],Clearly <COMMA> the people shown do not share the same skin spots .,As shown <COMMA> the skins have different textures and spots .
+510_I.jpg,[3 -2 0 1 0 -2 0],Clearly <COMMA> the iris colors and skin spots are not shared here .,There are visual disparities between these irises .
+511_I.jpg,[6 2 0 0 -2 0 0],Clearly <COMMA> the iris colors appear to be really different .,There are many differences in these iris colors .
+512_I.jpg,[3 1 1 0 0 -2 0],Clearly <COMMA> the iris colors are not equal here .,As shown <COMMA> the people differ in the iris colors .
+513_I.jpg,[-2 0 0 1 0 2 0],Clearly <COMMA> the skin spots definitely do not match here .,There are differences in skin spots here .
+514_I.jpg,[1 0 -2 0 2 0 -1],As shown <COMMA> the eyelids definitely do not match .,Clearly <COMMA> the eyebrow shapes are not equal here .
+515_I.jpg,[0 0 1 -1 -2 0 0],Obviously <COMMA> the skins have different colors .,As shown <COMMA> the skins do not match in color and texture .
+516_I.jpg,[0 -1 0 0 0 -3 1],There is no match in skin spots here .,As shown <COMMA> the skin spots do not match here .
+517_I.jpg,[0 1 0 -1 0 1 -1],Clearly <COMMA> the eyelids are not really equal .,Clearly <COMMA> the eyelid shapes are not equal here .
+518_I.jpg,[-2 -1 0 -1 0 0 1],As shown <COMMA> the people differ greatly in the eyelid shapes .,There is no match in eyelid shapes here .
+519_I.jpg,[2 0 -2 1 3 -3 1],As shown <COMMA> the skin spots and textures are clearly not equal .,Clearly <COMMA> the skin textures are really different here .
+520_I.jpg,[3 0 -1 0 0 3 1],Clearly <COMMA> the people shown are dissimilar in iris colors .,Visually <COMMA> these irises do not match .
+521_I.jpg,[-2 2 2 -1 -3 -3 0],Clearly <COMMA> the skin spots appear to be very dissimilar here .,Clearly <COMMA> the irises <COMMA> skins and eyebrows are undeniably dissimilar .
+522_I.jpg,[-1 0 -3 0 0 0 0],Clearly <COMMA> the eyebrow shapes appear to differ greatly here .,As shown <COMMA> the eyebrows are not equal in shape .
+523_I.jpg,[-3 -1 -1 -2 0 -3 0],Clearly <COMMA> the skin colors differ greatly here .,As shown <COMMA> the people do not share skin colors and iris colors .
+524_I.jpg,[-3 0 0 -1 0 0 -1],As shown <COMMA> the iris colors appear to be very different .,Clearly <COMMA> the eyelid shapes are visually different .
+525_I.jpg,[2 -3 -1 0 3 1 -1],As shown <COMMA> the iris colors are clearly different .,Clearly <COMMA> the people shown do not share the same skin textures .
+526_I.jpg,[-5 -1 0 -1 0 3 0],Clearly <COMMA> the iris colors are not shared here .,As shown <COMMA> the people do not share the iris colors .
+527_I.jpg,[2 -1 0 0 0 -3 0],Clearly <COMMA> the people differ in skin spots .,As shown <COMMA> the skins have different spots .
+528_I.jpg,[6 0 0 -1 0 2 0],Clearly <COMMA> the iris colors really do not match .,As shown <COMMA> the irises are undeniably different in color .
+529_I.jpg,[0 2 0 3 2 -1 -1],Clearly <COMMA> the skins have dissimilar textures .,Clearly <COMMA> the skin spots definitely do not match .
+530_I.jpg,[0 -1 0 1 0 0 -1],As shown <COMMA> the eyelid shapes are undeniably dissimilar .,Clearly <COMMA> the eyelid shapes appear to be very dissimilar here .
+531_I.jpg,[-2 0 2 0 -2 0 0],As shown <COMMA> the people do not share the skin textures .,As shown <COMMA> the iris have definitely dissimilar colors .
+532_I.jpg,[2 0 0 0 0 2 0],Clearly <COMMA> the skin spots are not equal here .,As shown <COMMA> the iris colors appear to be very dissimilar .
+533_I.jpg,[4 0 0 0 0 0 0],Clearly <COMMA> the iris colors are clearly different .,Clearly <COMMA> these people do not share the same iris colors .
+534_I.jpg,[0 2 1 -1 0 0 0],As shown <COMMA> the eyebrows have contrasting distributions .,Clearly <COMMA> the skin colors are clearly different .
+535_I.jpg,[1 1 0 1 0 -1 -1],Clearly <COMMA> the skins have visually different spots .,As shown <COMMA> the skin spots do not match .
+536_I.jpg,[4 0 0 0 -2 -3 1],Clearly <COMMA> the iris colors and skin spots are not shared by these people .,Clearly <COMMA> the people shown definitely differ in the iris colors .
+537_I.jpg,[3 1 0 1 0 0 -1],Clearly <COMMA> the iris colors are not equal here .,There seem to be very different eyelid shapes here .
+538_I.jpg,[0 -2 1 0 3 1 -1],As shown <COMMA> the eyelid shapes are totally dissimilar .,Clearly <COMMA> the skin textures seem to be very dissimilar .
+539_I.jpg,[6 0 0 0 0 0 0],As shown <COMMA> the iris colors do not match .,Clearly <COMMA> the iris colors are undeniably dissimilar .
+540_I.jpg,[1 0 1 1 2 -3 0],Clearly <COMMA> the skins have different spots and textures here .,As shown <COMMA> the skin spots and iris colors clearly do not match .
+541_I.jpg,[3 -3 3 1 -2 -3 0],Clearly <COMMA> the iris colors and eyebrow distributions are too dissimilar .,There are many differences between these skin spots .
+542_I.jpg,[-1 0 -3 0 2 0 -1],Clearly <COMMA> the eyelid shapes clearly do not match here .,As shown <COMMA> the eyelids are so dissimilar .
+543_I.jpg,[0 0 3 -1 -2 1 -1],As shown <COMMA> the people have contrasting eyebrow shapes .,Clearly <COMMA> the people shown definitely do not share eyebrow shapes .
+544_I.jpg,[1 0 -2 0 0 -1 0],Clearly <COMMA> the skin spots are not shared here .,As shown <COMMA> the eyebrow shapes are too dissimilar .
+545_I.jpg,[6 0 -1 0 0 3 1],Clearly <COMMA> the iris colors are really dissimilar here .,Clearly <COMMA> the iris colors colors appear to be very dissimilar .
+546_I.jpg,[-3 0 0 1 -2 0 -1],As shown <COMMA> the eyelid shapes are extremely dissimilar .,As shown <COMMA> the iris colors are clearly dissimilar .
+547_I.jpg,[0 0 3 0 0 -3 1],Clearly <COMMA> the eyelid shapes shown are too different .,As shown <COMMA> the eyebrow shapes and skin spots are too different .
+548_I.jpg,[0 1 -1 0 0 2 0],Clearly <COMMA> the skin spots shown do not match .,As shown <COMMA> the skin spots are undeniably different .
+549_I.jpg,[0 0 -1 0 0 3 -1],As shown <COMMA> the people have different skin colors .,As shown <COMMA> the skin colors do not match .
+550_I.jpg,[3 2 0 -1 -2 1 0],Clearly <COMMA> the iris colors here are undeniably different .,Clearly <COMMA> the skin textures here do not match .
+551_I.jpg,[-4 0 0 1 0 -1 1],As shown <COMMA> the people do not share iris colors .,As shown <COMMA> the irises are totally different .
+552_I.jpg,[5 0 1 0 3 0 1],Clearly <COMMA> the skin textures are not shared here .,As shown <COMMA> the people fail to match in skin textures .
+553_I.jpg,[6 -2 -1 1 2 2 -1],Clearly <COMMA> the iris colors do not match here .,Clearly <COMMA> the irises and skins are completely dissimilar .
+554_I.jpg,[0 1 1 -2 2 -3 0],Here <COMMA> the skin spots are undeniably dissimilar .,As shown <COMMA> the skins have nothing in common .
+555_I.jpg,[1 -1 -1 0 0 -1 -1],Clearly <COMMA> the skin eyebrows have dissimilar distributions and shapes .,As shown <COMMA> the eyebrow shapes are not equal .
+556_I.jpg,[6 1 1 -1 0 0 0],Clearly <COMMA> the iris colors here clearly do not match .,As shown <COMMA> the iris colors are so dissimilar .
+557_I.jpg,[-2 -3 3 -1 2 0 0],The people here differ in the eyebrows .,As shown <COMMA> the people are not equal in the skins .
+558_I.jpg,[0 1 0 -1 0 1 0],As shown <COMMA> the skins have dissimilar spots .,Visually <COMMA> the people differ in eyebrow distributions .
+559_I.jpg,[5 0 0 0 3 0 0],The iris colors are visually dissimilar here .,Here <COMMA> the iris colors do not match .
+560_I.jpg,[6 -2 0 0 0 0 1],As shown <COMMA> the irises clearly fail to match .,The eyebrow distributions are not equal here .
+561_I.jpg,[-3 -1 1 -1 2 0 0],Evidently <COMMA> the skins have dissimilar spots .,The skin spots are not shared here .
+562_I.jpg,[-6 1 0 0 0 3 0],As shown <COMMA> the people do not share the same iris colors .,As shown <COMMA> the iris colors are undeniably dissimilar .
+563_I.jpg,[1 1 -1 1 0 -3 0],The skin spots are not equal here .,As shown <COMMA> the people clearly differ in the skin spots .
+564_I.jpg,[0 1 -3 -3 -2 1 0],The skins completely fail to match here .,The skin colors are extremely dissimilar .
+565_I.jpg,[-2 -2 3 0 2 3 0],The irises shown are not equal .,Visually <COMMA> these people differ in the skin spots and eyebrow shapes .
+566_I.jpg,[-1 -2 0 0 -2 3 0],Here <COMMA> the people differ in skin spots and textures .,As shown <COMMA> the people have different skin colors and spots .
+567_I.jpg,[1 -1 1 1 0 -3 0],The skin spots are not shared here .,As shown <COMMA> the people fail to match in the skin spots .
+568_I.jpg,[-2 2 1 1 -2 -2 0],The skins shown do not have the same spots .,As shown <COMMA> the people have contrasting iris colors .
+569_I.jpg,[-3 1 0 0 0 0 1],The iris colors are visually different here .,Evidently <COMMA> these skin spots and eyebrows are different .
+570_I.jpg,[0 0 -1 -1 0 -2 0],The skin spots shown are not shared here .,As shown <COMMA> the people fail to match in the skin spots .
+571_I.jpg,[5 0 -2 0 0 0 0],The iris colors are not shared by these people .,As shown <COMMA> the people differ in the iris colors .
+572_I.jpg,[-1 -2 0 0 3 3 0],The skins have different textures and spots .,The people shown do not share the same skin textures .
+573_I.jpg,[-1 0 0 1 3 -2 1],As shown <COMMA> the eyelids have different shapes .,The eyelids and skins are really not equal .
+574_I.jpg,[0 -3 1 0 3 0 0],The skin textures and eyebrows clearly fail to match here .,As shown <COMMA> the eyebrows and skins are incredibly dissimilar .
+575_I.jpg,[-2 0 -1 0 0 3 0],As shown <COMMA> the irises clearly differ in color .,The people shown differ in iris colors .
+576_I.jpg,[0 2 3 0 0 3 -1],As shown <COMMA> the eyebrows are undeniably dissimilar .,The skin spots are clearly not shared .
+577_I.jpg,[-3 1 0 -2 0 -3 1],As shown <COMMA> the people do not share the skin colors .,As shown <COMMA> the skin colors are clearly dissimilar .
+578_I.jpg,[-4 0 0 0 0 0 0],The skins do not have the same spots .,The iris have visually dissimilar colors .
+579_I.jpg,[3 0 3 0 0 -2 1],The eyelids do not share the shapes .,As shown <COMMA> the people differ in the eyelid shapes .
+580_I.jpg,[-6 0 1 0 0 1 0],Evidently <COMMA> the iris colors are dissimilar here .,As shown <COMMA> the iris colors are so dissimilar .
+581_I.jpg,[-2 -1 0 -1 0 -2 0],As shown <COMMA> the eyebrows have different distributions .,As shown <COMMA> the people do not share the same eyebrows .
+582_I.jpg,[-1 -2 0 -1 3 0 0],The skin textures is really different .,Evidently <COMMA> the skin textures are not shared here .
+583_I.jpg,[6 0 1 0 0 0 0],The iris colors are completely different .,As shown <COMMA> the iris colors are visually different .
+584_I.jpg,[-1 -2 1 1 3 0 1],The people here have contrasting skin textures .,There are big differences in the skin textures .
+585_I.jpg,[4 2 0 0 -2 0 0],The iris colors are incredibly different .,As shown <COMMA> the people have different iris colors .
+586_I.jpg,[0 3 2 1 0 0 0],The eyebrows shown clearly do not match .,As shown <COMMA> the eyebrows fail to match .
+587_I.jpg,[1 0 -3 0 0 -2 0],The skins here do not possess the same skin spots .,As shown <COMMA> the skin spots are clearly not the same .
+588_I.jpg,[3 0 3 1 0 3 0],The skin spots and eyebrow shapes differ here .,As shown <COMMA> the skins have contrasting spots .
+589_I.jpg,[-3 1 -1 -1 0 1 0],The iris colors differ here .,As shown <COMMA> the iris colors show clear differences .
+590_I.jpg,[-1 -3 0 0 3 3 0],The skins have dissimilar textures and spots .,As shown <COMMA> the eyebrows have dissimilar distributions .
+591_I.jpg,[-1 1 0 -1 0 0 0],The people here have dissimilar skin spots .,The people shown do not share the same skin spots .
+592_I.jpg,[0 -3 -3 0 0 0 -1],As shown <COMMA> the eyebrows have dissimilar eyebrows .,The eyebrows shown look objectively dissimilar .
+593_I.jpg,[2 1 0 1 0 3 0],The skin spots here are extremely dissimilar .,As shown <COMMA> the skin colors clearly differ .
+594_I.jpg,[0 0 -1 1 0 -1 0],As shown <COMMA> the skins have dissimilar spots .,The skin spots here are not equal .
+595_I.jpg,[-1 0 2 -1 -2 -3 0],As shown <COMMA> the skin colors and spots are not equal .,The skin colors are visually different .
+596_I.jpg,[-3 3 0 1 -3 -3 0],As shown <COMMA> the skins have visually different textures .,The skin textures are so different .
+597_I.jpg,[1 0 1 0 0 0 0],As shown <COMMA> the eyebrow shapes are different .,The eyebrow shapes appear to be different .
+598_I.jpg,[-2 0 0 1 0 -3 -1],As shown <COMMA> the skin spots really differ here .,Evidently <COMMA> these people do not share skin spots .
+599_I.jpg,[4 -1 3 0 0 0 -1],As shown <COMMA> the iris colors are extremely different .,Evidently <COMMA> these irises do not match .
+600_I.jpg,[2 1 -3 0 0 0 0],The eyebrow shapes fail to match .,As shown <COMMA> the eyebrows clearly fail to match .
+601_I.jpg,[1 2 -1 0 -3 -3 -1],As shown <COMMA> the skins have different textures and spots .,The people here do not share skin textures and spots .
+602_I.jpg,[1 0 3 1 -2 0 -1],As shown <COMMA> the eyebrow shapes are undeniably different .,The people shown do not match in eyebrow shapes and skin colors .
+603_I.jpg,[-3 -1 0 1 -2 3 -1],The people here have contrasting iris colors .,The skin textures do not match here .
+604_I.jpg,[5 0 -3 0 0 0 0],The irises are incredibly different .,As shown <COMMA> the eyebrow shapes seem to be really different .
+605_I.jpg,[6 0 0 0 1 0 1],The iris colors here do not match .,As shown <COMMA> the people clearly differ in the iris colors .
+606_I.jpg,[-3 -1 3 0 0 0 0],The iris colors here are undeniably different .,As shown <COMMA> the irises clearly do not match .
+607_I.jpg,[1 -1 0 0 0 2 1],As shown <COMMA> the iris colors have many differences .,The irises appear to be different here .
+608_I.jpg,[0 0 2 -1 0 0 -1],The eyelid shapes are really different here .,As shown <COMMA> the eyelid shapes are undeniably different .
+609_I.jpg,[0 0 -2 0 0 -3 0],Here <COMMA> the eyebrow shapes do not match .,Evidently <COMMA> these people differ in the eyebrow shapes .
+610_I.jpg,[0 1 1 1 0 0 0],The skin colors here do not match .,As shown <COMMA> the skins clearly differ in colors .
+611_I.jpg,[-5 2 2 -1 -3 0 -1],The iris colors are undeniably different .,As shown <COMMA> the iris colors and eyelid shapes do not match .
+612_I.jpg,[6 -2 1 1 0 0 0],The iris colors clearly do not look like each other .,The irises have nothing in common .
+613_I.jpg,[2 0 -2 1 0 3 -1],The skins here do not share spots .,As shown <COMMA> the people do not share skin spots .
+614_I.jpg,[4 -1 -1 1 -2 2 0],The iris colors clearly show disparities .,As shown <COMMA> the people differ in the iris colors .
+615_I.jpg,[-6 -1 0 0 -2 0 -1],As shown <COMMA> the iris colors are really dissimilar .,Here <COMMA> the iris colors clearly differ .
+616_I.jpg,[-1 -2 1 -1 -2 3 1],As shown <COMMA> the eyebrows really have nothing in common .,The skin spots show differences here .
+617_I.jpg,[3 1 0 1 0 3 -1],Here <COMMA> the eyelid shapes fail to match .,Evidently <COMMA> the eyelids have nothing in common .
+618_I.jpg,[1 1 1 0 0 0 0],There is a difference in skin spots here .,As shown <COMMA> the skin spots do not match .
+619_I.jpg,[-1 0 -1 -2 0 0 0],Here <COMMA> the skin colors fail to match .,The skins do not match in color .
+620_I.jpg,[6 1 0 -1 2 0 1],As shown <COMMA> the iris colors are clearly dissimilar .,The irises and eyelids just do not match .
+621_I.jpg,[5 0 -3 -1 0 1 1],Here <COMMA> the iris colors clearly do not match .,The people shown have really different iris colors .
+622_I.jpg,[0 2 1 0 3 0 0],Here <COMMA> the skin textures do not match .,The skin textures have nothing in common here .
+623_I.jpg,[3 0 1 0 0 0 0],As shown <COMMA> the iris colors clearly do not match .,Here <COMMA> the irises show too many differences .
+624_I.jpg,[-1 -1 -3 -1 0 2 0],The eyebrow shapes are too different .,As shown <COMMA> the eyebrows have clearly distinct shapes .
+625_I.jpg,[0 0 0 0 0 -3 1],The eyelids shown do not match .,Evidently <COMMA> these eyelid shapes fail to match .
+626_I.jpg,[4 0 -3 -1 0 1 0],As shown <COMMA> the iris colors are too different .,As shown <COMMA> the eyebrows have very different shapes .
+627_I.jpg,[0 1 0 0 0 0 -1],The eyebrow distributions shown are so dissimilar .,As shown <COMMA> the people do not match in the eyebrow distributions .
+628_I.jpg,[0 -1 1 0 0 -1 0],The eyebrows are visually distinct .,As shown <COMMA> the eyebrows clearly do not look alike .
+629_I.jpg,[3 3 -2 0 0 -2 0],As shown <COMMA> the iris colors and eyebrows distributions are too dissimilar .,Obviously <COMMA> these eyebrows and irises do not match .
+630_I.jpg,[2 1 -2 0 0 -1 1],Obviously <COMMA> the eyelids here are undeniably dissimilar .,Obviously <COMMA> the eyebrow distributions here are not shared .
+631_I.jpg,[2 0 0 1 0 0 0],As shown <COMMA> the people do not share eyebrows .,Evidently <COMMA> these skin colors do not match .
+632_I.jpg,[3 1 1 3 0 -2 0],Obviously <COMMA> the skins shown are too different .,Objectively speaking <COMMA> the skin colors completely fail to match .
+633_I.jpg,[-1 0 -1 1 0 -3 0],Evidently <COMMA> these skin spots do not match .,Objectively speaking <COMMA> the eyebrow shapes have nothing in common .
+634_I.jpg,[-4 0 0 1 2 0 0],Obviously <COMMA> the irises here clearly show many differences .,Objectively speaking <COMMA> the iris colors are too different .
+635_I.jpg,[-4 -2 1 0 2 0 0],Obviously <COMMA> the irises here have nothing in common .,Objectively speaking <COMMA> the people differ greatly in the iris colors .
+636_I.jpg,[-6 -1 -1 2 0 0 0],Objectively speaking <COMMA> the iris colors are undeniably different .,Evidently <COMMA> these irises are not shared .
+637_I.jpg,[-3 0 0 0 2 1 1],Objectively speaking <COMMA> the iris colors are too different .,Obviously <COMMA> these eyelids have different shapes .
+638_I.jpg,[-3 0 -3 -3 0 0 0],Obviously <COMMA> the skin colors shown do not look alike .,Objectively speaking <COMMA> the people do not share the skin color .
+639_I.jpg,[2 0 0 1 0 3 0],Obviously <COMMA> the skin spots shown are not shared .,Objectively speaking <COMMA> the skins have very dissimilar spots .
+640_I.jpg,[3 1 0 0 2 0 0],Objectively speaking <COMMA> the eyebrow distributions are too dissimilar .,Evidently <COMMA> these eyebrows do not look alike .
+641_I.jpg,[0 0 1 0 0 0 -1],Obviously <COMMA> the skins here do not share the same spots .,Objectively speaking <COMMA> the skin spots and eyelid shapes are too distinct .
+642_I.jpg,[0 -3 1 0 3 0 0],Obviously <COMMA> the skin textures shown have many disparities .,Objectively speaking <COMMA> the skins and eyebrows are too dissimilar .
+643_I.jpg,[0 -1 -1 0 0 1 0],Obviously <COMMA> the eyebrows shown clearly do not look alike .,Objectively speaking <COMMA> the eyebrows have nothing in common .
+644_I.jpg,[-5 -1 1 0 -2 1 1],Obviously <COMMA> the iris colors here are undeniably different .,Evidently <COMMA> these irises are too different .
+645_I.jpg,[-1 0 -3 -1 0 0 0],Obviously <COMMA> the eyebrows shapes are too different here .,Here <COMMA> the skins do not share spots .
+646_I.jpg,[-3 1 -3 1 0 0 0],Obviously <COMMA> the eyebrow shapes are visually different .,Objectively speaking <COMMA> the iris colors and eyebrow shapes are too different .
+647_I.jpg,[6 0 1 0 0 2 -1],Objectively speaking <COMMA> the iris colors are just so different .,Obviously <COMMA> the irises and eyebrows shown do not look alike .
+648_I.jpg,[3 -1 0 -1 -2 -3 0],Objectively speaking <COMMA> the iris colors and skins have many differences .,Obviously <COMMA> the skins shown are too different .
+649_I.jpg,[-2 -1 1 0 0 -3 1],Objectively speaking <COMMA> the eyebrows have different distributions .,Here <COMMA> the eyebrow distributions are too dissimilar .
+650_I.jpg,[-5 2 1 0 0 1 0],Evidently <COMMA> the irises and eyebrows are not shared .,Objectively speaking <COMMA> the people do not share iris colors and eyebrow shapes .
+651_I.jpg,[3 0 1 1 0 3 0],Obviously <COMMA> the iris colors and eyebrows here do not look alike .,Objectively speaking <COMMA> the skin spots are too dissimilar .
+652_I.jpg,[-6 -3 -2 0 2 0 0],Obviously <COMMA> the iris colors here are too distinct .,Objectively speaking <COMMA> the eyebrows and irises are too dissimilar .
+653_I.jpg,[-6 0 0 -1 2 3 0],Objectively speaking <COMMA> the iris colors and skin textures clearly have nothing in common .,Here <COMMA> the iris colors are just too different .
+654_I.jpg,[3 3 0 0 0 0 1],Objectively speaking <COMMA> the iris colors are just too distinct .,Obviously <COMMA> these irises and eyebrows do not look alike .
+655_I.jpg,[6 3 0 1 -2 0 0],Obviously <COMMA> the iris colors and eyebrow distributions are too different .,Objectively speaking <COMMA> the people are too different in the iris colors .
+656_I.jpg,[3 1 -3 1 0 0 0],Obviously <COMMA> the irises shown are too different .,Here <COMMA> there are many differences in the eyebrows .
+657_I.jpg,[6 1 3 1 0 0 1],Obviously <COMMA> the iris colors and eyelid shapes are too different here .,Evidently <COMMA> the iris colors are not shared .
+658_I.jpg,[3 1 -2 1 2 3 0],Obviously <COMMA> the iris colors shown are very dissimilar .,Objectively speaking <COMMA> the skins and eyebrows have nothing in common .
+659_I.jpg,[0 0 -1 -1 -2 3 0],Obviously <COMMA> the people here do not share skin spots .,Obviously <COMMA> the skin spots are just so dissimilar .
+660_I.jpg,[3 -1 -1 0 0 -3 1],Evidently <COMMA> there are big differences in iris colors .,Obviously <COMMA> the irises here are too dissimilar .
+661_I.jpg,[5 1 0 1 0 -3 0],Evidently <COMMA> the irises do not match .,Obviously <COMMA> the irises fail to match here .
+662_I.jpg,[0 -2 1 1 0 0 0],Obviously <COMMA> the eyebrow distributions are too dissimilar .,Objectively speaking <COMMA> the eyebrows here are too dissimilar .
+663_I.jpg,[1 2 -1 0 -3 -1 0],Visually <COMMA> the skin textures have nothing in common .,Obviously <COMMA> the people shown clearly do not share skin textures .
+664_I.jpg,[0 -2 -1 -1 -2 3 0],Obviously <COMMA> the skin textures here are just too different .,Obviously <COMMA> the irises <COMMA> skins and eyebrows have nothing in common .
+665_I.jpg,[-3 0 0 -1 2 0 0],Obviously <COMMA> the iris colors and skin textures are too different .,Obviously <COMMA> the people shown clearly do not share skin textures .
+666_I.jpg,[-4 0 0 2 0 0 0],Objectively speaking <COMMA> the iris colors are just too different .,Evidently <COMMA> the iris and skin colors are distinct .
+667_I.jpg,[-6 -3 1 0 2 -2 -1],Obviously <COMMA> the iris colors here do not match .,Objectively speaking <COMMA> the irises and eyebrows completely fail to match .
+668_I.jpg,[0 0 3 3 0 0 -1],Obviously <COMMA> the eyebrows and skin colors are visually distinct .,Objectively speaking <COMMA> the skin colors do not match .
+669_I.jpg,[-5 0 0 0 0 3 0],Obviously <COMMA> the irises here are too different .,Evidently <COMMA> these iris colors are too visually different .
+670_I.jpg,[-2 0 0 -1 0 -2 -1],Visually <COMMA> the eyelid shapes do not match .,Objectively speaking <COMMA> the eyelid shapes are just to distinct .
+671_I.jpg,[0 -3 1 -1 3 3 1],Objectively speaking <COMMA> the skin textures are very distinct here .,Obviously <COMMA> the skins and eyebrows here do not match .
+672_I.jpg,[4 0 1 0 0 -3 0],Objectively speaking <COMMA> the iris colors are too different .,Objectively speaking <COMMA> the irises and skins have many visual differences .
+673_I.jpg,[-6 0 -1 -1 -2 3 0],Obviously <COMMA> the visual differences in iris colors are too great .,Here <COMMA> the iris colors completely fail to match .
+674_I.jpg,[-2 1 0 -1 0 0 1],Obviously <COMMA> the eyebrows and eyelid shapes are vastly different here .,Objectively speaking <COMMA> the eyelids have contrasting shapes .
+675_I.jpg,[-3 0 2 -1 0 -2 0],Obviously <COMMA> the iris colors just do not match .,Here <COMMA> the skins have dissimilar spots .
+676_I.jpg,[3 1 1 2 0 -2 0],Objectively speaking <COMMA> the skin colors are too dissimilar .,Clearly <COMMA> these eyebrows look visually different .
+677_I.jpg,[-2 -1 1 -1 0 -2 0],Objectively speaking <COMMA> the eyebrows and skin spots are vastly different .,Visually <COMMA> the eyebrows are different .
+678_I.jpg,[-4 -1 -1 1 0 -1 0],Objectively speaking <COMMA> the eyebrows and skin spots do not match .,Here <COMMA> the skins have contrasting spots .
+679_I.jpg,[5 1 1 0 0 0 0],Obviously <COMMA> the iris colors and eyebrow distributions do not match .,Objectively speaking <COMMA> the iris colors and eyebrow distributions do not match here .
+680_I.jpg,[0 -1 0 -1 2 -1 0],Objectively speaking <COMMA> the skin textures have nothing in common .,Obviously <COMMA> the eyebrows appear to be very different here .
+681_I.jpg,[-5 0 -1 0 -2 -2 1],Objectively speaking <COMMA> the iris colors are too different .,Obviously <COMMA> the irises and eyebrows are vastly different here .
+682_I.jpg,[-6 -1 3 -1 0 0 0],Objectively speaking <COMMA> the iris colors and eyebrows look incredibly different .,Objectively speaking <COMMA> the iris colors clearly do not match .
+683_I.jpg,[-3 2 0 -1 -2 0 0],Here <COMMA> the people differ in the iris colors .,Objectively speaking <COMMA> the irises and eyebrow just fail to match .
+684_I.jpg,[1 -3 -1 0 0 0 -1],Objectively speaking <COMMA> the eyebrow distributions are too dissimilar here .,Objectively speaking <COMMA> the eyebrows and irises completely fail to match .
+685_I.jpg,[-6 2 0 3 -2 0 -1],Obviously <COMMA> the iris colors and eyelid shapes do not match .,Objectively speaking <COMMA> the people do not share iris colors .
+686_I.jpg,[0 -1 -1 0 3 -2 1],Obviously <COMMA> the skin textures are clearly not shared here .,Here <COMMA> the skins have vastly dissimilar textures .
+687_I.jpg,[0 0 -1 -2 0 -3 0],Objectively speaking <COMMA> the skin spots differ greatly .,Clearly <COMMA> the skin colors and spots fail to look alike .
+688_I.jpg,[3 0 1 1 0 2 0],Objectively speaking <COMMA> the iris colors and eyelid shapes do not match .,Obviously <COMMA> the irises and eyelids shown are just too distinct .
+689_I.jpg,[-3 -1 -1 0 0 -1 -1],Objectively speaking <COMMA> the eyelids and eyebrows are completely dissimilar .,Obviously <COMMA> the eyelids do not match here .
+690_I.jpg,[1 1 0 -1 -2 -3 0],Obviously <COMMA> the people shown fail to share skin textures and spots .,There are many differences in skin textures .
+691_I.jpg,[-2 -1 3 -1 0 0 -1],Objectively speaking <COMMA> the eyebrow shapes are just too dissimilar .,Obviously <COMMA> the eyebrows and irises do not appear to be alike here .
+692_I.jpg,[-2 -1 1 -1 0 -2 0],Objectively speaking <COMMA> the eyebrows and irises look very different .,Objectively speaking <COMMA> the eyebrows and irises look vastly distinct .
+693_I.jpg,[-1 -1 0 0 0 2 0],Obviously <COMMA> the skin spots shown are too different .,Objectively speaking <COMMA> the people clearly do not share skin spots .
+694_I.jpg,[3 1 -3 1 0 0 1],Objectively speaking <COMMA> the iris colors do not match here .,Clearly <COMMA> the irises have contrasting colors .
+695_I.jpg,[5 1 0 1 0 0 0],Here <COMMA> the irises possess different colors .,Objectively speaking <COMMA> the irises and eyelids just do not match .
+696_I.jpg,[0 -1 -1 0 0 3 -1],Here <COMMA> the skin spots shown are clearly not shared .,Here <COMMA> the skin spots and eyebrows are visually distinct .
+697_I.jpg,[1 0 0 0 2 0 1],Objectively speaking <COMMA> the skin textures and eyelid shapes simply do not match .,Objectively speaking <COMMA> the eyelids are vastly different .
+698_I.jpg,[6 0 0 1 0 1 0],Objectively speaking <COMMA> the iris colors are incredibly different .,Evidently <COMMA> the iris colors fail to look alike here .
+699_I.jpg,[-1 1 0 1 0 0 1],Here <COMMA> the irises do not share the same color .,Objectively speaking <COMMA> the eyelid shapes have contrasting colors .
+700_I.jpg,[0 -2 1 0 2 0 0],Here <COMMA> the eyebrows completely fail to match .,Here <COMMA> the eyebrows appear to be too different .
+701_I.jpg,[6 1 0 -1 -2 -2 0],Objectively speaking <COMMA> the iris colors and eyebrows are just so different .,Objectively speaking <COMMA> the iris colors are vastly dissimilar .
+702_I.jpg,[-1 0 0 0 0 0 -1],Here <COMMA> the skins have visually dissimilar textures .,Obviously <COMMA> the skin textures are not shared here .
+703_I.jpg,[0 0 0 0 0 0 -1],Objectively speaking <COMMA> the eyelid shapes just look dissimilar .,Here <COMMA> the eyelids have distinct shapes .
+704_I.jpg,[3 0 0 0 0 0 0],Objectively speaking <COMMA> the iris colors just do not match .,Objectively speaking <COMMA> the irises and eyebrows fail to look alike .
+705_I.jpg,[0 -1 -3 2 0 2 1],Here <COMMA> the eyebrow shapes do not match .,Objectively speaking <COMMA> the skins have contrasting spots .
+706_I.jpg,[-1 1 -3 1 0 0 0],Here <COMMA> the eyebrow shapes are so vastly distinct .,Objectively speaking <COMMA> the people clearly fail to match in the eyebrows .
+707_I.jpg,[0 1 -1 -2 0 -3 1],Here <COMMA> the eyebrows just have many differences .,Objectively speaking <COMMA> the people have really contrasting eyebrows .
+708_I.jpg,[1 3 -1 -1 0 0 0],Objectively speaking <COMMA> the eyebrow distributions and skin spots do not match .,There are many visual disparities in eyebrow distributions .
+709_I.jpg,[-5 -1 0 -1 -2 0 0],Here <COMMA> the iris colors fail to look alike .,Objectively speaking <COMMA> the iris colors look vastly different .
+710_I.jpg,[3 1 2 0 -2 0 -1],Objectively speaking <COMMA> the irises and eyebrows look different here .,Objectively speaking <COMMA> the iris colors are visually distinct .
+711_I.jpg,[6 2 -1 0 0 3 1],Here <COMMA> the iris colors and eyebrow distributions clearly do not look alike .,Objectively speaking <COMMA> the iris colors clearly do not match .
+712_I.jpg,[-1 0 -3 1 0 3 0],Here <COMMA> the eyebrow shapes are visually distinct .,Objectively speaking <COMMA> the eyebrow shapes clearly do not have anything in common .
+713_I.jpg,[3 0 0 0 0 0 1],Objectively speaking <COMMA> the people do not share iris colors .,Here <COMMA> the iris colors shown are completely different .
+714_I.jpg,[5 0 2 0 -2 3 0],Objectively speaking <COMMA> the people possess contrasting iris colors .,Objectively speaking <COMMA> the iris colors do not appear to be similar .
+715_I.jpg,[0 -1 2 0 0 0 0],Here <COMMA> the eyebrow shapes shown have many differences .,Objectively speaking <COMMA> the eyebrow shapes do not match .
+716_I.jpg,[1 0 0 0 0 0 1],Evidently <COMMA> the iris colors and eyelid shapes look distinct .,Here <COMMA> the eyelids here do not match .
+717_I.jpg,[0 -2 3 0 2 3 1],Objectively speaking <COMMA> the skins have contrasting textures and spots .,Objectively speaking <COMMA> the skins just look too different .
+718_I.jpg,[3 0 1 1 2 -2 0],Evidently <COMMA> the iris colors shown have many differences .,Objectively speaking <COMMA> the iris colors fail to match completely .
+719_I.jpg,[1 0 0 1 0 -2 1],Here <COMMA> the skins shown have different spots .,Objectively speaking <COMMA> the skin spots are not shared .
+720_I.jpg,[-1 -1 1 1 0 0 0],Here <COMMA> the skin spots are not shared .,Objectively speaking <COMMA> the people clearly do not share skin spots .
+721_I.jpg,[0 0 2 -1 -2 3 0],Here <COMMA> the skin spots are different .,Objectively speaking <COMMA> the skin spots are clearly not shared .
+722_I.jpg,[0 -2 0 1 3 0 0],Here <COMMA> the skin spots are not shared .,Objectively speaking <COMMA> the skin textures and spots are not shared .
+723_I.jpg,[0 0 0 2 0 0 1],Evidently <COMMA> the skin colors have many differences .,Objectively speaking <COMMA> the skin colors just do not match .
+724_I.jpg,[3 0 1 1 0 0 0],Evidently <COMMA> the skins and eyebrow show too many differences .,Objectively speaking <COMMA> the people do not share eyebrow distributions .
+725_I.jpg,[1 -2 1 1 0 -1 -1],Here <COMMA> the eyebrow shown completely fail to match .,Objectively speaking <COMMA> the people have contrasting eyebrows .
+726_I.jpg,[2 2 2 1 -3 2 1],Here <COMMA> the skins have totally dissimilar spots and textures .,Objectively speaking <COMMA> the skins look visually dissimilar .
+727_I.jpg,[0 1 1 0 -2 0 0],Objectively speaking <COMMA> the skin textures fail to match .,Here <COMMA> the skin textures have nothing in common .
+728_I.jpg,[-3 0 0 -1 0 0 -1],Here <COMMA> the iris colors clearly fail to match .,Objectively speaking <COMMA> the eyelid shapes and iris colors are vastly dissimilar .
+729_I.jpg,[3 0 0 1 2 3 1],Obviously <COMMA> the irises and eyelids do not match here .,Here <COMMA> the iris colors are too distinct .
+730_I.jpg,[2 -1 -1 1 0 0 0],Here <COMMA> the eyebrows present some visual differences .,Objectively speaking <COMMA> the eyebrow have dissimilar distributions .
+731_I.jpg,[-3 1 1 0 0 3 1],Here <COMMA> the spots and eyebrows do not match .,Here <COMMA> there are many differences in the eyebrows .
+732_I.jpg,[0 0 -1 -3 -2 -3 0],Objectively speaking <COMMA> the people have contrasting skin colors .,Evidently <COMMA> the skins are incredibly different .
+733_I.jpg,[3 1 0 0 0 1 0],Objectively speaking <COMMA> the iris colors are totally different .,Objectively speaking <COMMA> the iris colors just fail to match .
+734_I.jpg,[0 1 1 2 0 -3 0],Here <COMMA> the skin colors here just fail to match .,Objectively speaking <COMMA> the eyebrows have contrasting distributions .
+735_I.jpg,[0 -1 -1 -1 0 -1 -1],Here <COMMA> the eyelids are simply too different .,Evidently <COMMA> the eyelid shapes fail to match here .
+736_I.jpg,[-6 0 -1 0 -2 0 0],Objectively speaking <COMMA> the iris colors are very different .,Objectively speaking <COMMA> the irises completely fail to match .
+737_I.jpg,[1 0 1 1 0 2 0],Evidently <COMMA> the spots are different here .,Here <COMMA> the spots fail to match .
+738_I.jpg,[-4 0 2 0 0 0 0],Objectively speaking <COMMA> the iris colors are totally distinct here .,Here <COMMA> the people here have different iris colors .
+739_I.jpg,[2 1 0 1 0 1 0],Visually <COMMA> the irises and eyebrows do not match .,Objectively speaking <COMMA> the irises <COMMA> skin and eyebrows are just too different .
+740_I.jpg,[1 -3 0 -1 3 1 0],Evidently the skin textures look nothing alike .,Objectively speaking <COMMA> the skin textures have nothing in common .
+741_I.jpg,[-4 0 -1 1 -2 -2 1],Objectively speaking <COMMA> the iris colors look objectively different .,Objectively speaking <COMMA> the eyelids and irises look too distinct .
+742_I.jpg,[0 0 1 -1 0 0 -1],Here <COMMA> the people possess distinct eyelid shapes .,Obviously <COMMA> the eyelid shapes do not match here .
+743_I.jpg,[3 3 0 0 2 -2 0],Objectively speaking <COMMA> the iris colors and eyebrow distributions do not match .,Obviously <COMMA> the eyebrows have nothing in common .
+744_I.jpg,[-1 0 -1 0 -2 -2 0],Objectively speaking <COMMA> the skins are just too distinct here .,Evidently <COMMA> the skins look distinct .
+745_I.jpg,[-4 0 2 0 -2 -3 -1],Objectively speaking <COMMA> the iris colors are too distinct .,Here <COMMA> the irises shown have contrasting colors .
+746_I.jpg,[-5 2 0 0 -3 2 0],Objectively speaking <COMMA> the people have nothing in common .,Evidently <COMMA> the people differ in skin textures and iris colors .
+747_I.jpg,[0 -3 0 0 0 3 0],Objectively speaking <COMMA> the skin textures are clearly not shared .,Here <COMMA> the skins here have contrasting textures .
+748_I.jpg,[-3 -3 2 -1 2 1 0],Objectively speaking <COMMA> the iris colors have nothing in common .,Here <COMMA> the people do not share iris colors .
+749_I.jpg,[-2 1 0 0 0 3 0],Objectively speaking <COMMA> the iris colors and eyebrow distributions look very distinct .,Here <COMMA> the irises have nothing in common .
+750_I.jpg,[0 -1 0 0 0 0 -1],Evidently <COMMA> the eyelids look nothing alike .,Objectively speaking <COMMA> the people clearly do not share eyebrows .
+751_I.jpg,[3 0 -2 0 0 0 -1],Evidently <COMMA> these iris colors are nothing alike .,Objectively speaking <COMMA> the people have nothing in common in the iris colors .
+752_I.jpg,[3 1 -1 -1 0 0 -1],Evidently <COMMA> the iris colors here have contrasting colors .,Objectively speaking <COMMA> the iris colors are too distinct .
+753_I.jpg,[1 0 0 0 0 0 0],Here <COMMA> the iris colors have contrasting colors .,Obviously <COMMA> the irises are different .
+754_I.jpg,[0 -2 0 0 -1 3 0],Here <COMMA> the skin textures do not match completely .,Objectively speaking <COMMA> the eyebrows just look too different .
+755_I.jpg,[0 0 1 -1 0 -2 -1],Clearly <COMMA> the eyelids look visually different .,Visually <COMMA> the eyelids shapes are not shared .
+756_I.jpg,[0 0 0 0 0 -1 -1],Objectively speaking <COMMA> the skins have different spots .,Here <COMMA> the people have different spots .
+757_I.jpg,[0 1 0 1 0 -3 1],Clearly <COMMA> these spots look too different .,Obviously <COMMA> the spots are not shared here .
+758_I.jpg,[0 3 0 -1 0 -3 0],Objectively speaking <COMMA> the eyebrows look too different .,Here <COMMA> the eyebrow distributions just look different .
+759_I.jpg,[2 0 2 1 0 -1 0],Objectively speaking <COMMA> the spots are not equal .,Here <COMMA> the people do not have equal spots .
+760_I.jpg,[5 1 1 0 0 3 0],Here <COMMA> the iris colors are clearly not equal .,Objectively speaking <COMMA> the iris colors are not equal .
+761_I.jpg,[0 0 1 0 2 -2 0],Clearly <COMMA> the skin textures do not match .,Objectively speaking <COMMA> the skin textures do not match .
+762_I.jpg,[1 1 -1 0 -2 -2 0],Clearly <COMMA> the skins have distinct textures and spots .,Objectively speaking <COMMA> the eyebrow distributions have distinct distributions .
+763_I.jpg,[-3 0 -3 -1 0 3 0],These skins have distinct colors and spots .,Clearly <COMMA> the iris colors do not match here .
+764_I.jpg,[-6 0 0 -1 0 -2 0],These iris colors have too many differences .,Obviously <COMMA> the iris colors and skin colors fail to match .
+765_I.jpg,[0 0 -1 1 2 0 0],Here <COMMA> the irises shown are clearly not equal .,These iris colors are just not equal .
+766_I.jpg,[3 0 0 0 0 1 0],These iris colors are totally distinct .,Here <COMMA> the people shown have distinct iris colors .
+767_I.jpg,[3 2 1 1 0 -3 0],Here <COMMA> the iris colors and eyebrow distributions are not shared .,These people do not share iris colors .
+768_I.jpg,[-6 0 1 0 0 2 1],Clearly <COMMA> the irises look distinct here .,Here <COMMA> the iris colors are not shared .
+769_I.jpg,[0 1 -1 0 2 0 1],These people do not share the same eyelid shapes .,Here <COMMA> the eyelids here have distinct shapes .
+770_I.jpg,[-2 0 -3 -1 0 0 0],These eyebrows have contrasting distributions .,Clearly <COMMA> the eyebrow shapes and distributions are not equal .
+771_I.jpg,[3 1 0 0 2 0 0],These eyelid shapes are just not equal .,Here <COMMA> the people have clearly different eyelid shapes and iris colors .
+772_I.jpg,[0 2 0 0 -3 3 -1],As shown here <COMMA> the skins have different textures and spots here .,These skin textures just fail to match .
+773_I.jpg,[1 -1 2 0 0 0 -1],As shown here <COMMA> the eyebrow shapes are too different here .,These eyelids are too different .
+774_I.jpg,[0 -1 0 0 -2 -3 0],As shown here <COMMA> the skins shown are not shared .,These people do not share skin textures .
+775_I.jpg,[-2 0 0 0 0 2 0],As shown here <COMMA> the eyebrows here are totally different .,These eyebrow shapes fail to match .
+776_I.jpg,[0 0 2 -1 0 2 -1],Clearly <COMMA> the eyebrows do not look alike .,These eyelid shapes look distinct .
+777_I.jpg,[6 1 0 0 -2 -1 0],As shown here <COMMA> the iris colors just look different here .,Here the people do not share iris colors .
+778_I.jpg,[0 0 -3 0 0 1 -1],These eyebrow shapes are too distinct here .,Clearly <COMMA> the eyebrow shapes are different .
+779_I.jpg,[-4 3 0 0 -1 0 0],These iris colors and skin textures are not shared .,As shown here <COMMA> the skins have clearly different textures .
+780_I.jpg,[1 0 -1 0 0 0 0],These eyebrow shapes do not look alike <COMMA> clearly .,Obviously <COMMA> the eyebrow shapes have nothing in common .
+781_I.jpg,[0 -2 -1 0 0 0 -1],These eyebrows clearly do not share the same distribution .,As shown here <COMMA> the eyebrow distributions and spots are not equal here .
+782_I.jpg,[1 0 -1 -1 -2 -2 0],These skins have different textures and spots .,As shown here <COMMA> the eyebrows do not share the same shape .
+783_I.jpg,[2 -3 0 1 3 0 1],As shown here <COMMA> the skin textures are too different here .,These skin textures and eyelid shapes fail to look alike .
+784_I.jpg,[3 0 0 0 -2 2 0],Clearly <COMMA> the skins have contrasting textures and spots .,These skin textures do not match <COMMA> clearly .
+785_I.jpg,[-5 -1 0 0 0 0 -1],These iris colors are just too different .,These irises do not share the same colors .
+786_I.jpg,[1 -3 0 0 0 -3 1],These spots are clearly not shared .,As shown here <COMMA> the people shown have contrasting eyebrows .
+787_I.jpg,[-6 0 0 0 0 -3 0],These irises have different colors .,Obviously <COMMA> the iris colors are not shared here .
+788_I.jpg,[6 0 0 1 -2 0 0],These people do not share iris colors .,Clearly <COMMA> the skin textures and iris colors are not shared .
+789_I.jpg,[-2 0 -1 1 2 0 0],These iris colors have visual differences .,Clearly <COMMA> the skins have different textures .
+790_I.jpg,[-1 2 -1 0 0 2 0],These eyebrow distributions are not shared .,These eyebrows have different distributions .
+791_I.jpg,[3 0 -1 -1 0 0 -1],It would appear that the iris colors are not shared here .,These eyelid shapes are not shared .
+792_I.jpg,[0 3 -2 0 0 -3 1],Obviously <COMMA> the spots are not shared here .,These eyebrows are too different .
+793_I.jpg,[1 1 -1 0 0 -3 0],As shown here <COMMA> the eyebrows are just too different here .,As shown here <COMMA> the spots and eyebrow distributions are too different .
+794_I.jpg,[-1 2 0 0 -1 0 -1],These skin textures and eyelid shapes are not the same .,As shown here <COMMA> the people shown fail to match in the eyelid shapes .
+795_I.jpg,[-3 -3 1 0 3 -3 0],These skin textures are not shared here .,It would appear that the skin textures are different here .
+796_I.jpg,[0 0 0 0 0 2 0],As shown here <COMMA> the skin colors are just too different here .,The skins have contrasting colors <COMMA> clearly .
+797_I.jpg,[0 0 3 0 2 0 0],It would appear that the skin colors and eyebrows are not the same .,These eyebrows and skins are vastly different .
+798_I.jpg,[-2 -1 3 -1 0 0 1],As shown here <COMMA> the iris colors and eyebrow shapes do not match .,These eyelid shapes and eyebrow shapes are not shared .
+799_I.jpg,[-6 -1 -1 0 0 -3 1],As shown here <COMMA> the subjects shown have different spots and iris colors .,These iris colors and eyelid shapes do not match .
+800_I.jpg,[3 -2 0 -1 2 0 0],As shown here <COMMA> the iris colors are not shared here .,It would appear that there are differences in iris colors .
+801_I.jpg,[1 -2 0 0 0 -1 0],These iris colors and eyebrow distributions are not shared .,As shown here <COMMA> the subjects here do not have the same iris colors .
+802_I.jpg,[6 0 0 0 2 0 0],Visually <COMMA> the iris colors are not the same .,As shown here <COMMA> the iris colors show many differences here .
+803_I.jpg,[-1 1 1 1 -2 -1 0],It would appear that the skin colors and spots are not shared .,These subjects differ immensely in the skins .
+804_I.jpg,[3 0 0 0 3 3 -1],These skins have too many differences .,As shown here <COMMA> the skin textures are completely different .
+805_I.jpg,[1 1 1 1 -2 3 0],Here <COMMA> the skins do not share the same spots .,These spots are not shared here .
+806_I.jpg,[-3 0 -1 1 2 -3 -1],As shown here <COMMA> the spots and eyelid shapes are clearly distinct here .,As shown here <COMMA> the skins and eyelids just do not match here .
+807_I.jpg,[0 0 0 -1 -2 0 0],Here <COMMA> the subjects do not have the same skin textures .,These skin textures are very different .
+808_I.jpg,[0 0 0 -1 0 3 1],As shown here <COMMA> the spots shown clearly do not match .,These spots are not the same <COMMA> clearly .
+809_I.jpg,[6 -2 0 0 0 3 -1],As shown here <COMMA> the iris colors shown do not look the same .,These eyelids and iris colors are too different .
+810_I.jpg,[-3 1 1 0 0 -3 0],As shown here <COMMA> the iris colors and spots do not look the same .,These subjects have contrasting irises .
+811_I.jpg,[-3 -1 1 -1 0 -2 0],These skin colors and are just too different .,As shown here <COMMA> the skins and irises are vastly distinct .
+812_I.jpg,[-5 2 1 0 -3 2 0],These iris colors and skin textures are too different .,It would appear that the skin textures and iris colors do not match .
+813_I.jpg,[-3 0 0 1 -2 -3 -1],Evidently <COMMA> the eyelids and irises look different here .,These eyelids and irises look different .
+814_I.jpg,[3 -2 1 1 2 3 1],There seem to be many differences in the skins and eyebrows here .,Evidently <COMMA> the skins <COMMA> irises and eyebrows do not look equal .
+815_I.jpg,[4 2 -1 -1 -2 3 1],These skins have many differences .,Evidently <COMMA> the iris colors are simply not shared .
+816_I.jpg,[0 0 0 -1 0 3 0],These spots do not look the same .,Evidently <COMMA> the spots are not shared by these subjects .
+817_I.jpg,[0 -3 0 0 0 0 0],These eyebrow distributions are clearly not the same .,These eyebrow distributions do not look equal .
+818_I.jpg,[-2 1 -1 -2 2 0 0],Evidently <COMMA> the skin colors are not the same here .,These skins have different colors and textures .
+819_I.jpg,[-3 0 1 0 2 0 -1],Evidently <COMMA> the iris colors and eyelid shapes clearly differ here .,Evidently <COMMA> the iris colors and eyelid shapes are just too different here .
+820_I.jpg,[-1 -3 0 0 3 -3 0],These skins do not share textures and spots .,Evidently <COMMA> the skin textures and spots are clearly different .
+821_I.jpg,[5 1 0 1 0 -2 1],Evidently <COMMA> the iris colors are not shared here .,These iris colors and eyebrow distributions are not the same .
+822_I.jpg,[2 -3 -1 0 3 3 0],Evidently <COMMA> the skins and eyebrows show great differences .,These subjects differ immensely in the eyebrows and skin textures .
+823_I.jpg,[-4 1 1 1 2 0 -1],The iris colors are not the same <COMMA> clearly .,These iris colors are too different .
+824_I.jpg,[-3 0 -1 -1 0 -3 0],It would appear that the irises and skins do not match .,These subjects have contrasting irises and spots .
+825_I.jpg,[-3 0 0 1 0 2 0],Evidently <COMMA> the iris colors are just not the same here .,The subjects shown do not share iris colors <COMMA> clearly .
+826_I.jpg,[6 -1 1 0 0 -2 0],These iris colors are just too different .,Evidently <COMMA> the iris colors and eyebrow distributions show many disparities .
+827_I.jpg,[-1 -3 3 -1 1 0 0],These eyebrows and eyelid shapes are too different .,Evidently <COMMA> the skins <COMMA> eyelids and eyebrows are completely different here .
+828_I.jpg,[0 1 1 2 0 0 0],These skin colors simply do not match .,Here <COMMA> the skin colors show too many disparities .
+829_I.jpg,[-3 -1 3 -1 0 -2 1],It would appear that the eyebrows do not match .,These subjects have too different eyelids and eyebrows .
+830_I.jpg,[4 2 -1 0 0 -2 0],Evidently <COMMA> the eyebrows and irises show too many differences .,These iris colors and eyebrow distributions fail to match .
+831_I.jpg,[6 -3 0 0 3 0 0],Evidently <COMMA> the skin textures and eyebrow distributions are totally different here .,These iris colors and skin textures completely fail to match .
+832_I.jpg,[-1 -2 3 0 1 0 0],It would appear that the skin textures and eyebrows do not match .,Here <COMMA> the eyebrows and skin textures do not match .
+833_I.jpg,[-1 1 3 1 0 1 -1],These eyebrow shapes do not match .,Evidently <COMMA> the subjects here have clearly different eyebrows and spots .
+834_I.jpg,[3 -1 3 0 0 1 0],These spots are not the same .,Evidently <COMMA> the eyebrows and spots show differences here .
+835_I.jpg,[-1 0 1 -1 -2 0 -1],Here <COMMA> the skin textures are too different .,These skins have visually different textures .
+836_I.jpg,[0 1 0 -1 -3 0 0],Evidently <COMMA> the skin textures here do not look alike .,These skin textures look totally different .
+837_I.jpg,[-3 -2 2 1 0 0 0],These subjects do not share the same iris colors .,Evidently <COMMA> the eyebrows and iris colors fail to look alike .
+838_I.jpg,[-3 1 -1 0 0 0 0],These eyebrows and spots have nothing in common .,It would appear that the eyebrows look too different .
+839_I.jpg,[2 0 -1 1 0 3 1],These iris colors and eyebrows have visual disparities .,These iris colors do not look the same .
+840_I.jpg,[6 -3 0 0 2 3 0],The iris colors do not look alike <COMMA> clearly .,These iris colors <COMMA> skin textures and eyebrow distributions look very different .
+841_I.jpg,[-1 0 0 -1 -3 0 -1],Here <COMMA> the skin textures and eyelid shapes fail to look alike .,These skins and eyelids do not have anything in common .
+842_I.jpg,[0 2 -1 0 -3 -3 1],Clearly <COMMA> the skin textures shown are not shared .,These spots and textures are different .
+843_I.jpg,[0 -1 -3 0 0 -3 0],Clearly <COMMA> the subjects shown do not have the same spots .,It would appear that there are many differences in spots .
+844_I.jpg,[4 0 1 1 0 -3 0],These eyebrows have great differences .,Clearly <COMMA> the spots are not shared here .
+845_I.jpg,[6 -3 -1 0 0 0 0],These iris colors and eyebrows show big differences .,Visually <COMMA> the irises do not match .
+846_I.jpg,[2 -1 1 0 2 -2 0],These eyebrows fail to look alike .,It would appear that the eyebrows do not look the same .
+847_I.jpg,[3 -1 3 1 3 0 0],These skin textures and eyelid shapes do not look the same .,These skin textures and iris colors seem too be different .
+848_I.jpg,[1 0 0 -1 -2 0 0],These iris colors appear to be very different .,Clearly <COMMA> the irises and eyebrows show many differences here .
+849_I.jpg,[1 -3 1 1 0 -1 0],These eyebrows look objectively different .,Clearly <COMMA> the subjects shown possess different eyebrow distributions .
+850_I.jpg,[6 1 3 0 -2 -3 0],These iris colors are clearly distinct .,These iris colors and eyebrow shapes do not match here .
+851_I.jpg,[6 0 1 1 2 1 1],Clearly <COMMA> the eyelids and irises are totally different here .,These iris colors and eyelid shapes completely fail to match .
+852_I.jpg,[-5 -1 0 -1 -2 2 0],Clearly <COMMA> the iris colors shown do not match here .,Clearly <COMMA> the eyebrows and irises are not shared .
+853_I.jpg,[3 -3 3 1 0 0 0],The iris colors and eyebrow distributions look objectively different here .,These subjects do not share the iris colors .
+854_I.jpg,[3 1 1 0 0 1 0],The skins have clearly different spots .,These eyebrows are visually different .
+855_I.jpg,[-3 -2 0 -1 2 0 0],Clearly <COMMA> the iris colors and eyebrows are not shared here .,These subjects clearly do not share the same eyebrows and irises .
+856_I.jpg,[0 -1 0 1 -2 -2 0],Clearly <COMMA> the eyebrows and skins are visually different .,Here <COMMA> the skins and eyebrows appear to be very different .
+857_I.jpg,[-6 0 -1 1 2 3 0],It would appear that these iris colors are different .,These irises are clearly different .
+858_I.jpg,[2 0 -3 1 2 3 0],Obviously <COMMA> these skin textures fail to match completely .,These skins have totally different textures .
+859_I.jpg,[-6 -2 1 0 0 3 0],The irises and eyebrows shown here are clearly different .,These eyebrows and irises are completely distinct .
+860_I.jpg,[0 -1 3 -1 0 3 -1],Visually <COMMA> these eyebrows have nothing in common .,Obviously <COMMA> the eyebrows are too different here .
+861_I.jpg,[-6 0 0 0 0 -2 0],Clearly <COMMA> the iris colors are clearly not equal .,Clearly <COMMA> the irises do not share the same color .
+862_I.jpg,[1 1 0 0 0 3 0],Clearly <COMMA> the spots are not shared here .,The subjects shown clearly have different eyebrows and skins .
+863_I.jpg,[0 2 -1 3 0 0 0],The skin colors shown here are clearly different .,These skins do not share the same color .
+864_I.jpg,[5 0 -3 0 2 3 0],The iris colors are clearly different here .,These subjects differ immensely in iris colors and skin textures .
+865_I.jpg,[3 2 -2 0 0 -3 -1],Clearly <COMMA> the eyebrows and iris colors do not look the same here .,The subjects shown have completely different eyebrows and iris colors .
+866_I.jpg,[-2 1 0 -1 -2 0 0],These iris colors are not equal <COMMA> clearly .,Obviously <COMMA> these iris colors do not match .
+867_I.jpg,[0 -1 -1 0 0 -1 -1],The skins have clearly different spots here .,These spots do not match .
+868_I.jpg,[-5 1 0 1 2 -1 0],The iris colors here are too different .,These irises and eyebrows show too many differences .
+869_I.jpg,[1 0 0 -1 2 -3 1],These skins have clearly different textures and spots .,These skins are visually very different .
+870_I.jpg,[-4 0 -3 1 0 -2 0],The iris colors here do not match .,These iris colors are too different .
+871_I.jpg,[0 0 1 0 0 2 -1],The eyelids appear to be totally different here .,These eyelids have completely different shapes .
+872_I.jpg,[1 -3 -3 1 0 2 0],The eyebrows shown differ in distribution and shape .,These eyebrows clearly do not match .
+873_I.jpg,[1 0 -2 -1 0 -2 0],The eyebrow shapes are visually different .,Here <COMMA> the eyebrows seem to be different in shape .
+874_I.jpg,[-1 -2 0 0 0 3 -1],The spots here do not match .,The skins shown have different spots .
+875_I.jpg,[3 1 2 0 -2 3 1],These eyelids are clearly different .,The irises and eyelids are obviously not equal .
+876_I.jpg,[1 3 -3 1 -3 2 -1],It would appear that the skin textures are very different .,These skins have clearly different textures .
+877_I.jpg,[3 0 -3 -1 2 -1 1],The iris colors shown seem to be very different .,These iris colors are too different .
+878_I.jpg,[0 -1 -3 1 0 -3 0],The eyebrows have clearly different shapes .,The skin colors and eyebrow shapes look different .
+879_I.jpg,[3 -1 2 0 0 1 0],The iris colors are not equal here .,These irises fail to match .
+880_I.jpg,[1 -1 3 -1 0 3 0],The eyebrows have clearly different shapes here .,These eyebrow shapes and iris colors clearly do not match .
+881_I.jpg,[-3 1 0 -1 -2 0 0],The iris colors are clearly different here .,These spots and iris colors are clearly different .
+882_I.jpg,[-2 0 3 1 0 -2 0],Here <COMMA> the iris colors do not match .,These iris colors are very different .
+883_I.jpg,[0 2 0 -1 0 -3 0],The skins have really different spots .,These skins do not share color and spots .
+884_I.jpg,[2 0 -3 0 0 0 -1],The subjects shown are different in eyebrow shapes .,These irises and eyebrows clearly do not match .
+885_I.jpg,[5 -2 -1 0 -2 0 1],The irises and eyebrows are both visually different .,These iris colors and eyebrow distributions appear to be different .
+886_I.jpg,[0 -2 0 0 0 0 0],Here <COMMA> the eyebrow distributions are not equal .,These eyebrow distributions show many differences .
+887_I.jpg,[-3 1 0 1 -2 -1 -1],The iris colors are too different here .,These iris colors are too different .
+888_I.jpg,[4 0 -2 1 0 0 1],The iris colors do not match here .,These irises show many differences .
+889_I.jpg,[0 -2 -3 0 2 0 1],The subjects shown differ immensely in eyebrow distributions .,These eyebrows definitely show differences .
+890_I.jpg,[1 0 1 0 0 2 -1],Clearly <COMMA> the spots are not shared here .,Here <COMMA> the subjects do not share spots .
+891_I.jpg,[0 0 -1 0 2 2 1],These skins have different textures and spots .,Clearly <COMMA> the skin textures and eyelid shapes are too different here .
+892_I.jpg,[2 1 1 0 0 -1 1],These subjects have contrasting eyelid shapes .,These eyelids do not share the same shapes .
+893_I.jpg,[0 -2 0 1 3 0 0],These eyelids and skins present many differences .,Clearly <COMMA> the eyelids and eyebrows here show visual differences .
+894_I.jpg,[0 -1 3 0 3 3 0],These eyelids and skins definitely do not match .,There are obvious differences between these skins and eyelids .
+895_I.jpg,[-1 1 0 -1 -2 -3 0],Clearly <COMMA> the subjects here do not share the same skin colors and spots .,There are many differences in spots and skin colors .
+896_I.jpg,[2 1 3 0 0 -3 -1],The eyebrows and eyelids differ immensely here .,The spots and eyelids shapes are really different here .
+897_I.jpg,[2 -2 2 -1 1 -2 1],These eyelids and eyebrows are just so different .,The subjects shown have definitely different eyebrows and eyelids .
+898_I.jpg,[-2 0 1 -1 2 -2 0],The iris colors simply do not match .,These iris colors are too different .
+899_I.jpg,[-2 0 0 -1 -2 -2 -1],There are big differences between these skin colors .,The skins and eyelids are visually different .
+900_I.jpg,[3 0 -3 0 0 2 1],It would appear that the iris colors do not match here .,These iris colors seem to be really different .
+901_I.jpg,[3 0 0 0 0 -3 1],The subjects do not share spots and iris colors .,Both the skins and irises present differences .
+902_I.jpg,[0 0 0 0 0 3 -1],The spots definitely do not match here .,These iris colors are definitely different .
+903_I.jpg,[0 0 -1 0 0 1 -1],The eyelids do not match here .,These subjects have really contrasting eyelids .
+904_I.jpg,[0 0 -1 -3 2 -1 1],The skin colors definitely do not match .,Obviously <COMMA> these skins show distinct colors .
+905_I.jpg,[-5 2 -2 0 -3 2 -1],These skin textures do not match here .,Both the eyebrows and skin textures look definitely different .
+906_I.jpg,[4 1 -1 0 0 3 0],The iris colors show obvious differences here .,These subjects are definitely different in the irises .
+907_I.jpg,[-2 1 3 0 0 1 1],The iris colors definitely show differences .,Here <COMMA> the iris colors have clear differences .
+908_I.jpg,[-4 0 0 0 0 -1 0],The iris colors are really different .,Both the eyebrows and irises show clear differences .
+909_I.jpg,[-1 0 -3 -1 0 0 0],The subjects shown do not have the same eyebrow shapes and skin colors .,The skins and eyebrows are definitely different here .
+910_I.jpg,[1 -3 1 -1 3 3 1],The skin textures and colors are totally different .,Both the skins and eyebrows show clear differences .
+911_I.jpg,[-2 1 0 -1 0 3 0],The irises shown do not match in color .,Obviously <COMMA> these irises have different colors .
+912_I.jpg,[-3 3 0 0 0 -2 1],The subjects here have obviously different eyebrows .,These eyelids and eyebrows are incredibly different .
+913_I.jpg,[1 -3 1 0 3 0 0],The skin textures shown definitely do not match .,These eyebrows and skin textures are simply too different .
+914_I.jpg,[0 2 -1 0 0 0 1],The eyelids are very different here .,It would appear that the eyelids do not appear to be equal .
+915_I.jpg,[0 0 -1 0 0 2 0],These iris colors are totally distinct .,Visually <COMMA> the iris colors look too different .
+916_I.jpg,[5 2 -1 1 0 0 0],It would appear that these irises have nothing in common .,The irises <COMMA> eyebrows and skin have nothing in common .
+917_I.jpg,[1 -1 -3 1 0 3 0],These eyebrows have clearly different shapes .,The irises and eyebrows show many differences .
+918_I.jpg,[1 1 3 0 0 0 0],These eyebrow shapes just do not match .,These eyebrows are very different in shape .
+919_I.jpg,[-1 1 0 0 0 -3 0],The eyebrows are visually different here .,The subjects shown do not match in the eyebrows .
+920_I.jpg,[0 -2 0 0 3 -2 1],These skin textures are very different .,The skins look nothing alike .
+921_I.jpg,[-2 2 0 0 -3 2 0],Both the irises and skins look very different .,The skin textures and iris colors are just so different .
+922_I.jpg,[-3 0 2 -3 -2 -1 1],These iris colors <COMMA> eyelid shapes and skin colors have nothing in common .,The subjects here differ in the skins <COMMA> irises and eyelids .
+923_I.jpg,[-3 -3 1 0 3 -3 0],These skin textures and eyebrow distributions are too different .,These skins have totally different spots and textures .
+924_I.jpg,[-6 0 -1 0 0 -2 0],The iris colors here definitely do not match .,These iris colors are too different .
+925_I.jpg,[0 -1 0 1 0 0 -1],The eyelids are a big difference here .,These eyelids look objectively different .
+926_I.jpg,[0 1 0 0 0 3 1],The spots just do not match here .,These eyebrows look different .
+927_I.jpg,[0 0 3 -1 0 2 0],The iris colors are different .,The irises here seem to be different .
+928_I.jpg,[4 1 1 -1 0 1 0],The iris colors just do not seem to match .,These irises are different in color .
+929_I.jpg,[0 -2 1 0 0 0 0],The iris do not look equal here .,There are differences in the irises .
+930_I.jpg,[0 -2 0 -1 2 2 0],The eyebrows show some differences .,The subjects shown here have visually different eyebrows .
+931_I.jpg,[1 1 1 0 2 -3 0],The skins have different textures and spots .,These skin textures and spots do not match .

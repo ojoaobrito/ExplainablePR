@@ -1,0 +1,551 @@
+% -------------------------------
+% TEMPLATES
+% -------------------------------
+\iffalse
+% website
+@misc{,
+    author = {},
+    title = {},
+    year = {},
+    lastchecked = {},
+    note = {Available at: \url{}}
+}
+
+% paper (ArXiv, for example)
+@misc{,
+    title = {},
+    author = {},
+    year = {},
+    eprint = {},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.}
+}
+
+% book
+@book{,
+    title = {},
+    author = {},
+    note = {},
+    year = {},
+    subtitle = {}
+}
+\fi
+% -------------------------------
+
+@article{programs_black_box_explanations,
+    author = {S. Singh{,} M. T. Ribeiro{,} C. Guestrin},
+    title = {Programs as Black-Box Explanations},
+    year = {2016},
+    month = {11},
+    pages = {},
+}
+
+@article{gdpr,
+    author = {European Commission},
+    title = {General Data Protection Regulation},
+    year = 2018,
+    note = {Accessed on: Feb. 27, 2021. [Online]. Available: https://gdpr-info.eu}, 
+}
+
+@article{right_to_explanation,
+    author = {S. Wachter{,} B. Mittelstadt and L. Floridi},
+    title = {Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation},
+    journal = {International Data Privacy Law},
+    volume = 7, 
+    number = 2, 
+    pages = {76–99}, 
+    year = 2017,
+    doi = {10.1093/idpl/ipx005}
+}
+
+@article{demand_for_interpretability,
+    author = {A. Preece{,} D. Harborne{,} D. Braines{,} R. Tomsett and S. Chakraborty},
+    title = {Stakeholders in Explainable AI},
+    journal = {ArXiv},
+    volume = {abs/1810.00184},
+    year = {2018},
+}
+
+@article{introduction_to_biometric_recognition,
+    author = {A. K. Jain{,} A. Ross and S. Prabhakar},
+    title = {An introduction to biometric recognition},
+    journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+    volume = 14, 
+    number = 1, 
+    pages = {4-20}, 
+    year = 2004,
+    doi = {10.1109/TCSVT.2003.818349}
+}
+
+@article{biometric_recognition_dl_survey,
+    author = {S. Minaee{,} A. Abdolrashidi{,} H. Su{,} M. Bennamoun and D. Zhang},
+    title = {Biometric Recognition Using Deep Learning: A Survey},
+    journal = {ArXiv},
+    volume = {abs/1912.00271},
+    year = {2019},
+}
+
+@inproceedings{explaining_explanations,
+    author = {L. H. Gilpin{,} D. Bau{,} B. Z. Yuan{,} A. Bajwa{,} M. Specter and L. Kagal},
+    title = {Explaining Explanations: An Overview of Interpretability of Machine Learning}, 
+    booktitle = {2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA)}, 
+    volume = {},
+    number = {},
+    pages = {80-89},
+    year = {2018},
+    doi = {10.1109/DSAA.2018.00018}
+ }
+
+@book{perceptron,
+    author = {F. Rosenblatt},
+    title = {The perceptron - a perceiving and recognizing automaton},
+    year = {1957},
+    series = {Report: Cornell Aeronautical Laboratory},
+    publisher = {Cornell Aeronautical Laboratory}
+}
+
+@article{neocognitron,
+    author = {K. Fukushima},
+    title = {Neocognitron: {A} self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position},
+    journal = {Biological Cybernetics},
+    year = {2004},
+    volume = {36},
+    pages = {193-202}
+}
+
+@inproceedings{lenet5,
+    author = {Y. LeCun{,} L. Bottou{,} Y. Bengio and P. Haffner},
+    title = {Gradient-based learning applied to document recognition},
+    year = {1998}
+}
+
+@article{zhao_kumar_novel,
+    author = {Z. Zhao and A. Kumar},
+    title = {Improving Periocular Recognition by Explicit Attention to Critical Regions in Deep Neural Network},
+    journal = {IEEE Transactions on Information Forensics and Security},
+    volume = 13, 
+    number = 12, 
+    pages = {2937–2952}, 
+    year = 2018
+}
+
+@inproceedings{alexnet,
+    author = {A. Krizhevsky{,} I. Sutskever and G. E. Hinton},
+    title = {ImageNet Classification with Deep Convolutional Neural Networks},
+    booktitle = {Advances in Neural Information Processing Systems},
+    publisher = {Curran Associates, Inc.},
+    volume = {25},
+    pages = {1097--1105},
+    year = {2012}
+}
+
+@article{review_of_semantic_segmentation,
+    author = {Y. Guo{,} Y. Liu{,} T. Georgiou and M. S. Lew},
+    title={A review of semantic segmentation using deep neural networks},
+    journal={International Journal of Multimedia Information Retrieval},
+    year={2017},
+    volume={7},
+    pages={87-93}
+}
+
+@inproceedings{goodfellow, 
+    author = {I. J. Goodfellow{,} J. Pouget-Abadie{,} M. Mirza{,} B. Xu{,} D. Warde-Farley{,} S.  Ozair{,} A. Courville and Y. Bengio},
+    title = {Generative Adversarial Networks}, 
+    publisher = {MIT Press}, 
+    year = {2014}, 
+    address = {Cambridge, MA, USA},
+    booktitle = {Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2},
+    pages = {2672–2680},
+    numpages = {9},
+    location = {Montreal, Canada},
+    series = {NIPS'14}
+}
+
+@misc{tensorflow,
+    author = {M. Abadi{,} A. Agarwal{,} P. Barham{,} E. Brevdo{,} Z. Chen{,} C. Citro{,} G. S. Corrado{,} A. Davis{,} J. Dean{,} M. Devin{,} S. Ghemawat{,} I. Goodfellow{,} A. Harp{,} G. Irving{,} M. Isard{,} Y. Jia{,} R. Jozefowicz{,} L. Kaiser{,} M. Kudlur{,} J. Levenberg{,} D. Man\'{e}{,} R. Monga{,} S. Moore{,} D. Murray{,} C. Olah{,} M. Schuster{,} J. Shlens{,} B. Steiner{,} I. Sutskever{,} K. Talwar{,} P. Tucker{,} V. Vanhoucke{,} V. Vasudevan{,} F. Vi\'{e}gas{,} O. Vinyals{,} P. Warden{,} M. Wattenberg{,} M. Wicke{,} Y. Yu and X. Zheng},
+    title = {Tensorflow: Large-Scale Machine Learning on Heterogeneous Systems},
+    howpublished = {[Online]. Available from: https://www.tensorflow.org/},
+    year = {2015}
+}
+
+@incollection{pytorch,
+    author = {A. Paszke{,} S. Gross{,} F. Massa{,} A. Lerer{,} J. Bradbury{,} G. Chanan{,} T. Killeen{,} Z. Lin{,} N. Gimelshein{,} L. Antiga{,} A. Desmaison{,} A. Kopf{,} E. Yang{,} Z. DeVito{,} M. Raison{,} A. Tejani{,} S. Chilamkurthy{,} B. Steiner{,} L. Fang{,} J. Bai and S. Chintala},
+    title = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+    booktitle = {Advances in Neural Information Processing Systems 32},
+    pages = {8024--8035},
+    year = {2019},
+    publisher = {Curran Associates, Inc.}
+}
+
+@misc{cnn_architecture,
+    author = {Prabhu},
+    title = {Understanding of CNN},
+    year = {2018},
+    lastchecked = {2020-10-26},
+    howpublished = {[Online]. Available from: \url{https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148}}
+}
+
+@inproceedings{inception,  
+    author = {C. Szegedy{,} W. Liu{,} Y. Jia{,} P. Sermanet{,} S. Reed{,} D. Anguelov{,} D. Erhan{,} V. Vanhoucke and A. Rabinovich},
+    title = {Going deeper with convolutions},
+    booktitle = {2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2015},
+    volume = {},
+    number = {},
+    pages = {1-9},
+    doi = {10.1109/CVPR.2015.7298594}
+}
+
+@inproceedings{vgg,
+    author = {K. Simonyan and A. Zisserman},
+    title = {Very Deep Convolutional Networks for Large-Scale Image Recognition},
+    booktitle = {3rd International Conference on Learning Representations, {ICLR} 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings},
+    year = {2015},
+    timestamp = {Wed, 17 Jul 2019 10:40:54 +0200},
+    biburl = {https://dblp.org/rec/journals/corr/SimonyanZ14a.bib},
+    bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{resnet,
+    author = {K. He{,} X. Zhang{,} S. Ren and J. Sun},
+    title = {Deep Residual Learning for Image Recognition},
+    booktitle = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2016},
+    volume = {},
+    number = {},
+    pages = {770-778},
+    doi = {10.1109/CVPR.2016.90}
+}
+
+@inproceedings{densenet,
+    author = {G. Huang{,} Z. Liu{,} L. Maaten and K. Q. Weinberger},
+    title = {Densely Connected Convolutional Networks}, 
+    booktitle = {2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+    year = {2017},
+    volume = {},
+    number = {},
+    pages = {2261-2269},
+    doi = {10.1109/CVPR.2017.243}
+}
+
+@inproceedings{deep_residual,
+    author = {G. Huang{,} Y. Sun{,} Z. Liu{,} D. Sedra and K. Weinberger},
+    title = {Deep Networks with Stochastic Depth},
+    booktitle = {Computer Vision -- ECCV 2016},
+    year = {2016},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {646--661},
+    isbn = {978-3-319-46493-0}
+}
+
+@inproceedings{r_cnn,
+    author = {R. Girshick{,} J. Donahue{,} T. Darrell and J. Malik},
+    title = {Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation}, 
+    booktitle = {2014 IEEE Conference on Computer Vision and Pattern Recognition}, 
+    year = {2014},
+    volume = {},
+    number = {},
+    pages = {580-587},
+    doi = {10.1109/CVPR.2014.81}
+}
+
+@article{feasibility_study,
+    author = {U. Park{,} A. Ross and A. K. Jain},
+    title = {Periocular biometrics in the visible spectrum: A feasibility study},
+    journal = {2009 IEEE 3rd International Conference on Biometrics: Theory, Applications, and Systems},
+    pages = {1-6}, 
+    year = 2009,
+    doi = {10.1109/BTAS.2009.5339068}
+}
+
+@article{information_fusion_approach,
+    author = {A. Ross{,} R. Jillela{,} J. M. Smereka{,} V. N. Boddeti{,} B. V. K. V. Kumar{,} R. Barnard{,} X. Hu{,} P. Pauca and R. Plemmons},
+    title = {Matching highly non-ideal ocular images: An information fusion approach},
+    journal = {2012 5th IAPR International Conference on Biometrics (ICB)},
+    pages = {446-453}, 
+    year = 2012,
+    doi = {10.1109/ICB.2012.6199791}
+}
+
+@article{rbm_feature_learning,
+    author = {L. Nie{,} A. Kumar and S. Zhan},
+    title = {Periocular Recognition Using Unsupervised Convolutional RBM Feature Learning},
+    journal = {2014 22nd International Conference on Pattern Recognition},
+    pages = {399-404}, 
+    year = 2014,
+    doi = {10.1109/ICPR.2014.77}
+}
+
+@article{accurate_periocular_recognition,
+    author = {Z. Zhao and A. Kumar},
+    title = {Accurate Periocular Recognition Under Less Constrained Environment Using Semantics-Assisted Convolutional Neural Network},
+    journal = {IEEE Transactions on Information Forensics and Security},
+    volume = 12, 
+    number = 5, 
+    pages = {1017-1030}, 
+    year = 2017,
+    doi = {10.1109/TIFS.2016.2636093}
+}
+
+@article{deep_prwis,
+    author = {H. Proença and J. C. Neves},
+    title = {Deep-PRWIS: Periocular Recognition Without the Iris and Sclera Using Deep Learning Frameworks},
+    journal = {IEEE Transactions on Information Forensics and Security},
+    volume = 13, 
+    number = 4, 
+    pages = {888-896}, 
+    year = 2018,
+    doi = {10.1109/TIFS.2017.2771230}
+}
+
+@article{person_identification,
+    author = {S. Umer{,} A. Sardar{,} B. C. Dhara{,} R. K. Rout and H. M. Pandey},
+    title = {Person identification using fusion of iris and periocular deep features},
+    journal = {Neural Networks},
+    volume = 122, 
+    pages = {407–419}, 
+    year = 2020,
+    doi = {10.1016/j.neunet.2019.11.009}
+}
+
+@article{towards_interpretable_face_recognition,
+    author = {B. Yin{,} L. Tran{,} H. Li{,} X. Shen and X. Liu},
+    title = {Towards Interpretable Face Recognition},
+    journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},
+    pages = {9347-9356}, 
+    year = 2019,
+    doi = {10.1109/ICCV.2019.00944}
+}
+
+@article{interpretability_by_parts,
+    author = {Z. Huang and Y. Li},
+    title = {Interpretable and Accurate Fine-grained Recognition via Region Grouping},
+    journal = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages = {8659-8669}, 
+    year = 2020,
+    doi = {10.1109/CVPR42600.2020.00869}
+}
+
+@article{selective_search,
+    author = {J. R. R. Uijlings{,} K. E. A. Sande{,} T. Gevers and A. W. M. Smeulders},
+    title = {Selective Search for Object Recognition},
+    year = {2013},
+    month = {09},
+    pages = {154-171},
+    volume = {104},
+    journal = {International Journal of Computer Vision},
+    doi = {10.1007/s11263-013-0620-5}
+}
+
+@inproceedings{fast_r_cnn,
+    author = {R. Girshick},
+    title = {Fast r-cnn}, 
+    booktitle = {2015 IEEE International Conference on Computer Vision (ICCV)}, 
+    year = {2015},
+    volume = {},
+    number = {},
+    pages = {1440-1448},
+    doi = {10.1109/ICCV.2015.169}
+}
+
+@inproceedings{faster_r_cnn,
+    author = {S. Ren{,} K. He{,} R. Girshick and J. Sun},
+    title = {Faster R-CNN: {T}owards Real-Time Object Detection with Region Proposal Networks},
+    booktitle = {Advances in Neural Information Processing Systems},
+    pages = {},
+    publisher = {Curran Associates, Inc.},
+    volume = {28},
+    year = {2015}
+}
+
+@inproceedings{mask_rcnn,
+    author = {K. He{,} G. Gkioxari{,} P. Dollár and R. Girshick},
+    title = {Mask R-CNN}, 
+    booktitle = {2017 IEEE International Conference on Computer Vision (ICCV)}, 
+    year = {2017},
+    volume = {},
+    number = {},
+    pages = {2980-2988},
+    doi = {10.1109/ICCV.2017.322}
+}
+
+@misc{gan_architecture,
+    author = {MathWorks},
+    title = {Train Generative Adversarial Network (GAN)},
+    year = {2020},
+    lastchecked = {2020-10-26},
+    note = {[Online]. Available from: \url{https://www.mathworks.com/help/deeplearning/ug/train-generative-adversarial-network.html}}
+}
+
+@inproceedings{wgan,
+    author = {M. Arjovsky{,} S. Chintala and L. Bottou}, 
+    title = {{W}asserstein Generative Adversarial Networks}, 
+    booktitle = {Proceedings of the 34th International Conference on Machine Learning}, 
+    pages = {214--223}, 
+    year = {2017},
+    volume = {70},
+    series = {Proceedings of Machine Learning Research},
+    month = {06--11 Aug},
+    publisher = {PMLR},
+}
+
+@article{attgan,
+    author = {Z. He{,} W. Zuo{,} M. Kan{,} S. Shan and X. Chen},
+    title = {AttGAN: Facial Attribute Editing by Only Changing What You Want}, 
+    journal = {IEEE Transactions on Image Processing}, 
+    year = {2019},
+    volume = {28},
+    number = {11},
+    pages = {5464-5478},
+    doi = {10.1109/TIP.2019.2916751}
+}
+
+@inproceedings{stylegan2,
+    author = {T. Karras{,} S. Laine{,} M. Aittala{,} J. Hellsten{,} J. Lehtinen and T. Aila},
+    title = {Analyzing and Improving the Image Quality of StyleGAN},
+    booktitle = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+    year = {2020},
+    volume = {},
+    number = {},
+    pages = {8107-8116},
+    doi = {10.1109/CVPR42600.2020.00813}
+}
+
+@inproceedings{proggan,
+    author = {T. Karras{,} T. Aila{,} S. Laine and J. Lehtinen},
+    title = {Progressive Growing of GANs for Improved Quality, Stability, and Variation},
+    booktitle = {International Conference on Learning Representations},
+    year = {2018},
+}
+
+@article{stylegan,
+    author = {T. Karras{,} S. Laine and T. Aila},
+    title = {A Style-Based Generator Architecture for Generative Adversarial Networks},
+    journal = {2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages = {4396-4405}, 
+    note = {Long Beach, CA, USA},
+    year = 2019,
+    doi = {10.1109/CVPR.2019.00453}
+}
+
+@misc{lstm_explained,
+    author = {Christopher Olah},
+    title = {Understanding LSTM Networks},
+    year = {2015},
+    lastchecked = {2020-10-30},
+    howpublished = {[Online]. Available from: \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}}
+}
+
+@book{molnar2019,
+    author = {C. Molnar},
+    title = {Interpretable Machine Learning},
+    note = {[Online]. Available from: \url{https://christophm.github.io/interpretable-ml-book/}},
+    year = {2019},
+    subtitle = {A Guide for Making Black Box Models Explainable}
+}
+
+@article{mythos_of_model_interpretability,
+    author = {Z. C. Lipton},
+    title = {The Mythos of Model Interpretability},
+    year = {2018},
+    issue_date = {May-June 2018},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {16},
+    number = {3},
+    issn = {1542-7730},
+    doi = {10.1145/3236386.3241340},
+    journal = {Queue},
+    month = jun,
+    pages = {31–57},
+    numpages = {27}
+}
+
+@article{pdp,
+    author = {J. H. Friedman},
+    title = {Greedy function approximation: A gradient boosting machine},
+    journal = {The Annals of Statistics},
+    volume = 29, 
+    number = 5, 
+    pages = {1189-1232}, 
+    year = 2001
+}
+
+@article{ale,
+    author = {D. Apley},
+    title = {Visualizing the Effects of Predictor Variables in Black Box Supervised Learning Models},
+    journal = {arXiv: Methodology},
+    year = {2016}
+}
+
+@inproceedings{occlusion_maps,
+    author = {M. D. Zeiler and R. Fergus},
+    title = {Visualizing and Understanding Convolutional Networks},
+    booktitle = {Computer Vision -- ECCV 2014},
+    year = {2014},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {818--833},
+    isbn = {978-3-319-10590-1}
+}
+
+@misc{occlusion_maps_linkedin,
+    author = {S. Sheldrick},
+    title = {What does {AI} know: Model Interpretability and Occlusion},
+    year = {2018},
+    howpublished = {[Online]. Available from: \url{https://www.linkedin.com/pulse/what-does-ai-know-model-interpretability-occlusion-susan-sheldrick/}}
+}
+
+@article{saliency_maps,
+    author = {K. Simonyan{,} A. Vedaldi and A. Zisserman},
+    title = {Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps},
+    journal = {CoRR},
+    year = {2014},
+    volume = {abs/1312.6034}
+}
+
+@inproceedings{lime,
+    author = {M. T. Ribeiro{,} S. Singh and C. Guestrin},
+    title = {"{W}hy Should {I} Trust You?": Explaining the Predictions of Any Classifier},
+    booktitle = {Proceedings of the 22nd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining, San Francisco, CA, USA, August 13-17, 2016},
+    pages = {1135--1144},
+    year = {2016},
+}
+
+@misc{anchors,
+    author = {M. T. Ribeiro{,} S. Singh and C. Guestrin},
+    title = {Anchors: High-Precision Model-Agnostic Explanations},
+    booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},
+    year = {2018}
+}
+
+@inproceedings{shap,
+    author = {S. Lundberg and S. Lee},
+    title = {A Unified Approach to Interpreting Model Predictions},
+    year = {2017},
+    isbn = {9781510860964},
+    publisher = {Curran Associates Inc.},
+    address = {Red Hook, NY, USA},
+    booktitle = {Proceedings of the 31st International Conference on Neural Information Processing Systems},
+    pages = {4768–4777},
+    note = {Long Beach, California, USA}
+}
+
+@article{ubipr,
+    author = {C. Padole and H. Proença},
+    title = {Periocular Recognition: Analysis of Performance Degradation Factors},
+    journal = {Proceedings of the Fifth IAPR/IEEE International Conference on Biometrics – ICB 2012},
+    note = {New Delhi, India},
+    year = 2012
+}
+
+@article{ubiris_v2,
+    author = {H. Proença{,} S. Filipe{,} R. Santos{,} J. Oliveira and L. A. Alexandre},
+    title = {The UBIRIS.v2: A Database of Visible Wavelength Iris Images Captured On- The-Move and At-A-Distance},
+    journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    volume = 32, 
+    number = 8, 
+    pages = {1529–1535}, 
+    year = 2010
+}

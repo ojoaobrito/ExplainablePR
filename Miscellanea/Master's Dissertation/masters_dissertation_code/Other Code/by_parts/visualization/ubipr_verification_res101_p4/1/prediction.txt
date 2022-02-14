@@ -1,0 +1,2 @@
+I pred: 0.995368, label: 1
+G pred: 0.000105, label: 0

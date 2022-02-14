@@ -1,0 +1,26 @@
+{
+    "root": "../../",
+    "data": "cub200",
+    "split": "",
+    "arch": "resnet101",
+    "resume": "",
+    "save": "cub_res101_p5",
+
+    "workers": 4,
+    "epochs": 150,
+    "batch_size": 16,
+    "lr": 5e-4,
+    "weight_decay": 5e-4,
+    "print_freq": 20,
+    "num_classes": 200,
+    "nparts": 5,
+    "coeff": 0.5,
+    "radius": 2,
+    "std": 0.4,
+    "alpha": 1,
+    "beta": 0.001,
+    "seed": 1,
+
+    "fixed": [],
+    "finetune": ["conv1", "bn1", "layer1", "layer2", "layer3"]
+}
